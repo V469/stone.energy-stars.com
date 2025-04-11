@@ -553,22 +553,6 @@ function custom_template_single_price() {
             const popup = $('#consultation-popup');
             popup.removeClass('active');
             
-            // Додаємо стилі для попапу одразу
-            $('head').append(`
-                <style>
-                    #consultation-popup {
-                        display: none !important;
-                        opacity: 0;
-                        visibility: hidden;
-                    }
-                    #consultation-popup.active {
-                        display: flex !important;
-                        opacity: 1;
-                        visibility: visible;
-                    }
-                </style>
-            `);
-
             // Очищаємо контейнер від стандартних елементів
             $('.variations td.value').empty();
 
@@ -592,6 +576,14 @@ function custom_template_single_price() {
                 $('.variations td.value').append(button);
             });
 
+            // Додаємо обробник для закриття попапу
+            $('.close-popup, .popup').on('click', function(e) {
+                if (e.target === this) {
+                    popup.removeClass('active');
+                    $('.button-value[data-value="кг"]').trigger('click');
+                }
+            });
+
             // Обробник кліку по кнопці
             $('.variations').on('click', '.button-value', function(e) {
                 e.preventDefault();
@@ -600,21 +592,29 @@ function custom_template_single_price() {
                 
                 var selectedValue = $(this).data('value');
                 var description = $(this).data('description');
-                var defaultQty = $(this).data('default-qty');
                 
                 if (selectedValue === 'опт') {
                     popup.addClass('active');
                     $('.single_add_to_cart_button').prop('disabled', true);
                 } else {
                     popup.removeClass('active');
-                    var $select = $('select[name="attribute_pa_forma-prodazhi"]');
-                    $select.val(selectedValue);
-                    $select.trigger('change');
                     
-                    if (defaultQty) {
-                        $('input.qty').val(defaultQty).trigger('change');
-                    }
+                    // Встановлюємо значення варіації
+                    $('select[name="attribute_pa_forma-prodazhi"]').val(selectedValue).trigger('change');
                     
+                    // Встановлюємо кількість за замовчуванням
+                    setTimeout(function() {
+                        var qty = selectedValue === 'кг' ? 25 : 1000;
+                        $('input.qty').val(qty).trigger('change');
+                    }, 100);
+
+                    // Оновлюємо форму варіацій
+                    $('form.variations_form')
+                        .trigger('woocommerce_variation_select_change')
+                        .trigger('check_variations')
+                        .trigger('woocommerce_variation_has_changed');
+                    
+                    // Активуємо кнопку "Замовити"
                     $('.single_add_to_cart_button')
                         .prop('disabled', false)
                         .removeClass('wc-variation-selection-needed')
@@ -625,33 +625,17 @@ function custom_template_single_price() {
                 }
             });
 
-            // Закриття попапу
-            $('.close-popup, .popup').on('click', function(e) {
-                if (e.target === this) {
-                    popup.removeClass('active');
-                    $('.button-value[data-value="кг"]').trigger('click');
+            // Обробник зміни кількості
+            $('input.qty').on('change', function() {
+                var qty = parseInt($(this).val()) || 0;
+                var selectedValue = $('.button-value.selected').data('value');
+                
+                if (selectedValue === 'тн' && qty < 1000) {
+                    $(this).val(1000);
+                } else if (selectedValue === 'кг' && qty < 25) {
+                    $(this).val(25);
                 }
             });
-
-            // Активуємо кг за замовчуванням при завантаженні БЕЗ показу попапу
-            setTimeout(function() {
-                var $kgButton = $('.button-value[data-value="кг"]');
-                $kgButton.addClass('selected');
-                
-                var $select = $('select[name="attribute_pa_forma-prodazhi"]');
-                $select.val('кг');
-                $select.trigger('change');
-                
-                $('input.qty').val(25).trigger('change');
-                
-                $('.single_add_to_cart_button')
-                    .prop('disabled', false)
-                    .removeClass('wc-variation-selection-needed')
-                    .removeClass('disabled')
-                    .addClass('active');
-                
-                updatePrices('кг', $kgButton.data('description'));
-            }, 500);
 
             // Функція для оновлення відображення цін
             function updatePrices(selectedValue, description) {
@@ -680,19 +664,12 @@ function custom_template_single_price() {
                 }
             }
 
-            // Обробник зміни кількості
-            $('input.qty').on('change', function() {
-                var selectedValue = $('.button-value.selected').data('value');
-                if (selectedValue === 'тн') {
-                    // Переконуємося, що кількість кратна 1000 для тонн
-                    var qty = parseInt($(this).val());
-                    if (qty < 1000) {
-                        $(this).val(1000);
-                    } else {
-                        $(this).val(Math.round(qty / 1000) * 1000);
-                    }
-                }
-            });
+            // Активуємо кг за замовчуванням при завантаженні
+            setTimeout(function() {
+                var $kgButton = $('.button-value[data-value="кг"]');
+                $kgButton.trigger('click');
+                $('input.qty').val(25).trigger('change');
+            }, 500);
         });
         </script>
 
