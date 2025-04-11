@@ -267,20 +267,6 @@ add_action( 'woocommerce_before_add_to_cart_form', 'apply_quantity_based_discoun
 function custom_template_single_price() {
     global $product;
     if ($product->is_type('variable')) {
-        // Отримуємо всі варіації
-        $variations = $product->get_available_variations();
-        
-        // Додаємо ціни до опцій варіацій
-        ?>
-        <script type="text/javascript">
-        jQuery(document).ready(function($) {
-            <?php foreach ($variations as $variation) : ?>
-                $('select[name="attribute_pa_forma-prodazhi"] option[value="<?php echo esc_js($variation['attributes']['attribute_pa_forma-prodazhi']); ?>"]')
-                    .data('price', <?php echo esc_js($variation['display_price']); ?>);
-            <?php endforeach; ?>
-        });
-        </script>
-        <?php
         ?>
         <style>
         /* Приховуємо стандартні елементи */
@@ -321,7 +307,7 @@ function custom_template_single_price() {
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            padding: 6px 24px;
+            padding: 12px 24px;
             margin: 0 8px 8px 0;
             border: 2px solid #e0e0e0;
             border-radius: 8px;
@@ -331,6 +317,22 @@ function custom_template_single_price() {
             font-size: 16px;
             font-weight: 600;
             color: #666;
+            flex: 1;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .woocommerce div.product form.cart .variations .button-value::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(76, 175, 80, 0.1), rgba(76, 175, 80, 0.05));
+            opacity: 0;
+            transition: opacity 0.3s ease;
         }
 
         .woocommerce div.product form.cart .variations .button-value:hover {
@@ -340,6 +342,10 @@ function custom_template_single_price() {
             color: #4CAF50;
         }
 
+        .woocommerce div.product form.cart .variations .button-value:hover::before {
+            opacity: 1;
+        }
+
         .woocommerce div.product form.cart .variations .button-value.selected {
             background: #4CAF50;
             color: white;
@@ -347,32 +353,75 @@ function custom_template_single_price() {
             box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
         }
 
+        .woocommerce div.product form.cart .variations .button-value.selected::before {
+            opacity: 0;
+        }
+
         .woocommerce div.product form.cart .variations .button-value .icon {
             font-size: 20px;
             opacity: 0.9;
+            transition: all 0.3s ease;
         }
 
         .woocommerce div.product form.cart .variations .button-value:hover .icon {
             opacity: 1;
-            transform: scale(1.1);
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        /* Стилі для відображення цін */
+        .price-display {
+            text-align: center;
+            padding: 15px;
+            margin: 15px 0;
+            background: #f8f9fa;
+            border-radius: 12px;
             transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
         }
 
-        .woocommerce div.product form.cart .variations .price {
-            margin: 20px 0;
-            font-size: 24px;
+        .price-display::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(76, 175, 80, 0.1), rgba(76, 175, 80, 0.05));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .price-display:hover::before {
+            opacity: 1;
+        }
+
+        .price-amount {
+            font-size: 32px;
             font-weight: 700;
-            color: #2196F3;
+            color: #4CAF50;
+            margin-bottom: 5px;
+            position: relative;
         }
 
-        .woocommerce div.product form.cart .variations .price .amount {
-            display: inline-block;
-            margin-left: 5px;
+        .price-value {
+            margin-right: 5px;
+        }
+
+        .currency {
+            font-weight: 500;
+        }
+
+        .price-label {
+            font-size: 14px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         /* Стилі для попапу */
         .popup {
-            display: none;
+            display: none !important;
             position: fixed;
             z-index: 9999;
             left: 0;
@@ -381,11 +430,19 @@ function custom_template_single_price() {
             height: 100vh;
             background-color: rgba(0, 0, 0, 0.5);
             backdrop-filter: blur(3px);
-            display: flex;
             align-items: center;
             justify-content: center;
             padding: 20px;
             box-sizing: border-box;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .popup.active {
+            display: flex !important;
+            opacity: 1;
+            visibility: visible;
         }
 
         .popup-content {
@@ -411,26 +468,6 @@ function custom_template_single_price() {
                 transform: translateY(10vh) scale(1);
                 opacity: 1;
             }
-        }
-
-        .popup-header {
-            text-align: center;
-            margin-bottom: 12px;
-            position: relative;
-        }
-
-        .popup-title {
-            font-size: 20px;
-            color: #333;
-            margin: 0 0 6px;
-            font-weight: 600;
-        }
-
-        .popup-subtitle {
-            font-size: 13px;
-            color: #666;
-            margin: 0;
-            line-height: 1.3;
         }
 
         .close-popup {
@@ -460,147 +497,86 @@ function custom_template_single_price() {
             box-shadow: 0 4px 12px rgba(0,0,0,0.2);
         }
 
-        .popup-benefits {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-            margin: 15px 0;
-        }
-
-        .benefit-item {
+        /* Стилі для кількості товару */
+        .quantity-wrapper {
             display: flex;
             align-items: center;
-            padding: 8px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-            min-height: 40px;
+            justify-content: center;
+            margin: 15px 0;
+            gap: 10px;
         }
 
-        .benefit-icon {
-            font-size: 20px;
-            margin-right: 8px;
-            animation: iconFloat 3s ease-in-out infinite;
-            min-width: 24px;
+        .quantity-input {
+            width: 60px;
             text-align: center;
-        }
-
-        .benefit-text {
-            font-size: 13px;
-            color: #444;
-            line-height: 1.2;
-        }
-
-        @media (max-width: 544px) {
-            .popup-content {
-                padding: 15px;
-                max-width: 340px;
-            }
-
-            .popup-benefits {
-                grid-template-columns: 1fr;
-                gap: 8px;
-            }
-
-            .popup-title {
-                font-size: 18px;
-            }
-
-            .popup-subtitle {
-                font-size: 12px;
-            }
-
-            .benefit-item {
-                padding: 6px;
-            }
-
-            .benefit-icon {
-                font-size: 18px;
-                margin-right: 6px;
-            }
-
-            .benefit-text {
-                font-size: 12px;
-            }
-        }
-
-        .stars-container {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            overflow: hidden;
-            top: 0;
-            left: 0;
-            z-index: -1;
-        }
-
-        .star {
-            position: absolute;
-            width: 2px;
-            height: 2px;
-            background: #FFD700;
-            opacity: 0.5;
-            animation: starTwinkle 1s infinite;
-        }
-
-        @keyframes starTwinkle {
-            0%, 100% { opacity: 0.5; }
-            50% { opacity: 1; }
-        }
-
-        @keyframes iconFloat {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-5px); }
-        }
-
-        .jet-form-builder__label-text {
-            font-weight: 500;
+            padding: 8px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
             color: #333;
-            margin-bottom: 5px;
+            transition: all 0.3s ease;
         }
 
-        .jet-form-builder__field {
-            border: 2px solid #eee !important;
-            border-radius: 8px !important;
-            padding: 10px 15px !important;
-            transition: all 0.3s ease !important;
+        .quantity-input:focus {
+            border-color: #4CAF50;
+            box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+            outline: none;
         }
 
-        .jet-form-builder__field:focus {
-            border-color: #2196F3 !important;
-            box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.1) !important;
+        .quantity-button {
+            width: 32px;
+            height: 32px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            background: white;
+            color: #666;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-        .jet-form-builder__submit {
-            background: #2196F3 !important;
-            color: white !important;
-            border: none !important;
-            border-radius: 8px !important;
-            padding: 12px 25px !important;
-            font-weight: 600 !important;
-            transition: all 0.3s ease !important;
-            text-transform: uppercase !important;
-            letter-spacing: 0.5px !important;
-        }
-
-        .jet-form-builder__submit:hover {
-            background: #1976D2 !important;
-            transform: translateY(-1px) !important;
-            box-shadow: 0 4px 8px rgba(33, 150, 243, 0.2) !important;
+        .quantity-button:hover {
+            border-color: #4CAF50;
+            color: #4CAF50;
+            transform: scale(1.1);
         }
         </style>
 
         <script type="text/javascript">
         jQuery(document).ready(function($) {
+            // Приховуємо попап при завантаженні
+            const popup = $('#consultation-popup');
+            popup.removeClass('active');
+            
+            // Додаємо стилі для попапу одразу
+            $('head').append(`
+                <style>
+                    #consultation-popup {
+                        display: none !important;
+                        opacity: 0;
+                        visibility: hidden;
+                    }
+                    #consultation-popup.active {
+                        display: flex !important;
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                </style>
+            `);
+
             // Очищаємо контейнер від стандартних елементів
             $('.variations td.value').empty();
 
             // Додаємо наші кнопки
             var buttons = [
-                { value: 'кг', icon: '⚖️' },
-                { value: 'тн', icon: '🚛' },
-                { value: 'опт', icon: '👥' }
+                { value: 'кг', icon: '⚖️', description: 'Роздрібна ціна за кілограм', defaultQty: 25 },
+                { value: 'тн', icon: '🚛', description: 'Оптова ціна за тонну', defaultQty: 1000 },
+                { value: 'опт', icon: '👥', description: 'Спеціальні умови для оптових замовлень' }
             ];
 
             buttons.forEach(function(btn) {
@@ -608,39 +584,91 @@ function custom_template_single_price() {
                     type: 'button',
                     class: 'button-value',
                     'data-value': btn.value,
+                    'data-description': btn.description,
+                    'data-default-qty': btn.defaultQty,
                     html: `<span class="icon">${btn.icon}</span>${btn.value}`
                 });
                 
                 $('.variations td.value').append(button);
             });
 
-            // Функція для оновлення відображення цін
-            function updatePrices(variation, selectedValue) {
-                let priceHtml = '';
+            // Обробник кліку по кнопці
+            $('.variations').on('click', '.button-value', function(e) {
+                e.preventDefault();
+                $('.button-value').removeClass('selected');
+                $(this).addClass('selected');
                 
-                if (selectedValue === 'кг') {
-                    priceHtml = `
-                        <div class="price-display" data-type="kg">
-                            <div class="price-amount">
-                                <span class="price-value">22.0</span>
-                                <span class="currency">₴</span>
-                            </div>
-                            <div class="price-label">за кілограм</div>
-                        </div>
-                    `;
-                } else if (selectedValue === 'тн') {
-                    priceHtml = `
-                        <div class="price-display" data-type="tn">
-                            <div class="price-amount">
-                                <span class="price-value">19.0</span>
-                                <span class="currency">₴</span>
-                            </div>
-                            <div class="price-label">за тонну</div>
-                        </div>
-                    `;
+                var selectedValue = $(this).data('value');
+                var description = $(this).data('description');
+                var defaultQty = $(this).data('default-qty');
+                
+                if (selectedValue === 'опт') {
+                    popup.addClass('active');
+                    $('.single_add_to_cart_button').prop('disabled', true);
+                } else {
+                    popup.removeClass('active');
+                    var $select = $('select[name="attribute_pa_forma-prodazhi"]');
+                    $select.val(selectedValue);
+                    $select.trigger('change');
+                    
+                    if (defaultQty) {
+                        $('input.qty').val(defaultQty).trigger('change');
+                    }
+                    
+                    $('.single_add_to_cart_button')
+                        .prop('disabled', false)
+                        .removeClass('wc-variation-selection-needed')
+                        .removeClass('disabled')
+                        .addClass('active');
+                    
+                    updatePrices(selectedValue, description);
                 }
+            });
 
-                // Вставляємо ціни на сторінку після варіацій
+            // Закриття попапу
+            $('.close-popup, .popup').on('click', function(e) {
+                if (e.target === this) {
+                    popup.removeClass('active');
+                    $('.button-value[data-value="кг"]').trigger('click');
+                }
+            });
+
+            // Активуємо кг за замовчуванням при завантаженні БЕЗ показу попапу
+            setTimeout(function() {
+                var $kgButton = $('.button-value[data-value="кг"]');
+                $kgButton.addClass('selected');
+                
+                var $select = $('select[name="attribute_pa_forma-prodazhi"]');
+                $select.val('кг');
+                $select.trigger('change');
+                
+                $('input.qty').val(25).trigger('change');
+                
+                $('.single_add_to_cart_button')
+                    .prop('disabled', false)
+                    .removeClass('wc-variation-selection-needed')
+                    .removeClass('disabled')
+                    .addClass('active');
+                
+                updatePrices('кг', $kgButton.data('description'));
+            }, 500);
+
+            // Функція для оновлення відображення цін
+            function updatePrices(selectedValue, description) {
+                let priceHtml = '';
+                let priceValue = selectedValue === 'кг' ? '22.0' : '19000.0';
+                let unit = selectedValue === 'кг' ? 'кг' : 'тн';
+                
+                priceHtml = `
+                    <div class="price-display" data-type="${selectedValue}">
+                        <div class="price-amount">
+                            <span class="price-value">${priceValue}</span>
+                            <span class="currency">₴/${unit}</span>
+                        </div>
+                        <div class="price-label">${description}</div>
+                    </div>
+                `;
+
                 $('.price-range-container').remove();
                 if (priceHtml) {
                     $('.variations_form').find('.variations').after(`
@@ -648,205 +676,53 @@ function custom_template_single_price() {
                             ${priceHtml}
                         </div>
                     `);
-                    // Додаємо анімацію появи
                     $('.price-range-container').hide().fadeIn(300);
                 }
             }
 
-            // Обробник кліків по кнопках
-            $('.variations').on('click', '.button-value', function(e) {
-                e.preventDefault();
-                var value = $(this).data('value');
-                
-                $('.button-value').removeClass('selected');
-                $(this).addClass('selected');
-
-                if (value === 'опт') {
-                    $('.price-range-container').fadeOut(300, function() {
-                        $(this).remove();
-                        // Оновлюємо HTML попапу при кліку на кнопку "опт"
-                        if ($('#consultation-popup .popup-header').length === 0) {
-                            const popupContent = $('#consultation-popup .popup-content');
-                            const form = popupContent.find('form');
-                            
-                            // Додаємо новий контент перед формою
-                            form.before(`
-                                <div class="popup-header">
-                                    <h3 class="popup-title">🌟 Оптові замовлення 🌟</h3>
-                                    <p class="popup-subtitle">Отримайте спеціальні умови для оптових закупівель</p>
-                                </div>
-                                <div class="popup-benefits">
-                                    <div class="benefit-item">
-                                        <span class="benefit-icon">💰</span>
-                                        <span class="benefit-text">Спеціальні ціни</span>
-                                    </div>
-                                    <div class="benefit-item">
-                                        <span class="benefit-icon">🚚</span>
-                                        <span class="benefit-text">Швидка доставка</span>
-                                    </div>
-                                    <div class="benefit-item">
-                                        <span class="benefit-icon">📦</span>
-                                        <span class="benefit-text">Великий вибір</span>
-                                    </div>
-                                    <div class="benefit-item">
-                                        <span class="benefit-icon">🤝</span>
-                                        <span class="benefit-text">Персональний підхід</span>
-                                    </div>
-                                </div>
-                            `);
-                            
-                            // Додаємо зірки
-                            popupContent.append(createStars());
-                        }
-                        $('#consultation-popup').fadeIn(400);
-                    });
-                } else {
-                    $('#consultation-popup').fadeOut();
-                    $('select[name="attribute_pa_forma-prodazhi"]').val(value).trigger('change');
-                    updatePrices(null, value);
-                }
-            });
-
-            // Функція для створення зірок
-            function createStars() {
-                const starsContainer = $('<div class="stars-container"></div>');
-                for (let i = 0; i < 20; i++) {
-                    const star = $('<div class="star"></div>');
-                    star.css({
-                        left: Math.random() * 100 + '%',
-                        top: Math.random() * 100 + '%',
-                        animationDelay: Math.random() * 2 + 's'
-                    });
-                    starsContainer.append(star);
-                }
-                return starsContainer;
-            }
-
-            // Активуємо першу кнопку за замовчуванням
-            setTimeout(function() {
-                $('.button-value[data-value="кг"]').trigger('click');
-            }, 100);
-
-            // Закриття попапу
-            $('.close-popup, .popup').on('click', function(e) {
-                if (e.target === this) {
-                    $('#consultation-popup').fadeOut();
-                    $('.button-value').removeClass('selected');
-                    $('.button-value[data-value="кг"]').addClass('selected').trigger('click');
+            // Обробник зміни кількості
+            $('input.qty').on('change', function() {
+                var selectedValue = $('.button-value.selected').data('value');
+                if (selectedValue === 'тн') {
+                    // Переконуємося, що кількість кратна 1000 для тонн
+                    var qty = parseInt($(this).val());
+                    if (qty < 1000) {
+                        $(this).val(1000);
+                    } else {
+                        $(this).val(Math.round(qty / 1000) * 1000);
+                    }
                 }
             });
         });
         </script>
-
-        <style>
-        /* Приховуємо стандартні елементи */
-        .woocommerce div.product form.cart .reset_variations,
-        .woocommerce div.product form.cart .variations select,
-        .woocommerce div.product form.cart .variations td.label,
-        .woocommerce-variation-price,
-        .woocommerce-variation-availability,
-        .woocommerce-variation-description,
-        .woocommerce div.product p.price,
-        .woocommerce div.product span.price {
-            display: none !important;
-        }
-
-        /* Стилі для відображення цін */
-        .price-display {
-            text-align: center;
-            padding: 15px;
-            margin: 15px 0;
-            background: #f8f9fa;
-            border-radius: 12px;
-            transition: all 0.3s ease;
-        }
-
-        .price-amount {
-            font-size: 32px;
-            font-weight: 700;
-            color: #4CAF50;
-            margin-bottom: 5px;
-        }
-
-        .price-value {
-            margin-right: 5px;
-        }
-
-        .currency {
-            font-weight: 500;
-        }
-
-        .price-label {
-            font-size: 14px;
-            color: #666;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        /* Стилі для кнопок */
-        .button-value {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 6px 24px;
-            margin: 0 8px 8px 0;
-            border: 2px solid #e0e0e0;
-            border-radius: 8px;
-            background: white;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-size: 16px;
-            font-weight: 600;
-            color: #666;
-        }
-
-        .button-value:hover {
-            border-color: #4CAF50;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(76, 175, 80, 0.15);
-            color: #4CAF50;
-        }
-
-        .button-value.selected {
-            background: #4CAF50;
-            color: white;
-            border-color: #4CAF50;
-            box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
-        }
-
-        .button-value .icon {
-            font-size: 20px;
-            opacity: 0.9;
-        }
-
-        .button-value:hover .icon {
-            opacity: 1;
-            transform: scale(1.1);
-            transition: all 0.3s ease;
-        }
-
-        /* Анімація для цін */
-        @keyframes priceAppear {
-            from {
-                opacity: 0;
-                transform: translateY(-10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .price-display {
-            animation: priceAppear 0.3s ease-out;
-        }
-        </style>
 
         <?php if (!isset($_POST['product_id'])) : ?>
         <!-- Попап для оптових замовлень -->
         <div id="consultation-popup" class="popup">
             <div class="popup-content">
                 <span class="close-popup">&times;</span>
+                <div class="popup-header">
+                    <h3 class="popup-title">Оптове замовлення</h3>
+                    <p class="popup-subtitle">Залиште свої контакти, і наш менеджер зв'яжеться з вами для обговорення умов співпраці</p>
+                </div>
+                <div class="popup-benefits">
+                    <div class="benefit-item">
+                        <span class="benefit-icon">💰</span>
+                        <span class="benefit-text">Спеціальні ціни для оптових покупців</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">🚚</span>
+                        <span class="benefit-text">Безкоштовна доставка від певної суми</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">📦</span>
+                        <span class="benefit-text">Індивідуальна упаковка</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">🤝</span>
+                        <span class="benefit-text">Персональний менеджер</span>
+                    </div>
+                </div>
                 <?php
                 $product_name = $product->get_name();
                 $product_url = get_permalink($product->get_id());
@@ -861,9 +737,8 @@ function custom_template_single_price() {
     }
 }
 
-// Видаляємо стандартне відображення ціни та варіацій
+// Видаляємо стандартне відображення ціни
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
-remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30);
 add_action('woocommerce_single_product_summary', 'custom_template_single_price', 10);
 
 // Додаємо емодзі замість Font Awesome
