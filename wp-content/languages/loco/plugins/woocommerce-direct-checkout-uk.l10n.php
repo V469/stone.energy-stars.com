@@ -1,0 +1,3 @@
+<?php
+return ['project-id-version'=>'WooCommerce Direct Checkout 3.4.4','report-msgid-bugs-to'=>'https://wordpress.org/support/plugin/woocommerce-direct-checkout','last-translator'=>'','language-team'=>'Українська','mime-version'=>'1.0','content-type'=>'text/plain; charset=UTF-8','content-transfer-encoding'=>'8bit','pot-creation-date'=>'2025-02-17T13:41:58+00:00','po-revision-date'=>'2025-03-21 13:26+0000','x-generator'=>'Loco https://localise.biz/','x-domain'=>'woocommerce-direct-checkout
+','language'=>'uk','plural-forms'=>'nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);','x-loco-version'=>'2.7.1; wp-6.7.2','messages'=>[]];

@@ -1,0 +1,2331 @@
+# Translation of Plugins - Floating Chat Widget: Contact Chat Icons, Telegram Chat, Line Messenger, WeChat, Email, SMS, Call Button, WhatsApp – Chaty - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Floating Chat Widget: Contact Chat Icons, Telegram Chat, Line Messenger, WeChat, Email, SMS, Call Button, WhatsApp – Chaty - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-11-18 09:55:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Floating Chat Widget: Contact Chat Icons, Telegram Chat, Line Messenger, WeChat, Email, SMS, Call Button, WhatsApp – Chaty - Stable (latest release)\n"
+
+#: views/admin/first-popup.php:52
+msgid "Back to Dashboard"
+msgstr "Повернутися до майстерні"
+
+#: views/admin/admin.php:184
+msgid "Step 4:"
+msgstr "Крок 4:"
+
+#: views/admin/popup.php:296
+msgid "Proceed"
+msgstr "Продовжити"
+
+#: views/admin/pro_analytics.php:19
+msgid "Analytics"
+msgstr "Аналітика"
+
+#: views/admin/pro_analytics.php:35
+msgid "Discover"
+msgstr "Discover"
+
+#: views/admin/pro_analytics.php:39
+msgid "track"
+msgstr "трек"
+
+#: views/admin/pro_analytics.php:43
+msgid "Analyze"
+msgstr "Аналізувати"
+
+#: views/admin/channel.php:386
+msgid "Add a profile image"
+msgstr "Додати зображення профілю"
+
+#: views/admin/channel.php:391
+msgid "Profile image"
+msgstr "Зображення профілю"
+
+#: views/admin/channel.php:395
+msgid "Upload Image"
+msgstr "Завантажити зображення"
+
+#: views/admin/channel.php:544
+msgid "Add Custom Field"
+msgstr "Додати власне поле"
+
+#: views/admin/channel.php:1116
+msgid "Heading"
+msgstr "Заголовок"
+
+#: views/admin/channel.php:1139
+msgid "QR code heading"
+msgstr "Заголовок QR-коду"
+
+#: views/admin/channel.php:1257
+msgid "WhatsApp test"
+msgstr "Тест WhatsApp"
+
+#: views/admin/channel.php:1261
+msgid "+91-7485963214"
+msgstr "+91-7485963214"
+
+#: views/admin/channel.php:1263
+msgid "Edit Number"
+msgstr "Редагувати номер"
+
+#. translators: %s: Plugin name.
+#: views/admin/install-chatway.php:170 views/admin/recommended-plugins.php:277
+msgid "Activate %s"
+msgstr "Активувати %s"
+
+#: views/admin/install-chatway.php:132 views/admin/recommended-plugins.php:239
+msgid "Cannot Install"
+msgstr "Встановлення неможливе"
+
+#: views/admin/channel.php:1287
+msgid "Edit Link"
+msgstr "Редагувати посилання"
+
+#: views/admin/channel.php:363 views/admin/channel.php:1128
+msgid "Header Background"
+msgstr "Фон хедеру"
+
+#: views/admin/channel.php:351
+msgid "Headline"
+msgstr "Заголовок"
+
+#: admin/class-admin-base.php:1156
+msgid "id"
+msgstr "id"
+
+#. translators: %s: Plugin name and version.
+#: views/admin/install-chatway.php:125 views/admin/recommended-plugins.php:232
+msgid "Install %s now"
+msgstr "Встановити %s зараз"
+
+#: views/admin/install-chatway.php:196 views/admin/recommended-plugins.php:303
+msgid "Installed"
+msgstr "Встановлений"
+
+#: admin/class-admin-base.php:738
+msgid "Integrations"
+msgstr "Інтеграції"
+
+#: views/admin/contact-form-feed.php:200 views/admin/contact-form-feed.php:248
+msgid "IP Address"
+msgstr "IP адреси"
+
+#: views/admin/install-chatway.php:341 views/admin/recommended-plugins.php:448
+msgid "Less Than 10"
+msgstr "Менше 10"
+
+#. translators: %s: Plugin name.
+#: views/admin/install-chatway.php:183 views/admin/recommended-plugins.php:290
+msgid "Network Activate %s"
+msgstr "Активувати %s для мережі"
+
+#: views/admin/channel.php:375
+msgid "Nickname"
+msgstr "Нік"
+
+#: views/admin/channel.php:1109
+msgid "Pro Features"
+msgstr "Pro-функції"
+
+#: views/admin/channel.php:1266 views/admin/channel.php:1290
+msgid "Support"
+msgstr "Техпідтримка"
+
+#: views/admin/channel.php:247 views/admin/popup.php:290
+msgid "Test"
+msgstr "Тест"
+
+#. translators: %s: Plugin name and version.
+#: views/admin/install-chatway.php:147 views/admin/recommended-plugins.php:254
+msgid "Update %s now"
+msgstr "Оновити %s зараз"
+
+#: admin/class-admin-base.php:1157
+msgid "Widget"
+msgstr "Віджет"
+
+#: views/admin/install-chatway.php:154 views/admin/recommended-plugins.php:261
+msgid "Cannot Update"
+msgstr "Неможливо оновити"
+
+#: includes/class-frontend.php:762 includes/class-frontend.php:763
+msgid "WhatsApp Message"
+msgstr "Повідомлення в WhatsApp"
+
+#: includes/class-frontend.php:764
+msgid "Hide WhatsApp Form"
+msgstr "Приховати форму WhatsApp"
+
+#: views/admin/channel.php:1098
+msgid "{url} tag grabs the URL of the page"
+msgstr "{url} тег отримує URL сторінки"
+
+#: views/admin/channel.php:1098
+msgid "{title} tag grabs the page title of the webpage"
+msgstr "{title} тег отримує заголовок сторінки веб-сайту"
+
+#: views/admin/channel.php:812
+msgid "Your message was sent successfully"
+msgstr "Ваше повідомлення було успішно надіслане"
+
+#: views/admin/upgrade.php:676
+msgid "You can install the free Chaty plugin on any website you want"
+msgstr "Ви можете встановити безкоштовний плагін Chaty на будь-який веб-сайт за вашим вибором"
+
+#: views/admin/upgrade.php:677
+msgid "You can buy the Pro plan that includes licenses for 5 domains, or the Agency plan that includes licenses for 50 domains (bigger plans are also available)."
+msgstr "Ви можете придбати Pro план, який включає ліцензії для 5 доменів, або план Агентства, який включає ліцензії для 50 доменів (доступні також більші плани)."
+
+#: views/admin/review-popup.php:48
+msgid "Would you like to be reminded in the future?"
+msgstr "Чи бажаєте ви, щоб ми нагадали вам у майбутньому?"
+
+#: views/admin/custom-tags.php:40
+msgid "WooCommerce product name: "
+msgstr "Назва товару WooCommerce: "
+
+#: views/admin/upgrade.php:685
+msgid "Will Chaty stop working if I don’t renew my license?"
+msgstr "Чи зупиниться робота Chaty, якщо я не продовжу свою ліцензію?"
+
+#: views/admin/chaty-popup.php:25
+msgid "Welcome to Chaty"
+msgstr "Ласкаво просимо до Chaty"
+
+#: views/admin/trigger-and-target.php:24
+msgid "Weekend"
+msgstr "Вихідні"
+
+#: views/admin/trigger-and-target.php:18
+msgid "Wednesday"
+msgstr "Середа"
+
+#: views/admin/upgrade.php:795
+msgid "Websites"
+msgstr "Веб-сайти"
+
+#: views/admin/custom-tags.php:25
+msgid "URL: "
+msgstr "URL: "
+
+#: views/admin/first-popup.php:88
+msgid "Upgrade to Chaty Pro 🚀"
+msgstr "Оновіться до Chaty Pro 🚀"
+
+#: views/admin/upgrade.php:293 views/admin/upgrade.php:309
+#: views/admin/upgrade.php:326 views/admin/upgrade.php:401
+#: views/admin/upgrade.php:457 views/admin/upgrade.php:512
+msgid "Updates & Support for"
+msgstr "Оновлення та підтримка для"
+
+#: views/admin/trigger-and-target.php:17
+msgid "Tuesday"
+msgstr "Вівторок"
+
+#: views/admin/custom-tags.php:11
+msgid "Title: "
+msgstr "Заголовок: "
+
+#: views/admin/trigger-and-target.php:19
+msgid "Thursday"
+msgstr "Четвер"
+
+#: views/admin/upgrade.php:674
+msgid "There 2 ways to do it:"
+msgstr "Існують 2 способи це зробити:"
+
+#: views/admin/channel.php:1098
+msgid "tags are supported"
+msgstr "підтримуються теги"
+
+#: views/admin/trigger-and-target.php:22
+msgid "Sunday to Thursday"
+msgstr "З неділі до четверга"
+
+#: views/admin/trigger-and-target.php:15
+msgid "Sunday"
+msgstr "Неділя"
+
+#: views/admin/channel.php:781
+msgid "Submit Button"
+msgstr "Кнопка відправлення"
+
+#: views/admin/custom-tags.php:55
+msgid "Shows WooCommerce product SKU"
+msgstr "Показує артикул товару WooCommerce"
+
+#: views/admin/custom-tags.php:69
+msgid "Shows WooCommerce product price"
+msgstr "Показує ціну товару WooCommerce"
+
+#: views/admin/custom-tags.php:41
+msgid "Shows WooCommerce product name"
+msgstr "Показує назву товару WooCommerce"
+
+#: views/admin/custom-tags.php:83
+msgid "Shows regular price of the WooCommerce product"
+msgstr "Показує звичайну ціну товару WooCommerce"
+
+#: views/admin/custom-tags.php:97
+msgid "Shows product percent discount when on sale"
+msgstr "Показує відсоток знижки на товар при розпродажу"
+
+#: views/admin/custom-tags.php:26
+msgid "Shows page URL"
+msgstr "Показує URL сторінки"
+
+#: views/admin/custom-tags.php:12
+msgid "Shows page title"
+msgstr "Показує назву сторінки"
+
+#: views/admin/first-popup.php:91
+msgid "Show me the new lead"
+msgstr "Покажіть мені нового ліда"
+
+#: views/admin/first-popup.php:87
+msgid "Show me"
+msgstr "Покажіть мені"
+
+#: views/admin/review-popup.php:34
+msgid "Share Your Experience"
+msgstr "Поділіться своєю думкою"
+
+#: views/admin/upgrade.php:195
+msgid "Set widget visibility days & hours"
+msgstr "Встановіть дні та години видимості віджета"
+
+#: views/admin/upgrade.php:203
+msgid "Send contact form leads to email"
+msgstr "Надсилати ліди з форми зв'язку на вашу електронну пошту"
+
+#: views/admin/review-popup.php:26
+msgid "Seems like Chaty is bringing you value 🥳"
+msgstr "Здається, Chaty приносить вам користь 🥳"
+
+#: views/admin/trigger-and-target.php:21
+msgid "Saturday"
+msgstr "Субота"
+
+#: views/admin/review-popup.php:40
+msgid "Review (optional)"
+msgstr "Відгук (необов'язково)"
+
+#: views/admin/review-popup.php:50
+msgid "Remind me after"
+msgstr "Нагадайте мені через"
+
+#: views/admin/review-popup.php:31 views/admin/review-popup.php:38
+msgid "rating"
+msgstr "рейтинг"
+
+#: views/admin/custom-tags.php:54
+msgid "Product SKU: "
+msgstr "Артикул продукту: "
+
+#: views/admin/custom-tags.php:68
+msgid "Product price: "
+msgstr "Ціна продукту: "
+
+#: views/admin/custom-tags.php:96
+msgid "Product discount: "
+msgstr "Знижка на продукт: "
+
+#: views/admin/upgrade.php:305 views/admin/upgrade.php:453
+msgid "Plus"
+msgstr "Плюс"
+
+#: views/admin/review-popup.php:41
+msgid "Please write your review here"
+msgstr "Будь ласка, залиште свій відгук тут"
+
+#: views/admin/upgrade.php:180
+msgid "Place the widget wherever you like on the screen."
+msgstr "Розмістіть віджет де завгодно на екрані."
+
+#: includes/class-frontend.php:1236 views/admin/channel.php:466
+msgid "Phone"
+msgstr "Телефон"
+
+#: views/admin/channel.php:336
+msgid "Open the WhatsApp chat popup on page load, after the user sends a message or closes the window, the window will stay closed to avoid disruption"
+msgstr "Відкривайте спливаюче вікно чату WhatsApp при завантаженні сторінки, після того як користувач надішле повідомлення або закриє вікно, воно залишиться закритим, щоб уникнути перешкод"
+
+#: views/admin/upgrade.php:670
+msgid "Once you purchase any paid plan of Chaty, you can use it forever. Support and updates are available for 1 year. You can renew your license yearly to get another year of support and updates."
+msgstr "Якщо ви придбаєте будь-який платний план Chaty, ви можете використовувати його завжди. Підтримка та оновлення доступні протягом 1 року. Ви можете продовжити вашу ліцензію щорічно, щоб отримати ще один рік підтримки та оновлень."
+
+#: views/admin/upgrade.php:686
+msgid "Of course NOT!"
+msgstr "Звісно НІ!"
+
+#: views/admin/upgrade.php:682
+msgid "No. you can use the free plan as long as you want."
+msgstr "Ні, ви можете користуватися безкоштовним планом скільки завгодно часу."
+
+#: views/admin/trigger-and-target.php:23
+msgid "Monday to Friday"
+msgstr "Понеділок по п'ятницю"
+
+#: views/admin/trigger-and-target.php:16
+msgid "Monday"
+msgstr "Понеділок"
+
+#: views/admin/upgrade.php:773
+msgid "Lifetime License 🚀"
+msgstr "Пожиттєва ліцензія 🚀"
+
+#: views/admin/upgrade.php:292 views/admin/upgrade.php:308
+#: views/admin/upgrade.php:325 views/admin/upgrade.php:400
+#: views/admin/upgrade.php:456 views/admin/upgrade.php:511
+#: views/admin/upgrade.php:777 views/admin/upgrade.php:781
+msgid "Less than $"
+msgstr "Менше ніж $"
+
+#: views/admin/upgrade.php:681
+msgid "Is there a time limit for the free plan?"
+msgstr "Чи є обмеження часу для безкоштовного плану?"
+
+#: views/admin/upgrade.php:669
+msgid "How long is my paid Chaty plugin license valid for?"
+msgstr "Як довго діє моя платна ліцензія на плагін Chaty?"
+
+#: views/admin/dashboard.php:183
+msgid "Gain access to more premium features"
+msgstr "Отримати доступ до додаткових преміум-функцій"
+
+#: views/admin/trigger-and-target.php:20
+msgid "Friday"
+msgstr "П'ятниця"
+
+#: views/admin/upgrade.php:774
+msgid "For lifetime"
+msgstr "На все життя"
+
+#: views/admin/review-popup.php:63
+msgid "Five Stars!"
+msgstr "П'ять зірок!"
+
+#: views/admin/review-popup.php:72
+msgid "Feel free to connect for questions and suggestions. Thank you for choosing us!"
+msgstr "Не соромтеся звертатися з питаннями та пропозиціями. Дякуємо вам за вибір нас!"
+
+#: views/admin/trigger-and-target.php:14
+msgid "Everyday of week"
+msgstr "Щоденно протягом тижня"
+
+#: includes/class-frontend.php:1238 views/admin/channel.php:467
+msgid "Enter your phone number"
+msgstr "Введіть ваш номер телефону"
+
+#: includes/class-frontend.php:1215 views/admin/channel.php:453
+msgid "Enter your name"
+msgstr "Введіть ваше ім'я"
+
+#: includes/class-frontend.php:1249 views/admin/channel.php:474
+msgid "Enter your message"
+msgstr "Введіть ваше повідомлення"
+
+#: views/admin/channel.php:460
+msgid "Enter your email address"
+msgstr "Введіть вашу адресу електронної пошти"
+
+#: includes/class-frontend.php:1227
+msgid "Enter your email"
+msgstr "Введіть вашу адресу електронної пошти"
+
+#: views/admin/dashboard.php:194
+msgid "📱 Create multiple widgets for different devices, pages and languages."
+msgstr "📱 Створіть кілька віджетів для різних пристроїв, сторінок та мов."
+
+#: views/admin/dashboard.php:196
+msgid "📈 Unlock analytics about each channel usage and different widgets"
+msgstr "📈 Розблокуйте аналітику щодо використання кожного каналу та різних віджетів"
+
+#: views/admin/dashboard.php:195
+msgid "💬 Show multiple agents under a single channel."
+msgstr "💬 Покажіть кілька агентів у межах одного каналу."
+
+#: views/admin/dashboard.php:197
+msgid "🎨 Customise the widget to display the chat view popup."
+msgstr "🎨 Налаштуйте віджет для відображення спливаючого вікна перегляду чату."
+
+#: views/admin/upgrade.php:321 views/admin/upgrade.php:452
+msgid "🎉 Best Value"
+msgstr "🎉 Найкраща вартість"
+
+#: views/admin/review-popup.php:54
+msgid "Don't remind me"
+msgstr "Не нагадуйте мені"
+
+#: views/admin/first-popup.php:24
+msgid "Congratulations! 🎉"
+msgstr "Вітаємо! 🎉"
+
+#: views/admin/help.php:12
+msgid "Co-Founder at Premio"
+msgstr "Співзасновник у Premio"
+
+#: views/admin/chatyway-info-popup.php:190 views/admin/first-popup.php:54
+msgid "Close"
+msgstr "Закрити"
+
+#: views/admin/upgrade.php:686
+msgid "Chaty plugin and all your settings will continue to work as before; however, you will no longer receive plugin updates, including feature additions, improvements, and support."
+msgstr "Плагін Chaty та всі ваші налаштування продовжать працювати так, як і раніше; проте, ви більше не отримуватимете оновлення плагіна, включаючи додатки функцій, вдосконалення та підтримку."
+
+#: views/admin/upgrade.php:163
+msgid "Chat view pop-up"
+msgstr "Чат-вікно"
+
+#: views/admin/review-popup.php:27
+msgid "Can you please show us some love and rate Chaty? It'll really help us spread the word"
+msgstr "Будь ласка, покажіть нам свою любов і оцініть Chaty? Це дійсно допоможе нам поширити слово"
+
+#: views/admin/upgrade.php:673
+msgid "Can I use Chaty plugin on more than 1 domain?"
+msgstr "Чи можна використовувати плагін Chaty на більш ніж 1 домені?"
+
+#: views/admin/upgrade.php:289 views/admin/upgrade.php:397
+msgid "Basic"
+msgstr "Базовий"
+
+#: views/admin/channel.php:1026 views/admin/channel.php:1056
+#: views/admin/channel.php:1083
+msgid "Add your own pre-set message that's automatically added to the user's message. You can also use merge tags and add the URL or the title of the current visitor's page. E.g. you can add the current URL of a product to the message so you know which product the visitor is talking about when the visitor messages you"
+msgstr "Додайте своє власне попередньо задане повідомлення, яке автоматично додається до повідомлення користувача. Ви також можете використовувати об'єднувальні теги та додавати URL або заголовок поточної сторінки відвідувача. Наприклад, ви можете додати поточний URL продукту до повідомлення, щоб знати, про який продукт говорить відвідувач, коли він пише вам"
+
+#: views/admin/review-popup.php:52
+msgid "7 Days"
+msgstr "7 днів"
+
+#: views/admin/upgrade.php:345 views/admin/upgrade.php:528
+msgid "500 Websites"
+msgstr "500 веб-сайтів"
+
+#: views/admin/upgrade.php:344 views/admin/upgrade.php:527
+msgid "50 Websites"
+msgstr "50 веб-сайтів"
+
+#: views/admin/upgrade.php:472
+msgid "5 websites"
+msgstr "5 веб-сайтів"
+
+#: views/admin/admin.php:69
+msgid "3. Triggers and targeting"
+msgstr "3. Тригери та таргетинг"
+
+#: views/admin/review-popup.php:53
+msgid "14 Days"
+msgstr "14 днів"
+
+#: views/admin/upgrade.php:346 views/admin/upgrade.php:529
+msgid "1000 Websites"
+msgstr "1000 веб-сайтів"
+
+#: views/admin/upgrade.php:416
+msgid "1 website"
+msgstr "1 веб-сайт"
+
+#: views/admin/upgrade.php:290 views/admin/upgrade.php:306
+#: views/admin/upgrade.php:323 views/admin/upgrade.php:398
+#: views/admin/upgrade.php:454 views/admin/upgrade.php:509
+#: views/admin/upgrade.php:783
+msgid "/year"
+msgstr "/рік"
+
+#: views/admin/upgrade.php:292 views/admin/upgrade.php:308
+#: views/admin/upgrade.php:325 views/admin/upgrade.php:400
+#: views/admin/upgrade.php:456 views/admin/upgrade.php:511
+#: views/admin/upgrade.php:777 views/admin/upgrade.php:781
+msgid "/mo"
+msgstr "/міс."
+
+#: views/admin/upgrade.php:775
+msgid "/lifetime"
+msgstr "/пожиттєво"
+
+#: views/admin/upgrade.php:779
+msgid "/2 years"
+msgstr "/2 роки"
+
+#: views/admin/custom-tags.php:3
+msgid "# Add Properties"
+msgstr "# Додати властивості"
+
+#: views/admin/chaty-popup.php:33
+msgid "Go to Chaty"
+msgstr "Перейти до Chaty"
+
+#: views/admin/channel.php:906
+msgid "Get your leads by email, whenever you get a new email you'll get an email notification"
+msgstr "Отримуйте свої ліди по електронній пошті, кожного разу, коли ви отримуєте новий лист, ви отримаєте сповіщення по електронній пошті"
+
+#: views/admin/upgrade.php:199
+msgid "Set specific date & time "
+msgstr "Встановіть конкретну дату та час "
+
+#: views/admin/custom-tags.php:82
+msgid "Regular price: "
+msgstr "Звичайна ціна: "
+
+#: views/admin/dashboard.php:199
+msgid "Upgrade to Pro today"
+msgstr "Оновіться до Pro сьогодні"
+
+#: views/admin/first-popup.php:25
+msgid "Your first widget is now up and running on your website"
+msgstr "Ваш перший віджет вже працює на вашому сайті"
+
+#: views/admin/channel.php:893
+msgid "Your leads will be saved in your local database, you'll be able to find them %1$s here"
+msgstr "Ваші потенційні клієнти будуть збережені у вашій локальній базі даних, ви зможете знайти їх %1$s тут"
+
+#: views/admin/first-popup.php:87
+msgid "You just got your first lead from Chaty. Click on the %1$s button to display your contact form leads"
+msgstr "Ви щойно отримали свій перший лід від Chaty. Натисніть на кнопку %1$s, щоб переглянути ваші потенційні клієнти форми зворотнього зв'язку"
+
+#: views/admin/chaty-popup.php:27
+msgid "Select chat channels that you'd like to add to your store, and fill out your info. For more info visit our %1$s and check the video."
+msgstr "Виберіть чат-канали, які ви хочете додати до свого магазину, та заповніть свої дані. Для отримання додаткової інформації відвідайте наш %1$s та перегляньте відео."
+
+#: views/admin/first-popup.php:88
+msgid "%1$s to get leads to your email along with advanced triggers & targeting & more cool features"
+msgstr "%1$s для отримання лідів на вашу електронну пошту разом із розширеними тригерами та таргетингом та ще більше цікавих функцій"
+
+#: admin/class-admin-base.php:638 views/admin/channel.php:398
+msgid "Remove"
+msgstr "Видалити"
+
+#: admin/class-admin-base.php:637
+msgid "Please remove the JavaScript from the channels or ask the website's administrator to give you access to add JavaScript."
+msgstr "Будь ласка, видаліть JavaScript з каналів або зверніться до адміністратора веб-сайту, щоб він надав вам доступ для додавання JavaScript."
+
+#: includes/class-frontend.php:314 includes/class-frontend.php:323
+#: includes/class-frontend.php:333 includes/class-frontend.php:349
+msgid "this field is required"
+msgstr "це поле обов'язкове"
+
+#: includes/class-frontend.php:339
+msgid "email address is not valid"
+msgstr "адреса електронної пошти недійсна"
+
+#: includes/class-review-box.php:507
+msgid "Your"
+msgstr "Ваш"
+
+#: views/admin/upgrade.php:204
+msgid "You can get the emails from your contact form directly to your emails and change the subject line"
+msgstr "Ви можете отримувати листи з форми зворотнього зв'язку безпосередньо на свою електронну пошту та змінювати тему листа"
+
+#: views/admin/upgrade.php:171
+msgid "Widget customization"
+msgstr "Налаштування віджету"
+
+#: views/admin/customize-widget-section.php:181
+msgid "When the page loads, choose the default state of the widget. Choose between hover to open, opened by default or click to open states."
+msgstr "При завантаженні сторінки виберіть стандартний стан віджета. Виберіть між режимом \"піднімання для відкриття\", відкритим за замовчуванням або режимом \"клацання для відкриття\"."
+
+#: views/admin/trigger-and-target.php:598
+msgid "Use this option if you wish to modify your widget additionally. This step is optional."
+msgstr "Використовуйте цю опцію, якщо ви хочете внести додаткові зміни до вашого віджета. Цей крок є необов'язковим."
+
+#: views/admin/upgrade.php:184
+msgid "Use this feature to show or hide the widget for specific pages, posts, categories, tags, products, or any URL based on preset rules"
+msgstr "Використовуйте цю функцію, щоб показувати або приховувати віджет для конкретних сторінок, повідомлень, категорій, міток, товарів або будь-якого URL на основі заданих правил"
+
+#: views/admin/channel.php:1151 views/admin/customize-widget-section.php:142
+msgid "Upload"
+msgstr "Завантажити"
+
+#: views/admin/upgrade.php:232 views/admin/upgrade.php:247
+#: views/admin/upgrade.php:262
+msgid "Updates & Support"
+msgstr "Оновлення та підтримка"
+
+#: views/admin/upgrade.php:168
+msgid "Unlock analytics data about your Chaty widgets usage. Find out how many of your visitors click on your widgets and chat channels."
+msgstr "Розблокуйте аналітичні дані про використання ваших віджетів Chaty. Дізнайтеся, скільки з ваших відвідувачів клікає на ваші віджети та чат-канали."
+
+#: views/admin/upgrade.php:658
+msgid "TRUSTED BY LEADING COMPANIES WORLDWIDE"
+msgstr "ДОВІРЯЄТЬСЯ ВЕДУЧИМИ КОМПАНІЯМИ У СВІТІ"
+
+#: views/admin/upgrade.php:191
+msgid "Traffic source targeting"
+msgstr "Спрямування на джерело трафіку"
+
+#: views/admin/channel.php:740 views/admin/chatway-setting.php:323
+msgid "The text that will appear next to your channel when a visitor hovers over it"
+msgstr "Текст, який з'явиться поруч із вашим каналом, коли відвідувач наведе на нього курсор"
+
+#: views/admin/trigger-and-target.php:565 views/admin/upgrade.php:188
+msgid "Target your widget to specific countries. You can create different widgets for different countries"
+msgstr "Спрямовуйте свій віджет на конкретні країни. Ви можете створювати різні віджети для різних країн"
+
+#: views/admin/customize-widget-section.php:644
+msgid "System Stack is the font that comes preloaded with your operating system. For example, if you are using Mac, you would be able to use mac's native font."
+msgstr "System Stack - це шрифт, який попередньо завантажується з вашої операційної системи. Наприклад, якщо ви використовуєте Mac, ви зможете використовувати вбудований шрифт Mac."
+
+#: includes/class-review-box.php:572 views/admin/review-popup.php:44
+#: views/admin/review-popup.php:58
+msgid "Submit"
+msgstr "Відправити"
+
+#: views/admin/upgrade.php:192
+msgid "Show the widget only to visitors who come from specific traffic sources including direct traffic, social networks, search engines, Google Ads, or any other traffic source)"
+msgstr "Показувати віджет лише відвідувачам, які приходять з конкретних джерел трафіку, включаючи прямий трафік, соціальні мережі, пошукові системи, Google Ads чи будь-яке інше джерело трафіку."
+
+#: views/admin/customize-widget-section.php:70
+msgid "Select the icon for your widget or upload a custom icon. Please make sure you upload an image file of the following types: PNG/JPEG/JPG/GIF/SVG. The max file size is up to 100KB"
+msgstr "Виберіть значок для вашого віджета або завантажте власний значок. Будь ласка, переконайтеся, що ви завантажуєте файл зображення наступних типів: PNG/JPEG/JPG/GIF/SVG. Максимальний розмір файлу - до 100 КБ"
+
+#: views/admin/upgrade.php:200
+msgid "Schedule the specific time and date when your Chaty widget appears. Use this feature to offer time-limited coupons, or to start a promotion from a specific date."
+msgstr "Заплануйте конкретний час та дату, коли відображається ваш віджет Chaty. Використовуйте цю функцію для надання обмежених у часі купонів або для запуску акції з конкретної дати."
+
+#: views/admin/upgrade.php:212
+msgid "QR code for WeChat, customizable WhatsApp message, customizable email subject."
+msgstr "QR-код для WeChat, налаштований текст повідомлення WhatsApp, налаштована тема електронного листа."
+
+#: includes/class-review-box.php:525
+msgid "Please rate us:"
+msgstr "Будь ласка, оцініть нас:"
+
+#: views/admin/upgrade.php:183
+msgid "Page targeting"
+msgstr "Вибір сторінки"
+
+#: views/admin/upgrade.php:155
+msgid "Multiple widgets"
+msgstr "Декілька віджетів"
+
+#: views/admin/upgrade.php:159
+msgid "Multiple agents"
+msgstr "Декілька агентів"
+
+#: includes/class-review-box.php:507
+msgid "matters, please leave a review"
+msgstr "має значення, будь ласка, залиште відгук"
+
+#: views/admin/upgrade.php:250
+msgid "Lifetime "
+msgstr "Пожиттєвий "
+
+#: views/admin/channel.php:605 views/admin/channel.php:631
+msgid "Learn more here: https://premio.io/help/chaty/how-to-use-chaty-with-different-agents/"
+msgstr "Дізнайтеся більше тут: https://premio.io/help/chaty/how-to-use-chaty-with-different-agents/"
+
+#: views/admin/customize-widget-section.php:461
+msgid "learn more here"
+msgstr "дізнайтеся більше тут"
+
+#: views/admin/upgrade.php:160
+msgid "interesting ways to use Agents functionality"
+msgstr "цікаві способи використання функціоналу агентів"
+
+#: views/admin/channel.php:1207
+msgid "If unchecked, visitors will be redirected to chat with you via the WhatsApp desktop app. Please note if they don't have it installed, they'll be redirected to WhatsApp Web"
+msgstr "Якщо відзначено, відвідувачі будуть перенаправлені для спілкування з вами через додаток WhatsApp для настільного комп'ютера. Зверніть увагу, якщо він не встановлений, їх перенаправлять на WhatsApp Web"
+
+#: views/admin/customize-widget-section.php:141
+msgid "Icons Library"
+msgstr "Бібліотека значків"
+
+#: views/admin/channel.php:893 views/admin/channel.php:957
+msgid "here"
+msgstr "тут"
+
+#: views/admin/upgrade.php:211
+msgid "And more"
+msgstr "І більше"
+
+#: views/admin/upgrade.php:664
+msgid "Frequently Asked Questions"
+msgstr "Часто задавані питання"
+
+#: includes/class-review-box.php:507
+msgid "feedback"
+msgstr "відгук"
+
+#: views/admin/channel.php:954
+msgid "Enable reCAPTCHA"
+msgstr "Увімкнути reCAPTCHA"
+
+#: views/admin/upgrade.php:179
+msgid "Custom location"
+msgstr "Налаштуйте місце розташування"
+
+#: views/admin/upgrade.php:156
+msgid "Create different widgets for different pages. Show different icons based on targeting rules. You can also show different channels for mobile and desktop and based on many other rules."
+msgstr "Створіть різні віджети для різних сторінок. Покажіть різні значки відповідно до правил вибору. Ви також можете показувати різні канали для мобільних і робочих столів та інших правил."
+
+#: includes/class-review-box.php:519
+msgid "Co-founder"
+msgstr "Співзасновник"
+
+#: views/admin/upgrade.php:164
+msgid "Choose between two types of pop-up designs, set pop-up text and color, and use merge tags like the URL and title, or WooCommerce properties like the product name, to customize the behavior of the widget based on visitor interaction."
+msgstr "Виберіть між двома типами дизайнів спливаючих вікон, встановіть текст і колір спливаючого вікна та використовуйте об'єднувальні теги, такі як URL та заголовок, або властивості WooCommerce, такі як назва продукту, щоб налаштувати поведінку віджета відповідно до взаємодії з відвідувачем."
+
+#: views/admin/upgrade.php:172
+msgid "Choose a background color, change the size of the widget, choose from 3 different widget designs, select a Font Awesome icon or upload your own"
+msgstr "Виберіть колір фону, змініть розмір віджета, виберіть з 3 різних дизайнів віджета, виберіть значок Font Awesome або завантажте свій власний"
+
+#: views/admin/upgrade.php:175
+msgid "Channels customization"
+msgstr "Налаштування каналів"
+
+#: views/admin/upgrade.php:176
+msgid "Change each channel's background color, upload your own icon, and change the text on hover"
+msgstr "Змініть колір фону кожного каналу, завантажте свій власний значок та змініть текст при наведенні"
+
+#: views/admin/customize-widget-section.php:326
+msgid "Change the size of your Chaty widget. S is the smallest and XXL is the largest. You can also set custom sizes (the actual size of the Chaty widget is not reflected on the preview. View the size changes on the actual website)"
+msgstr "Змініть розмір віджета Chaty. S - найменший, а XXL - найбільший. Ви також можете встановити власні розміри (реальний розмір віджета Chaty не відображається на попередньому перегляді. Перегляд змін розміру можна переглянути на реальному веб-сайті)"
+
+#: views/admin/upgrade.php:208
+msgid "Automatically track clicks on each of your channels on your Google Analytics account"
+msgstr "Автоматично відстежуйте клацання на кожному з ваших каналів у вашому обліковому запису Google Analytics"
+
+#: views/admin/upgrade.php:226
+msgid "(enjoy 30-day money back guarantee on all plans)"
+msgstr "(насолоджуйтеся гарантією повернення грошей протягом 30 днів на всіх планах)"
+
+#: includes/class-review-box.php:518
+msgid "Gal Dubinski"
+msgstr "Галь Дубінська"
+
+#: views/admin/upgrade.php:235
+msgid "2 years "
+msgstr "2 роки "
+
+#: views/admin/upgrade.php:160
+msgid "Show multiple agents under a single channel. For example, allow visitors to reach for pre-sales info or support with different channels on WhatsApp. Here are some %1$s"
+msgstr "Показувати кілька агентів в одному каналі. Наприклад, дозволяти відвідувачам отримувати попередню інформацію або підтримку з різних каналів в WhatsApp. Ось кілька %1$s"
+
+#: views/admin/customize-widget-section.php:461
+msgid "Enable google analytics tracking on the widget clicks. You can %1$s"
+msgstr "Увімкнути відстеження кліків від Google Analytics на віджетах. Ви можете %1$s"
+
+#: views/admin/channel.php:957
+msgid "Click %1$s to add your website. (please make sure you select V3). After adding your website you'll get your site Key and secret key."
+msgstr "Клацніть %1$s, щоб додати свій веб-сайт. (будьте певні, що ви вибрали V3). Після додавання свого сайту ви отримаєте ключ вашого сайту та секретний ключ."
+
+#: views/admin/popup.php:80
+msgid "You need to fill out at least one channel details for Chaty to show up on your website"
+msgstr "Вам потрібно вказати принаймні один канал для того, щоб Chaty з'явився на вашому веб-сайті"
+
+#: views/admin/contact-form-feed.php:23
+msgid "Yesterday"
+msgstr "Вчора"
+
+#: views/admin/customize-widget-section.php:362
+msgid "XXL"
+msgstr "XXL"
+
+#: views/admin/customize-widget-section.php:358
+msgid "XL"
+msgstr "XL"
+
+#: views/admin/trigger-and-target.php:35
+msgid "WordPress Tags"
+msgstr "Теги WordPress"
+
+#: views/admin/trigger-and-target.php:33
+msgid "WordPress Posts"
+msgstr "Пости WordPress"
+
+#: views/admin/trigger-and-target.php:32
+msgid "WordPress Pages"
+msgstr "Сторінки WordPress"
+
+#: views/admin/trigger-and-target.php:34
+msgid "WordPress Categories"
+msgstr "Категорії WordPress"
+
+#: views/admin/trigger-and-target.php:43
+msgid "WooCommerce products on sale"
+msgstr "Товари WooCommerce у розпродажі"
+
+#: views/admin/trigger-and-target.php:42
+msgid "WooCommerce products"
+msgstr "Товари WooCommerce"
+
+#: views/admin/trigger-and-target.php:78
+msgid "Widget turned off"
+msgstr "Віджет вимкнено"
+
+#: views/admin/customize-widget-section.php:324
+msgid "Widget size"
+msgstr "Розмір віджета"
+
+#: views/admin/dashboard.php:410
+msgid "Widget name is required"
+msgstr "Назва віджету обов'язкова"
+
+#: views/admin/customize-widget-section.php:231
+msgid "Widget icon color"
+msgstr "Колір значка віджету"
+
+#: views/admin/customize-widget-section.php:68
+msgid "Widget icon"
+msgstr "Значок віджету"
+
+#: views/admin/customize-widget-section.php:411
+#: views/admin/customize-widget-section.php:417
+msgid "When the default state is set to \"Opened by default\", the \"Show call to action\" feature doesn't apply because the Chaty widget is already open."
+msgstr "Якщо стан за замовчуванням встановлено ​​на \"Відкритий за замовчуванням\", функція \"Показати заклик до дії\" не застосовується, оскільки віджет Chaty вже відкритий."
+
+#: views/admin/customize-widget-section.php:588
+msgid "When the default state is set to \"Opened by default\", the \"Pending messages\" feature doesn't apply because the Chaty widget is already open."
+msgstr "Якщо стан за замовчуванням встановлено ​​на \"Відкритий за замовчуванням\", функція \"Очікуючі повідомлення\" не застосовується, оскільки віджет Chaty вже відкритий."
+
+#: views/admin/customize-widget-section.php:384
+msgid "When the default state is set to \"Opened by default\", the \"Call to action\" feature doesn't apply because the Chaty widget is already open."
+msgstr "Якщо стан за замовчуванням встановлено ​​на \"Відкритий за замовчуванням\", функція \"Заклик до дії\" не застосовується, оскільки віджет Chaty вже відкритий."
+
+#: views/admin/customize-widget-section.php:436
+#: views/admin/customize-widget-section.php:449
+#: views/admin/customize-widget-section.php:549
+msgid "When the default state is set to \"Opened by default\", the \"Attention effect\" feature doesn't apply because the Chaty widget is already open."
+msgstr "Якщо стан за замовчуванням встановлено ​​на \"Відкритий за замовчуванням\", функція \"Ефект уваги\" не застосовується, оскільки віджет Chaty вже відкритий."
+
+#: views/admin/channel.php:1205
+msgid "Whatsapp Web"
+msgstr "WhatsApp Web"
+
+#: views/admin/channel.php:320
+msgid "Welcome message"
+msgstr "Повідомлення вітання"
+
+#: views/admin/channel.php:1223
+msgid "Use Whatsapp Web directly on desktop"
+msgstr "Використовуйте WhatsApp Web безпосередньо на робочому столі"
+
+#: views/admin/trigger-and-target.php:151
+msgid "Use this feature to show the widget for specific products, posts or on certain posts or pages by excluding or including them in the rules"
+msgstr "Використовуйте цю функцію, щоб показувати віджет для конкретних товарів, повідомлень або на певних сторінках, виключаючи або включаючи їх в правилах"
+
+#: views/admin/channel.php:1148
+msgid "Upload QR Code"
+msgstr "Завантажити QR-код"
+
+#: views/admin/trigger-and-target.php:381
+msgid "Traffic source"
+msgstr "Джерело трафіку"
+
+#: views/admin/contact-form-feed.php:22
+msgid "Today"
+msgstr "Сьогодні"
+
+#: views/admin/trigger-and-target.php:352
+msgid "To"
+msgstr "До"
+
+#: views/admin/contact-form-feed.php:26
+msgid "This Week"
+msgstr "На цьому тижні"
+
+#: views/admin/contact-form-feed.php:27
+msgid "This Month"
+msgstr "Цього місяця"
+
+#: views/admin/customize-widget-section.php:539
+msgid "The attention effect will appear on your site until your website visitors engage with the widget for the first time. After the first engagement, the attention effect will not appear again."
+msgstr "Ефект уваги буде видно на вашому сайті, доки відвідувачі не взаємодіють з віджетом вперше. Після першої взаємодії, ефект уваги більше не з'явиться."
+
+#: views/admin/admin.php:174
+msgid "Step 3:"
+msgstr "Крок 3:"
+
+#: views/admin/admin.php:164
+msgid "Step 2:"
+msgstr "Крок 2:"
+
+#: views/admin/admin.php:154
+msgid "Step 1:"
+msgstr "Крок 1:"
+
+#: views/admin/trigger-and-target.php:497
+msgid "Specific URL"
+msgstr "Конкретний URL"
+
+#: views/admin/trigger-and-target.php:436
+msgid "Social networks"
+msgstr "Соціальні мережі"
+
+#: views/admin/customize-widget-section.php:46
+msgid "Simple view"
+msgstr "Простий вигляд"
+
+#: views/admin/trigger-and-target.php:383
+msgid "Show the widget only to visitors who come from specific traffic sources including direct traffic, social networks, search engines, Google Ads, or any other traffic source."
+msgstr "Показувати віджет лише відвідувачам, які приходять з конкретних джерел трафіку, включаючи прямий трафік, соціальні мережі, пошукові системи, Google Ads чи будь-яке інше джерело трафіку."
+
+#: views/admin/trigger-and-target.php:438
+msgid "Show the Chaty to visitors who arrived to your website from social networks including: Facebook, Twitter, Pinterest, Instagram, Google+, LinkedIn, Delicious, Tumblr, Dribbble, StumbleUpon, Flickr, Plaxo, Digg and more"
+msgstr "Показувати віджет Chaty відвідувачам, які прибули на ваш веб-сайт з соціальних мереж, зокрема: Facebook, Twitter, Pinterest, Instagram, Google+, LinkedIn, Delicious, Tumblr, Dribbble, StumbleUpon, Flickr, Plaxo, Digg та інші."
+
+#: views/admin/trigger-and-target.php:416
+msgid "Show the Chaty to visitors who arrived to your website from direct traffic"
+msgstr "Показувати віджет Chaty відвідувачам, які прибули на ваш веб-сайт з прямого трафіку"
+
+#: views/admin/trigger-and-target.php:460
+#: views/admin/trigger-and-target.php:482
+msgid "Show the Chaty to visitors who arrived from search engines including: Google, Bing, Yahoo!, Yandex, AOL, Ask, WOW,  WebCrawler, Baidu and more"
+msgstr "Показувати віджет Chaty відвідувачам, які прибули з пошукових систем, зокрема: Google, Bing, Yahoo!, Yandex, AOL, Ask, WOW,  WebCrawler, Baidu та інші."
+
+#: views/admin/trigger-and-target.php:149
+msgid "Show on pages"
+msgstr "Показувати на сторінках"
+
+#: views/admin/channel.php:556 views/admin/chatway-setting.php:248
+#: views/admin/trigger-and-target.php:168
+msgid "Show on"
+msgstr "Показувати на"
+
+#: views/admin/channel.php:930
+msgid "Sender's name"
+msgstr "Ім'я відправника"
+
+#: views/admin/popup.php:136
+msgid "Select Trigger"
+msgstr "Вибрати тригер"
+
+#: views/admin/trigger-and-target.php:175
+msgid "Select Rule"
+msgstr "Вибрати правило"
+
+#: views/admin/popup.php:111
+msgid "Select Device"
+msgstr "Вибрати пристрій"
+
+#: views/admin/trigger-and-target.php:338
+msgid "Select Day"
+msgstr "Вибрати день"
+
+#: views/admin/popup.php:57
+msgid "Select Channel"
+msgstr "Вибрати канал"
+
+#: views/admin/contact-form-feed.php:170
+msgid "Search:"
+msgstr "Пошук:"
+
+#: views/admin/trigger-and-target.php:458
+msgid "Search engines"
+msgstr "Пошукові системи"
+
+#: views/admin/contact-form-feed.php:177
+msgid "Search"
+msgstr "Пошук"
+
+#: views/admin/admin.php:121
+msgid "Save Widget"
+msgstr "Зберегти віджет"
+
+#: views/admin/popup.php:31 views/admin/popup.php:58 views/admin/popup.php:84
+#: views/admin/popup.php:110 views/admin/popup.php:135
+msgid "Save Anyway"
+msgstr "Зберегти в будь-якому випадку"
+
+#: views/admin/popup.php:161
+msgid "Save & Show on my site"
+msgstr "Зберегти та показати на моєму сайті"
+
+#: views/admin/customize-widget-section.php:346
+msgid "S"
+msgstr "С"
+
+#: views/admin/channel.php:526
+msgid "Required?"
+msgstr "Обов'язково?"
+
+#: views/admin/dashboard.php:267 views/admin/dashboard.php:282
+msgid "Rename Widget"
+msgstr "Перейменувати віджет"
+
+#: views/admin/dashboard.php:160
+msgid "Rename"
+msgstr "Перейменувати"
+
+#: views/admin/channel.php:1025 views/admin/channel.php:1055
+msgid "Pre Set Message"
+msgstr "Попередньо встановлене повідомлення"
+
+#: views/admin/customize-widget-section.php:152
+msgid "Position"
+msgstr "Позиція"
+
+#: views/admin/customize-widget-section.php:23
+msgid "Popup Message Design and Behavior"
+msgstr "Дизайн та поведінка спливаючого повідомлення"
+
+#: views/admin/popup.php:106
+msgid "Please select mobile/desktop before publishing your widget"
+msgstr "Будь ласка, виберіть мобільну/настільну версію перед публікацією віджета"
+
+#: views/admin/popup.php:27 views/admin/popup.php:53
+msgid "Please select at least one chat channel before publishing your widget"
+msgstr "Будь ласка, виберіть принаймні один чат-канал перед публікацією віджета"
+
+#: views/admin/popup.php:131
+msgid "Please select a trigger before publishing your widget"
+msgstr "Будь ласка, виберіть тригер перед публікацією віджета"
+
+#: views/admin/dashboard.php:237
+msgid "Please select a name for your new duplicate widget"
+msgstr "Будь ласка, виберіть ім'я для вашого нового дубльованого віджета"
+
+#: views/admin/channel.php:1188
+msgid "Personal"
+msgstr "Особистий"
+
+#: views/admin/help.php:29
+msgid "Or"
+msgstr "Або"
+
+#: views/admin/customize-widget-section.php:196
+msgid "Opened by default"
+msgstr "Відкрито за замовчуванням"
+
+#: views/admin/channel.php:1169
+msgid "Open In a New Tab"
+msgstr "Відкрити в новій вкладці"
+
+#: views/admin/trigger-and-target.php:526
+msgid "Not contains"
+msgstr "Не містить"
+
+#: views/admin/popup.php:128
+msgid "No trigger was selected"
+msgstr "Не був вибраний жоден тригер"
+
+#: views/admin/popup.php:103
+msgid "No device was selected"
+msgstr "Не було вибрано пристрій"
+
+#: views/admin/popup.php:24 views/admin/popup.php:50
+msgid "No channel was selected"
+msgstr "Не був вибраний жоден канал"
+
+#: views/admin/channel.php:1082
+msgid "Mail Subject"
+msgstr "Тема листа"
+
+#: views/admin/customize-widget-section.php:350
+msgid "M"
+msgstr "М"
+
+#: views/admin/trigger-and-target.php:30
+msgid "Links starting with"
+msgstr "Посилання, що починаються з"
+
+#: views/admin/trigger-and-target.php:31
+msgid "Links ending with"
+msgstr "Посилання, що закінчуються на"
+
+#: views/admin/channel.php:1183
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: views/admin/trigger-and-target.php:28
+msgid "Link that contain"
+msgstr "Посилання, що містять"
+
+#: views/admin/upgrade.php:56 views/admin/upgrade.php:79
+#: views/admin/upgrade.php:102 views/admin/upgrade.php:125
+#: views/admin/upgrade.php:148
+msgid "Lifetime"
+msgstr "Пожиттєвий"
+
+#: views/admin/contact-form-feed.php:24
+msgid "Last 7 Days"
+msgstr "Останні 7 днів"
+
+#: views/admin/contact-form-feed.php:25
+msgid "Last 30 Days"
+msgstr "Останні 30 днів"
+
+#: views/admin/customize-widget-section.php:354
+msgid "L"
+msgstr "L"
+
+#: views/admin/popup.php:160
+msgid "Just save and keep it off"
+msgstr "Просто зберегти і залишити вимкненим"
+
+#: views/admin/customize-widget-section.php:578
+msgid "Increase your click-rate by displaying a pending messages icon near your Chaty widget to let your visitors know that you\"re waiting for them to contact you."
+msgstr "Збільште кількість кліків, відображаючи значок очікуваного повідомлення біля віджету Chaty, щоб відвідувачі знали, що ви чекаєте, коли вони зв'яжуться з вами."
+
+#: views/admin/trigger-and-target.php:138
+msgid "How triggers works?"
+msgstr "Як працюють тригери?"
+
+#: views/admin/customize-widget-section.php:195
+msgid "Hover to open"
+msgstr "Наведіть, щоб відкрити"
+
+#: views/admin/trigger-and-target.php:27
+msgid "Homepage"
+msgstr "Головна сторінка"
+
+#: views/admin/trigger-and-target.php:347
+msgid "From"
+msgstr "З"
+
+#: views/admin/customize-widget-section.php:642
+msgid "Font Family"
+msgstr "Сімейство шрифтів"
+
+#: views/admin/popup.php:77
+msgid "Fill out at least one channel details"
+msgstr "Заповніть хоча б одну деталь каналу"
+
+#: views/admin/popup.php:85
+msgid "Fill channel details"
+msgstr "Заповніть деталі каналу"
+
+#: views/admin/dashboard.php:271
+msgid "Enter new name for widget"
+msgstr "Введіть нове ім'я для віджета"
+
+#: views/admin/channel.php:937
+msgid "Email subject"
+msgstr "Тема листа"
+
+#: views/admin/dashboard.php:143
+msgid "Edit"
+msgstr "Редагувати"
+
+#: views/admin/dashboard.php:234
+msgid "Duplicate Widget?"
+msgstr "Дублювати віджет?"
+
+#: views/admin/dashboard.php:156
+msgid "Duplicate"
+msgstr "Дублювати"
+
+#: views/admin/contact-form-feed.php:304
+msgid "Download & Export to CSV"
+msgstr "Завантажте та експортуйте до CSV"
+
+#: views/admin/trigger-and-target.php:169
+msgid "Don't show on"
+msgstr "Не показувати на"
+
+#: views/admin/trigger-and-target.php:320 views/admin/upgrade.php:196
+msgid "Display the widget on specific days and hours based on your opening days and hours"
+msgstr "Відображати віджет у конкретні дні та години, відповідно до вашого робочого графіку"
+
+#: views/admin/trigger-and-target.php:414
+msgid "Direct visit"
+msgstr "Прямий візит"
+
+#: views/admin/dashboard.php:301
+msgid "Delete Widget?"
+msgstr "Видалити віджет?"
+
+#: views/admin/dashboard.php:309
+msgid "Delete Widget"
+msgstr "Видалити віджет"
+
+#: views/admin/popup.php:255
+msgid "Customize Pop-ups for product pages!"
+msgstr "Налаштуйте спливаючі вікна для сторінок продуктів!"
+
+#: views/admin/customize-widget-section.php:374
+msgid "Custom widget size"
+msgstr "Налаштуйте розмір віджета"
+
+#: views/admin/contact-form-feed.php:29
+msgid "Custom Date"
+msgstr "Налаштуйте дату"
+
+#: views/admin/trigger-and-target.php:596
+msgid "Custom CSS"
+msgstr "Налаштуйте CSS"
+
+#: views/admin/trigger-and-target.php:563 views/admin/upgrade.php:187
+msgid "Country targeting"
+msgstr "Таргетинг країни"
+
+#: views/admin/trigger-and-target.php:525
+msgid "Contains"
+msgstr "Містить"
+
+#: views/admin/channel.php:1194
+msgid "Company"
+msgstr "Компанія"
+
+#: views/admin/customize-widget-section.php:194
+msgid "Click to open"
+msgstr "Клацніть, щоб відкрити"
+
+#: views/admin/customize-widget-section.php:396
+msgid "Choose how the CTA button would appear. &quot;Hide after first click&quot; hides the CTA button after the first visit. If you select the second option, the CTA stays visible all the time"
+msgstr "Виберіть, як повинна виглядати кнопка виклику до дії (CTA). &quot;Приховати після першого клацання&quot; приховує кнопку виклику до дії після першого відвідування. Якщо ви виберете другий варіант, CTA залишиться видимою завжди"
+
+#: views/admin/customize-widget-section.php:25
+msgid "Choose between two types of pop-up designs, set pop-up text, color and set a custom behavior of the widget based on visitor interaction."
+msgstr "Виберіть між двома типами дизайнів спливаючих вікон, встановіть текст спливаючого вікна, колір і встановіть власну поведінку віджета відповідно до взаємодії відвідувача."
+
+#: views/admin/popup.php:156
+msgid "Chaty is currently turned off, would you like to save and show it on your site?"
+msgstr "Чат Chaty в даний час вимкнено, хочете зберегти і відобразити його на своєму сайті?"
+
+#: views/admin/popup.php:153
+msgid "Chaty is currently off"
+msgstr "Чат Chaty в даний час вимкнений"
+
+#: views/admin/popup.php:251
+msgid "Chat view for all your channels!"
+msgstr "Чат-відображення для всіх ваших каналів!"
+
+#: views/admin/customize-widget-section.php:60
+msgid "Chat view (Pro)"
+msgstr "Чат-відображення (Pro)"
+
+#: views/admin/popup.php:32
+msgid "Change Number"
+msgstr "Змінити номер"
+
+#: views/admin/first-popup.php:63 views/admin/popup.php:241
+msgid "Cancel anytime. No strings attached"
+msgstr "Скасуйте в будь-який момент. Немає ніяких зобов'язань"
+
+#: views/admin/dashboard.php:304
+msgid "Are you sure you want to delete this widget?"
+msgstr "Ви впевнені, що хочете видалити цей віджет?"
+
+#: views/admin/contact-form-feed.php:355
+msgid "Are you sure you want to delete selected records?"
+msgstr "Ви впевнені, що хочете видалити вибрані записи?"
+
+#: views/admin/contact-form-feed.php:340
+msgid "Are you sure you want to delete Record with ID# "
+msgstr "Ви впевнені, що хочете видалити запис з ID# "
+
+#: views/admin/contact-form-feed.php:365
+msgid "Are you sure you want to delete all Record from the database?"
+msgstr "Ви впевнені, що хочете видалити всі записи з бази даних?"
+
+#: views/admin/contact-form-feed.php:163
+msgid "Apply"
+msgstr "Застосувати"
+
+#: views/admin/contact-form-feed.php:28
+msgid "All Time"
+msgstr "Все часи"
+
+#: views/admin/trigger-and-target.php:579
+msgid "All Countries"
+msgstr "Всі країни"
+
+#: views/admin/trigger-and-target.php:29
+msgid "A specific link"
+msgstr "Конкретне посилання"
+
+#: views/admin/first-popup.php:64 views/admin/popup.php:242
+msgid "30 days refund"
+msgstr "Повернення грошей протягом 30 днів"
+
+#: views/admin/upgrade.php:49 views/admin/upgrade.php:72
+#: views/admin/upgrade.php:95 views/admin/upgrade.php:118
+#: views/admin/upgrade.php:141
+msgid "2 years"
+msgstr "2 роки"
+
+#: views/admin/upgrade.php:42 views/admin/upgrade.php:65
+#: views/admin/upgrade.php:88 views/admin/upgrade.php:111
+#: views/admin/upgrade.php:134 views/admin/upgrade.php:231
+msgid "1 year"
+msgstr "1 рік"
+
+#: views/admin/trigger-and-target.php:480
+msgid "Google Ads"
+msgstr "Google Ads"
+
+#: views/admin/trigger-and-target.php:140
+msgid "Your Chaty widget will first appear to the user according to the selected trigger. After the widget appeared for the first time, it'll always be visible on-load - once the user is aware of the widget, the user expects it to always appear"
+msgstr "Ваш віджет Chaty спочатку з'явиться користувачеві відповідно до обраного спуску. Після того як віджет з'явиться вперше, він завжди буде видимим при завантаженні - якщо користувач знає про віджет, він завжди очікує, що він буде видимим"
+
+#: views/admin/trigger-and-target.php:357
+msgid "GMT"
+msgstr "GMT"
+
+#: views/admin/channel.php:814
+msgid "Thank you message"
+msgstr "Повідомлення подяки"
+
+#: views/admin/channel.php:788
+msgid "Text color"
+msgstr "Колір тексту"
+
+#: views/admin/channel.php:589 views/admin/chatway-setting.php:280
+msgid "Show on mobile"
+msgstr "Показувати на мобільних пристроях"
+
+#: views/admin/channel.php:826
+msgid "Redirect visitors after submission"
+msgstr "Перенаправляти відвідувачів після подання"
+
+#: views/admin/channel.php:832
+msgid "Redirect link"
+msgstr "Посилання для перенаправлення"
+
+#: views/admin/channel.php:843
+msgid "Open in a new tab"
+msgstr "Відкрити в новій вкладці"
+
+#: views/admin/channel.php:738 views/admin/chatway-setting.php:321
+msgid "On Hover Text"
+msgstr "Текст при наведенні"
+
+#: views/admin/channel.php:681 views/admin/chatway-setting.php:305
+msgid "Icon Appearance"
+msgstr "Вигляд значка"
+
+#: views/admin/channel.php:588 views/admin/chatway-setting.php:279
+msgid "Hide on mobile"
+msgstr "Приховати на мобільному"
+
+#: views/admin/channel.php:689
+msgid "Custom Image"
+msgstr "Налаштуйте зображення"
+
+#: views/admin/channel.php:722
+msgid "Custom channel"
+msgstr "Налаштуйте канал"
+
+#: views/admin/channel.php:762
+msgid "Contact Form Title"
+msgstr "Заголовок форми зв'язку"
+
+#: views/admin/channel.php:855
+msgid "Close the form automatically after a few seconds based on your choice"
+msgstr "Автоматично закрийте форму через кілька секунд за вашим вибором"
+
+#: views/admin/channel.php:854
+msgid "Close form automatically after submission"
+msgstr "Автоматично закривати форму після відправлення"
+
+#: views/admin/channel.php:869
+msgid "Close after(Seconds)"
+msgstr "Закрити після (секунд)"
+
+#: views/admin/channel.php:718
+msgid "Channel type"
+msgstr "Тип каналу"
+
+#: views/admin/channel.php:807
+msgid "Button text"
+msgstr "Текст кнопки"
+
+#: views/admin/channel.php:698
+msgid "Change Icon"
+msgstr "Змінити іконку"
+
+#: views/admin/chaty_widget.php:28
+msgid "You can show different form and buttons based on URL (E.g. WhatsApp message to a French number and call your French phone number)"
+msgstr "Ви можете показувати різні форми та кнопки в залежності від URL (наприклад, повідомлення у WhatsApp на французький номер і виклик на ваш французький номер телефону)"
+
+#: views/admin/help.php:30
+msgid "Visit our Help Center >>"
+msgstr "Відвідайте наш Центр допомоги >>"
+
+#: views/admin/customize-widget-section.php:524
+msgid "Vertical"
+msgstr "Вертикально"
+
+#: views/admin/chaty_widget.php:38
+msgid "This way you can track the results better and have the right person assign to the relevant channel."
+msgstr "Таким чином ви зможете краще відстежувати результати та призначати відповідні канали правильній особі."
+
+#: views/admin/channels-section.php:114
+msgid "So many channels to choose from..."
+msgstr "Так багато каналів на вибір..."
+
+#: views/admin/chaty_widget.php:32
+msgid "Show separate widgets for different products"
+msgstr "Показувати окремі віджети для різних товарів"
+
+#: views/admin/chaty_widget.php:42
+msgid "Show one widget on your support and contact pages"
+msgstr "Показувати один віджет на ваших сторінках підтримки і контактів"
+
+#: views/admin/channel.php:903
+msgid "Send leads to your email"
+msgstr "Надсилати ліди на вашу електронну пошту"
+
+#: views/admin/chaty_widget.php:33
+msgid "On your website (e.g. you can show the Facebook Messenger channel for products in the yourdomain.com/high-end/* category)"
+msgstr "На вашому веб-сайті (наприклад, ви можете показувати канал Facebook Messenger для продуктів у категорії yourdomain.com/high-end/*)"
+
+#: views/admin/contact-form-feed.php:310
+msgid "No records are found"
+msgstr "Записи не знайдені"
+
+#: admin/class-social-icons.php:403
+msgid "Microsoft Teams"
+msgstr "Microsoft Teams"
+
+#: views/admin/customize-widget-section.php:529
+msgid "Horizontal"
+msgstr "Горизонтально"
+
+#: views/admin/chaty_widget.php:48
+msgid "for different pages on your website or separate call-to-action messages for mobile and desktop"
+msgstr "для різних сторінок на вашому веб-сайті або окремих повідомлень з закликом до дії для мобільних пристроїв та настільних комп'ютерів"
+
+#: views/admin/chaty_widget.php:23
+msgid "E.g. the mobile version can have a bigger widget, in a different color and a different position"
+msgstr "Наприклад, мобільна версія може мати більший віджет, іншого кольору та розташування"
+
+#: views/admin/trigger-and-target.php:112
+msgid "Display when visitor is about to leave the page"
+msgstr "Відображати, коли відвідувач збирається покинути сторінку"
+
+#: views/admin/chaty_widget.php:37
+msgid "Display different channels for your landing pages"
+msgstr "Відображати різні канали для ваших посадочних сторінок"
+
+#: views/admin/chaty_widget.php:47
+msgid "Display different call-to-action messages"
+msgstr "Відображати різні повідомлення з закликом до дії"
+
+#: admin/class-social-icons.php:395
+msgid "Discord"
+msgstr "Discord"
+
+#: views/admin/channels-section.php:89
+msgid "Custom Channel"
+msgstr "Налаштуйте канал"
+
+#: views/admin/dashboard.php:212 views/admin/dashboard.php:246
+msgid "Create Widget"
+msgstr "Створити віджет"
+
+#: views/admin/chaty_widget.php:22 views/admin/chaty_widget.php:27
+msgid "Create separate designs for desktop and mobile"
+msgstr "Створіть окремі дизайни для робочого столу та мобільних пристроїв"
+
+#: views/admin/contact-form-feed.php:150
+msgid "Contact Form Leads"
+msgstr "Ліди форми зв'язку"
+
+#: views/admin/contact-form-feed.php:160
+msgid "Bulk Actions"
+msgstr "Масові дії"
+
+#: views/admin/chaty_widget.php:43
+msgid "and a different widget on your sales pages."
+msgstr "і різний віджет на ваших сторінках продажів."
+
+#: views/admin/contact-form-feed.php:320
+msgid "Your contact form leads will appear here once you get some leads. Please make sure you've added the contact form channel to your Chaty channels in order to collect leads"
+msgstr "Ваші потенційні клієнти з форми зворотнього зв'язку з'являться тут, як тільки ви отримаєте деякі ліди. Будь ласка, переконайтеся, що ви додали канал форми зворотнього зв'язку до своїх каналів Chaty, щоб збирати ліди"
+
+#: includes/class-affiliate.php:207
+msgid "Dismiss"
+msgstr "Відхилити"
+
+#: views/admin/admin.php:107
+msgid "Next"
+msgstr "Далі"
+
+#: views/admin/update.php:51
+msgid "You can remove yourself from the list whenever you want, no strings attached"
+msgstr "Ви можете вилучити себе зі списку в будь-який час, без зобов'язань"
+
+#: includes/class-review-box.php:539
+msgid "You are awesome "
+msgstr "Ви - крутий "
+
+#: includes/class-upgrade-box.php:282
+msgid "Would you like us to remind you about this later? "
+msgstr "Чи хочете ви, щоб ми нагадали вам про це пізніше? "
+
+#: includes/class-upgrade-box.php:270
+msgid "Upgrade to "
+msgstr "Оновити до "
+
+#: includes/class-upgrade-box.php:272
+msgid "Upgrade now"
+msgstr "Оновити зараз"
+
+#: includes/class-review-box.php:540
+msgid "Thanks for your support, we really appreciate it!"
+msgstr "Дякуємо за вашу підтримку, ми дійсно цінуємо це!"
+
+#: includes/class-affiliate.php:210
+msgid "Tell me more"
+msgstr "Розкажіть більше"
+
+#: views/admin/update.php:40
+msgid "Sign Up"
+msgstr "Зареєструватися"
+
+#: views/admin/channel.php:574 views/admin/chatway-setting.php:266
+msgid "Show on desktop"
+msgstr "Показувати на настільних ПК"
+
+#: views/admin/customize-widget-section.php:420
+msgid "Show all the time"
+msgstr "Показувати завжди"
+
+#: views/admin/admin.php:132
+msgid "Save & View Dashboard"
+msgstr "Зберегти та переглянути інформацію"
+
+#: includes/class-upgrade-box.php:285
+msgid "Remind me in 30 days"
+msgstr "Нагадайте мені через 30 днів"
+
+#: includes/class-affiliate.php:217
+msgid "Remind me in 3 days"
+msgstr "Нагадайте мені через 3 дні"
+
+#: includes/class-affiliate.php:218
+msgid "Remind me in 10 days"
+msgstr "Нагадайте мені через 10 днів"
+
+#: includes/class-review-box.php:541
+msgid "Premio team "
+msgstr "Команда Premio "
+
+#: views/admin/update.php:48
+msgid "No, I will do it later"
+msgstr "Ні, я зроблю це пізніше"
+
+#: views/admin/channel.php:573 views/admin/chatway-setting.php:265
+msgid "Hide on desktop"
+msgstr "Приховати на робочому столі"
+
+#: views/admin/customize-widget-section.php:414
+msgid "Hide after first click"
+msgstr "Приховати після першого кліку"
+
+#: views/admin/chaty-popup.php:27
+msgid "Help Center"
+msgstr "Центр допомоги"
+
+#: views/admin/popup.php:175
+msgid "👑 Multiple Agents is a Premium Feature"
+msgstr "👑 Кілька агентів - це преміум-функція"
+
+#: includes/class-affiliate.php:219
+msgid "Don't remind me about this"
+msgstr "Не нагадуйте мені про це"
+
+#: views/admin/dashboard.php:210
+msgid "Create widgets for WhatsApp, Facebook Messenger, Telegram & 20+ more channels. Adding a new Chaty widget takes a minute - start now  🚀"
+msgstr "Створіть віджети для WhatsApp, Facebook Messenger, Telegram та 20+ інших каналів. Додавання нового віджета Chaty займе хвилину - почніть зараз  🚀"
+
+#: views/admin/first-popup.php:85
+msgid "Congratulations"
+msgstr "Вітаємо"
+
+#: views/admin/customize-widget-section.php:394
+msgid "Call to action behavior"
+msgstr "Поведінка виклику до дії"
+
+#: views/admin/update.php:25
+msgid "Be the first to know product updates, tips & discounts"
+msgstr "Будьте першими, хто дізнається про оновлення продукту, поради та знижки"
+
+#: views/admin/update.php:26
+msgid "Be among the first to know about our latest features & what we’re working on. Plus insider offer & flash sales"
+msgstr "Будьте одними з перших, хто дізнається про наші останні функції та над чим ми працюємо. Плюс внутрішні пропозиції та спецпродажі"
+
+#: views/admin/channel.php:603 views/admin/channel.php:629
+msgid "Add Agents"
+msgstr "Додати агентів"
+
+#: views/admin/update.php:22
+msgid "Grow your WordPress or Shopify websites with our plugins"
+msgstr "Розширюйте свої веб-сайти на WordPress або Shopify за допомогою наших плагінів"
+
+#: includes/class-review-box.php:553
+msgid "Would you like us to remind you about this later?"
+msgstr "Чи бажаєте ви, щоб ми нагадали вам про це пізніше?"
+
+#: includes/class-upgrade-box.php:284
+msgid "Remind me in 7 days "
+msgstr "Нагадайте мені через 7 днів "
+
+#: includes/class-review-box.php:557
+msgid "Remind me in 3 days "
+msgstr "Нагадайте мені через 3 дні "
+
+#: includes/class-review-box.php:558
+msgid "Remind me in 10 days "
+msgstr "Нагадайте мені через 10 днів "
+
+#: includes/class-review-box.php:559 includes/class-upgrade-box.php:286
+msgid "Don't remind me about this "
+msgstr "Не нагадуйте мені про це "
+
+#: includes/class-affiliate.php:215
+msgid "Would you like us to remind  you about this later?"
+msgstr "Чи бажаєте ви, щоб ми нагадали  вам про це пізніше?"
+
+#: includes/class-affiliate.php:206
+msgid "Hi there, you've been using %1$s for a while now. Do you know that %2$s has an affiliate program? Join now and get %3$s"
+msgstr "Привіт! Ви використовуєте %1$s вже деякий час. Знаєте, що у %2$s є партнерська програма? Приєднуйтеся зараз і отримуйте %3$s"
+
+#: includes/class-review-box.php:514
+msgid "Hi there, it seems like %1$s is bringing you some value, and that's pretty awesome! Can you please show us some love and rate %2$s on WordPress? It'll only take 2 minutes of your time, and will really help us spread the word"
+msgstr "Привіт! Здається, %1$s приносить вам якусь користь, і це дуже круто! Можете, будь ласка, проявити нам любов і оцінити %2$s на WordPress? Це займе всього 2 хвилини вашого часу і дійсно допоможе нам поширити слово"
+
+#: includes/class-upgrade-box.php:270
+msgid "%1$s for more customization, option to add agents, widget analytics with more triggers & targeting rules"
+msgstr "%1$s для більшої настроюваності, можливості додавання агентів, аналітики віджету з більшою кількістю тригерів та правил таргетингу"
+
+#: views/admin/help.php:78
+msgid "There is some problem in sending request. Please send us mail on %1$s"
+msgstr "Виникла проблема з відправкою запиту. Будь ласка, надішліть нам пошту на %1$s"
+
+#: admin/class-social-icons.php:330
+msgid "@TikTok_username"
+msgstr "@TikTok_користувач"
+
+#: views/admin/trigger-and-target.php:212
+#: views/admin/trigger-and-target.php:310
+#: views/admin/trigger-and-target.php:373
+#: views/admin/trigger-and-target.php:399
+#: views/admin/trigger-and-target.php:553
+#: views/admin/trigger-and-target.php:589
+msgid "Add Rule"
+msgstr "Додати правило"
+
+#: admin/class-admin-base.php:703 admin/class-admin-base.php:704
+msgid "Dashboard"
+msgstr "Майстерня"
+
+#: views/admin/dashboard.php:113
+msgid "Status"
+msgstr "Статус"
+
+#: views/admin/dashboard.php:114 views/admin/dashboard.php:130
+msgid "Widget name"
+msgstr "Назва віджета"
+
+#: views/admin/dashboard.php:118
+msgid "Actions"
+msgstr "Дії"
+
+#: views/admin/trigger-and-target.php:247
+msgid "Timezone"
+msgstr "Часовий пояс"
+
+#: views/admin/trigger-and-target.php:271
+msgid "Start Time"
+msgstr "Час початку"
+
+#: views/admin/trigger-and-target.php:256
+msgid "Start Date"
+msgstr "Дата початку"
+
+#: views/admin/trigger-and-target.php:222
+msgid "Schedule the specific time and date when your Chaty widget appears."
+msgstr "Заплануйте конкретний час та дату, коли відображається ваш віджет Chaty."
+
+#: views/admin/trigger-and-target.php:281
+msgid "Schedule a date from which the Chaty widget will stop being displayed (the end date is included)"
+msgstr "Заплануйте дату, починаючи з якої віджет Chaty перестане відображатися (кінцева дата включена)"
+
+#: views/admin/trigger-and-target.php:258
+msgid "Schedule a date from which the Chaty widget will be displayed (the starting date is included)"
+msgstr "Заплануйте дату, з якої почне відображатися віджет Chaty (початкова дата включена)"
+
+#: views/admin/trigger-and-target.php:213
+#: views/admin/trigger-and-target.php:307
+#: views/admin/trigger-and-target.php:374
+#: views/admin/trigger-and-target.php:554
+#: views/admin/trigger-and-target.php:590
+msgid "Remove Rules"
+msgstr "Видалити правила"
+
+#: views/admin/trigger-and-target.php:295
+msgid "End Time"
+msgstr "Час закінчення"
+
+#: views/admin/trigger-and-target.php:279
+msgid "End Date"
+msgstr "Дата закінчення"
+
+#: views/admin/trigger-and-target.php:220
+msgid "Date scheduling"
+msgstr "Планування за датою"
+
+#: views/admin/dashboard.php:116 views/admin/dashboard.php:133
+#: views/admin/dashboard.php:135
+msgid "Created On"
+msgstr "Створено"
+
+#: views/admin/contact-form-feed.php:194 views/admin/contact-form-feed.php:228
+msgid "ID"
+msgstr "ID"
+
+#: admin/class-admin-base.php:1162 views/admin/contact-form-feed.php:201
+#: views/admin/contact-form-feed.php:257
+msgid "Date"
+msgstr "Дата"
+
+#: views/admin/contact-form-feed.php:202 views/admin/contact-form-feed.php:260
+msgid "URL"
+msgstr "URL"
+
+#: views/admin/contact-form-feed.php:161 views/admin/contact-form-feed.php:203
+#: views/admin/dashboard.php:171
+msgid "Delete"
+msgstr "Видалити"
+
+#: views/admin/customize-widget-section.php:170
+msgid "Custom Position"
+msgstr "Власне положення"
+
+#: admin/class-admin-base.php:1158 includes/class-frontend.php:1213
+#: views/admin/channel.php:452 views/admin/channels-section.php:43
+#: views/admin/contact-form-feed.php:196 views/admin/contact-form-feed.php:234
+msgid "Name"
+msgstr "Ім'я"
+
+#: views/admin/contact-form-feed.php:195 views/admin/contact-form-feed.php:231
+msgid "Widget Name"
+msgstr "Назва віджету"
+
+#: admin/class-admin-base.php:1161 includes/class-frontend.php:1247
+#: views/admin/channel.php:473 views/admin/contact-form-feed.php:199
+#: views/admin/contact-form-feed.php:243
+msgid "Message"
+msgstr "Повідомлення"
+
+#: views/admin/channel.php:324
+msgid "How can I help you? :)"
+msgstr "Як я можу вам допомогти? :)"
+
+#: views/admin/channel.php:764
+msgid "Contact Us"
+msgstr "Зв'яжіться з нами"
+
+#: admin/class-admin-base.php:764 admin/class-admin-base.php:765
+msgid "Contact form leads"
+msgstr "Ліди форми зв'язку"
+
+#: views/admin/contact-form-feed.php:193
+msgid "Bulk"
+msgstr "Масово"
+
+#. translators: %s: Number of millions.
+#: views/admin/install-chatway.php:337 views/admin/recommended-plugins.php:444
+msgctxt "Active plugin installations"
+msgid "%s+ Million"
+msgid_plural "%s+ Million"
+msgstr[0] "Більше %s мільйона"
+msgstr[1] "Більше %s мільйонів"
+msgstr[2] "Більше %s мільйонів"
+
+#. translators: %s: Number of installations.
+#: views/admin/install-chatway.php:347 views/admin/recommended-plugins.php:454
+msgid "%s Active Installations"
+msgstr "%s активних встановлень"
+
+#: views/admin/install-chatway.php:353 views/admin/recommended-plugins.php:460
+msgid "Untested with your version of WordPress"
+msgstr "Сумісність з вашою версією WordPress не перевірялася"
+
+#: views/admin/recommended-plugins.php:475
+msgid "Are you sure?"
+msgstr "Ви впевнені?"
+
+#: views/admin/install-chatway.php:168 views/admin/recommended-plugins.php:275
+msgid "Activate"
+msgstr "Активувати"
+
+#. translators: %s: Plugin author.
+#: views/admin/install-chatway.php:101 views/admin/recommended-plugins.php:208
+msgid "By %s"
+msgstr "Автор %s"
+
+#. translators: %s: Human-readable time difference.
+#: views/admin/install-chatway.php:328 views/admin/recommended-plugins.php:435
+msgid "%s ago"
+msgstr "%s тому"
+
+#. translators: 1: URL to WordPress Updates screen, 2: URL to Update PHP page.
+#: views/admin/install-chatway.php:247 views/admin/recommended-plugins.php:354
+msgid "<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s\">learn more about updating PHP</a>."
+msgstr "<a href=\"%1$s\">Будь ласка, оновіть WordPress</a>, потім <a href=\"%2$s\">дізнайтеся більше про оновлення PHP</a>."
+
+#. translators: %s: URL to WordPress Updates screen.
+#: views/admin/install-chatway.php:255 views/admin/install-chatway.php:271
+#: views/admin/recommended-plugins.php:362
+#: views/admin/recommended-plugins.php:378
+msgid "<a href=\"%s\">Please update WordPress</a>."
+msgstr "<a href=\"%s\">Будь ласка, оновіть WordPress</a>."
+
+#. translators: %s: URL to Update PHP page.
+#: views/admin/install-chatway.php:261 views/admin/install-chatway.php:280
+#: views/admin/recommended-plugins.php:368
+#: views/admin/recommended-plugins.php:387
+msgid "<a href=\"%s\">Learn more about updating PHP</a>."
+msgstr "<a href=\"%s\">Дізнайтеся більше про оновлення PHP</a>."
+
+#: views/admin/install-chatway.php:149 views/admin/recommended-plugins.php:256
+msgid "Update Now"
+msgstr "Оновити зараз"
+
+#: views/admin/recommended-plugins.php:160
+msgid "Try out our recommended plugins"
+msgstr "Спробуйте наші рекомендовані плагіни"
+
+#: views/admin/install-chatway.php:243 views/admin/recommended-plugins.php:350
+msgid "This plugin doesn&#8217;t work with your versions of WordPress and PHP."
+msgstr "Цей плагін не працює з вашими версіями WordPress і PHP."
+
+#: views/admin/install-chatway.php:267 views/admin/recommended-plugins.php:374
+msgid "This plugin doesn&#8217;t work with your version of WordPress."
+msgstr "Цей плагін не працює з вашою версією WordPress."
+
+#: views/admin/install-chatway.php:276 views/admin/recommended-plugins.php:383
+msgid "This plugin doesn&#8217;t work with your version of PHP."
+msgstr "Цей плагін не працює з вашою версією PHP."
+
+#: admin/class-admin-base.php:789 admin/class-admin-base.php:790
+msgid "Recommended Plugins"
+msgstr "Рекомендовані плагіни"
+
+#: views/admin/install-chatway.php:181 views/admin/recommended-plugins.php:288
+msgid "Network Activate"
+msgstr "Активувати мережево"
+
+#. translators: %s: Plugin name and version.
+#: views/admin/install-chatway.php:211 views/admin/recommended-plugins.php:318
+msgid "More information about %s"
+msgstr "Додаткова інформація про %s"
+
+#: views/admin/install-chatway.php:213 views/admin/recommended-plugins.php:320
+msgid "More Details"
+msgstr "Додаткові деталі"
+
+#: views/admin/install-chatway.php:325 views/admin/recommended-plugins.php:432
+msgid "Last Updated:"
+msgstr "Останнє оновлення:"
+
+#: views/admin/install-chatway.php:127 views/admin/recommended-plugins.php:234
+msgid "Install Now"
+msgstr "Встановити зараз"
+
+#: views/admin/recommended-plugins.php:476
+msgid "If you hide the recommended plugins page from your menu, it won't appear there again. Are you sure you'd like to do it?"
+msgstr "Якщо ви приховаєте сторінку рекомендованих плагінів зі свого меню, вона більше там не з'явиться. Ви впевнені, що хочете це зробити?"
+
+#: views/admin/recommended-plugins.php:161
+msgid "Hide From Menu"
+msgstr "Приховати в меню"
+
+#: views/admin/customize-widget-section.php:448
+msgid "Call to action background"
+msgstr "Фон виклику до дії"
+
+#: views/admin/customize-widget-section.php:435
+msgid "Call to action text color"
+msgstr "Колір тексту заклику до дії"
+
+#: admin/class-social-icons.php:321
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: views/admin/channel.php:799 views/admin/customize-widget-section.php:633
+msgid "Background color"
+msgstr "Колір фону"
+
+#: views/admin/customize-widget-section.php:577
+msgid "Pending messages"
+msgstr "Очікувані повідомлення"
+
+#: views/admin/customize-widget-section.php:609
+msgid "Number of messages"
+msgstr "Кількість повідомлень"
+
+#: views/admin/customize-widget-section.php:621
+msgid "Number color"
+msgstr "Колір числа"
+
+#: admin/class-admin-base.php:750 admin/class-admin-base.php:751
+#: views/admin/upgrade.php:167
+msgid "Widget Analytics"
+msgstr "Аналітика віджета"
+
+#: admin/class-social-icons.php:377
+msgid "Slack"
+msgstr "Slack"
+
+#: views/admin/chaty_widget.php:18
+msgid "Create a new Chaty widgets for your website. What can you use it for?"
+msgstr "Створіть новий віджет Chaty для свого веб-сайту. Для чого ви можете його використовувати?"
+
+#: views/admin/dashboard.php:99
+msgid "Create New Widget"
+msgstr "Створити новий віджет"
+
+#: views/admin/customize-widget-section.php:515
+msgid "Icons view"
+msgstr "Вигляд значків"
+
+#: views/admin/customize-widget-section.php:388
+msgid "Message us!"
+msgstr "Напишіть нам!"
+
+#. Author URI of the plugin
+#: cht-icons.php
+msgid "https://premio.io/downloads/chaty/"
+msgstr "https://premio.io/downloads/chaty/"
+
+#. Author of the plugin
+#: cht-icons.php
+msgid "Premio"
+msgstr "Premio"
+
+#: views/admin/admin.php:122 views/admin/admin.php:255
+msgid "Save"
+msgstr "Зберегти"
+
+#: views/admin/admin.php:264
+msgid "help"
+msgstr "Допомога"
+
+#: views/admin/admin.php:164
+msgid "Customize your widget"
+msgstr "Налаштуйте свій віджет"
+
+#: views/admin/customize-widget-section.php:275
+msgid "Custom color"
+msgstr "Обраний колір"
+
+#: views/admin/customize-widget-section.php:282
+msgid "Ok"
+msgstr "Добре"
+
+#: admin/class-social-icons.php:59 views/admin/customize-widget-section.php:313
+msgid "Purple"
+msgstr "Фіолетовий"
+
+#: views/admin/customize-widget-section.php:160
+msgid "Left"
+msgstr "Ліворуч"
+
+#: views/admin/customize-widget-section.php:165
+msgid "Right"
+msgstr "Праворуч"
+
+#: views/admin/customize-widget-section.php:383
+msgid "Call to action"
+msgstr "Заклик до дії"
+
+#: admin/class-admin-base.php:1159 admin/class-admin-base.php:2501
+#: includes/class-frontend.php:1225 views/admin/channel.php:459
+#: views/admin/contact-form-feed.php:197 views/admin/contact-form-feed.php:237
+#: views/admin/help.php:17
+msgid "Email"
+msgstr "Email"
+
+#: views/admin/help.php:20
+msgid "How can I help you?"
+msgstr "Як я можу Вам допомогти?"
+
+#: views/admin/channel.php:805 views/admin/help.php:23 views/admin/help.php:59
+msgid "Chat"
+msgstr "Чат"
+
+#: admin/class-admin-base.php:304 views/admin/help.php:37
+#: views/admin/help.php:41
+msgid "Need help?"
+msgstr "Потрібна допомога?"
+
+#: views/admin/help.php:65
+msgid "Done!"
+msgstr "Готово!"
+
+#: views/admin/chaty-deactivate-form.php:151 views/admin/dashboard.php:247
+#: views/admin/dashboard.php:281 views/admin/dashboard.php:308
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: views/admin/admin.php:104 views/admin/upgrade.php:219
+msgid "Back"
+msgstr "Назад"
+
+#: views/admin/upgrade.php:562
+msgid "30 days money back guaranteed"
+msgstr "30-денна гарантія повернення грошей"
+
+#: admin/class-admin-base.php:305
+msgid "Upgrade"
+msgstr "Оновити"
+
+#: admin/class-social-icons.php:155
+msgid "https://m.me/Coca-Cola/"
+msgstr "https://m.me/Coca-Cola/"
+
+#: views/admin/admin.php:267
+msgid "Preview"
+msgstr "Переглянути"
+
+#: admin/class-social-icons.php:63
+msgid "Black"
+msgstr "Чорний"
+
+#: admin/class-social-icons.php:61
+msgid "Blue"
+msgstr "Блакитний"
+
+#: admin/class-social-icons.php:60
+msgid "Green"
+msgstr "Зелений"
+
+#: admin/class-social-icons.php:65
+msgid "Pink"
+msgstr "Рожевий"
+
+#: admin/class-social-icons.php:62
+msgid "Red"
+msgstr "Червоний"
+
+#: admin/class-social-icons.php:64
+msgid "Yellow"
+msgstr "Жовтий"
+
+#: views/admin/customize-widget-section.php:310
+#: views/admin/customize-widget-section.php:366
+msgid "Custom"
+msgstr "Довільний"
+
+#: admin/class-social-icons.php:411 admin/class-social-icons.php:433
+#: admin/class-social-icons.php:455 admin/class-social-icons.php:477
+#: admin/class-social-icons.php:499
+msgid "Link"
+msgstr "Посилання"
+
+#: admin/class-admin-base.php:275 admin/class-admin-base.php:280
+#: admin/class-admin-base.php:331 admin/class-admin-base.php:335
+#: admin/class-admin-base.php:340
+msgid "Your request is not valid"
+msgstr "Ваш запит не є дійсним"
+
+#: views/admin/help.php:72
+msgid "Your message is sent successfully."
+msgstr "Ваше повідомлення успішно надіслане."
+
+#: views/admin/chaty-deactivate-form.php:134
+msgid "Your feedback will help us improve the product, please tell us why did you decide to deactivate Chaty :)"
+msgstr "Ваш відгук допоможе нам поліпшити продукт, будь ласка, розкажіть нам, чому ви вирішили вимкнути Chaty :)"
+
+#: views/admin/chaty-deactivate-form.php:140
+msgid "Your comment"
+msgstr "Ваш коментар"
+
+#: admin/class-social-icons.php:254 admin/class-social-icons.php:270
+#: admin/class-social-icons.php:310
+msgid "User Name"
+msgstr "Ім'я користувача"
+
+#: admin/class-admin-base.php:802 admin/class-admin-base.php:803
+#: admin/class-admin-base.php:1086 views/admin/channel.php:547
+#: views/admin/channel.php:616 views/admin/channel.php:642
+#: views/admin/channel.php:692 views/admin/channel.php:701
+#: views/admin/channel.php:916 views/admin/channel.php:970
+#: views/admin/channel.php:996 views/admin/channel.php:1012
+#: views/admin/channel.php:1044 views/admin/channel.php:1074
+#: views/admin/channel.php:1101 views/admin/chaty_widget.php:17
+#: views/admin/customize-widget-section.php:62
+#: views/admin/customize-widget-section.php:172
+#: views/admin/customize-widget-section.php:277
+#: views/admin/customize-widget-section.php:479
+#: views/admin/customize-widget-section.php:508 views/admin/first-popup.php:57
+#: views/admin/first-popup.php:94 views/admin/popup.php:181
+#: views/admin/popup.php:209 views/admin/popup.php:234
+#: views/admin/trigger-and-target.php:207
+#: views/admin/trigger-and-target.php:303
+#: views/admin/trigger-and-target.php:366
+#: views/admin/trigger-and-target.php:547
+#: views/admin/trigger-and-target.php:584
+#: views/admin/trigger-and-target.php:615
+msgid "Upgrade to Pro"
+msgstr "Оновити до Про"
+
+#: views/admin/customize-widget-section.php:144 views/admin/dashboard.php:102
+msgid "Upgrade Now"
+msgstr "Оновити зараз"
+
+#: views/admin/upgrade.php:57 views/admin/upgrade.php:80
+#: views/admin/upgrade.php:103 views/admin/upgrade.php:126
+#: views/admin/upgrade.php:149
+msgid "Updated and support for lifetime"
+msgstr "Оновлення та підтримка на все життя"
+
+#: views/admin/upgrade.php:50 views/admin/upgrade.php:73
+#: views/admin/upgrade.php:96 views/admin/upgrade.php:119
+#: views/admin/upgrade.php:142
+msgid "Updated and support for 2 years"
+msgstr "Оновлення та підтримка на 2 роки"
+
+#: views/admin/upgrade.php:43 views/admin/upgrade.php:66
+#: views/admin/upgrade.php:89 views/admin/upgrade.php:112
+#: views/admin/upgrade.php:135
+msgid "Updated and support for 1 year"
+msgstr "Оновлення та підтримка на 1 рік"
+
+#: views/admin/upgrade.php:225
+msgid "Unlock all features"
+msgstr "Розблокуйте всі функції"
+
+#: admin/class-social-icons.php:302
+msgid "Twitter"
+msgstr "Twitter"
+
+#: views/admin/admin.php:174
+msgid "Triggers and targeting"
+msgstr "Тригери та спрямованість"
+
+#: views/admin/trigger-and-target.php:51
+msgid "Trigger"
+msgstr "Тригер"
+
+#: views/admin/upgrade.php:566
+msgid "The plugin will always keep working even if you don't renew your license"
+msgstr "Плагін буде завжди працювати навіть якщо ви не продовжите ліцензію"
+
+#: views/admin/customize-widget-section.php:211
+msgid "Show close button"
+msgstr "Показувати кнопку закриття"
+
+#: admin/class-admin-base.php:715 admin/class-admin-base.php:737
+msgid "Settings Admin"
+msgstr "Адміністратор налаштувань"
+
+#: views/admin/channel.php:669 views/admin/chatway-setting.php:295
+msgid "Settings"
+msgstr "Налаштування"
+
+#: views/admin/help.php:48
+msgid "Sending Request..."
+msgstr "Надсилання запиту..."
+
+#: views/admin/chaty-deactivate-form.php:131
+msgid "Quick feedback about Chaty"
+msgstr "Швидкий відгук про Chaty"
+
+#: admin/class-admin-base.php:2493
+msgid "Please enter your message"
+msgstr "Будь ласка, введіть ваше повідомлення"
+
+#: admin/class-admin-base.php:1160 admin/class-social-icons.php:142
+#: admin/class-social-icons.php:165 admin/class-social-icons.php:223
+#: admin/class-social-icons.php:290 views/admin/contact-form-feed.php:198
+#: views/admin/contact-form-feed.php:240 views/admin/popup.php:290
+msgid "Phone number"
+msgstr "Номер телефону"
+
+#: views/admin/channels-section.php:161
+msgid "On hover Close button text"
+msgstr "Текст кнопки закриття при наведенні"
+
+#: admin/class-social-icons.php:358
+msgid "My-Name-512b1413b"
+msgstr "Моє-Ім'я-512b1413b"
+
+#: admin/class-social-icons.php:281
+msgid "Maps link"
+msgstr "Посилання на мапу"
+
+#: admin/class-social-icons.php:368
+msgid "Link Vkontakte"
+msgstr "Посилання на ВКонтакте"
+
+#: admin/class-social-icons.php:191 admin/class-social-icons.php:199
+msgid "InstagramUsername"
+msgstr "Ім'я користувача Instagram"
+
+#. Plugin Name of the plugin
+#: cht-icons.php admin/class-admin-base.php:690 admin/class-admin-base.php:691
+msgid "Chaty"
+msgstr "Chaty"
+
+#: admin/class-social-icons.php:348
+msgid "Enter a waze link"
+msgstr "Введіть посилання на Waze"
+
+#: admin/class-social-icons.php:243
+msgid "Enter a poptin link"
+msgstr "Введіть посилання на Poptin"
+
+#: views/admin/channel.php:923 views/admin/chaty-deactivate-form.php:136
+msgid "Email address"
+msgstr "Адреса електронної пошти"
+
+#: views/admin/customize-widget-section.php:179
+msgid "Default state"
+msgstr "Стан за замовчуванням"
+
+#: views/admin/trigger-and-target.php:318
+msgid "Days and hours"
+msgstr "Дні та години"
+
+#: views/admin/admin.php:154
+msgid "Choose your channels"
+msgstr "Виберіть свої канали"
+
+#. Description of the plugin
+#: cht-icons.php
+msgid "Chat with your website visitors via their favorite channels. Show a chat icon on the bottom of your site and communicate with your website visitors."
+msgstr "Спілкуйтеся з відвідувачами свого веб-сайту через їх улюблені канали. Покажіть значок чату внизу вашого сайту та спілкуйтеся з відвідувачами вашого веб-сайту."
+
+#: views/admin/upgrade.php:302 views/admin/upgrade.php:318
+#: views/admin/upgrade.php:335 views/admin/upgrade.php:410
+#: views/admin/upgrade.php:466 views/admin/upgrade.php:521
+msgid "Buy now"
+msgstr "Купити зараз"
+
+#: views/admin/customize-widget-section.php:537
+msgid "Attention effect"
+msgstr "Ефект уваги"
+
+#: views/admin/chaty-deactivate-form.php:145
+msgid "Anonymous feedback"
+msgstr "Анонімний відгук"
+
+#: views/admin/upgrade.php:322 views/admin/upgrade.php:508
+msgid "Agency"
+msgstr "Агентство"
+
+#: views/admin/install-chatway.php:165 views/admin/recommended-plugins.php:272
+#: views/admin/trigger-and-target.php:62
+msgid "Active"
+msgstr "Активний"
+
+#: admin/class-admin-base.php:716
+msgid "+ Create New Widget"
+msgstr "+ Створити новий віджет"
+
+#: views/admin/help.php:15
+msgid "Hello! Are you experiencing any problems with Chaty? Please let me know :)"
+msgstr "Привіт! Ви маєте проблеми з Chaty? Будь ласка, дайте мені знати :)"
+
+#: views/admin/customize-widget-section.php:459 views/admin/upgrade.php:207
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: views/admin/pro_analytics.php:23 views/admin/pro_analytics.php:49
+msgid "Upgrade to Pro 🚀"
+msgstr "Оновити до Про-версії »"

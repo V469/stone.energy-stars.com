@@ -1,0 +1,481 @@
+# Translation of Plugins - Art WooCommerce Order One Click - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Art WooCommerce Order One Click - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-30 18:08:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Art WooCommerce Order One Click - Stable (latest release)\n"
+
+#: templates/quantity-input.php:54
+msgid "Product quantity"
+msgstr "Кількість товару"
+
+#. translators: %s: Quantity.
+#: templates/quantity-input.php:40
+msgid "%s quantity"
+msgstr "%s кількість"
+
+#: templates/email.php:413
+msgid "A quick one-click order has arrived"
+msgstr "Швидке замовлення в один клік надійшло"
+
+#. translators: 1: Name author plugin
+#: classes/Requirements.php:154
+msgid "<strong>%s</strong> plugin has been deactivated."
+msgstr "Плагін <strong>%s</strong> було деактивовано"
+
+#: classes/RequestProcessing/OrderCreator.php:60
+msgid "Order One Click: "
+msgstr "Замовлення в один клік: "
+
+#: classes/RequestProcessing/EmailModifier.php:137
+msgid "Domain"
+msgstr "Домен"
+
+#: classes/RequestProcessing/EmailModifier.php:133
+msgid "Date"
+msgstr "Дата"
+
+#: classes/RequestProcessing/EmailModifier.php:129
+msgid "IP"
+msgstr "IP"
+
+#: classes/Admin/Settings.php:581
+msgid "Plugin on GitHub"
+msgstr "Плагін на GitHub"
+
+#: classes/Admin/Settings.php:576
+msgid "Read more..."
+msgstr "Читати далі…"
+
+#: classes/Admin/Settings.php:185
+msgid "Button output on catalog pages (store, categories, labels, attributes). It is displayed only for simple products"
+msgstr "Виведення кнопки на сторінках каталогу (магазин, категорії, мітки, атрибути). Відображається тільки для простих товарів"
+
+#: classes/Admin/Settings.php:184
+msgid "Button on the catalog"
+msgstr "Кнопка в каталозі"
+
+#: classes/Enqueue.php:154 classes/Prepare/Mail.php:104
+msgid "Link to the product: "
+msgstr "Посилання на товар: "
+
+#: classes/Admin/Settings.php:430
+msgid "Amount"
+msgstr "Обсяг"
+
+#: classes/Enqueue.php:151 classes/Prepare/Mail.php:88
+#: classes/Prepare/Popup.php:181
+msgid "Amount: "
+msgstr "Обсяг: "
+
+#: classes/Prepare/Prepare.php:142
+msgid "N/A"
+msgstr "Н/Д"
+
+#: classes/Product/Meta.php:48
+msgid "If enabled, then on this product the Order button will not be visible. Product will return to its original condition."
+msgstr "Якщо ввімкнено, то в цьому товарі кнопка \"Замовити\" не відображатиметься. Товар повернеться до початкового стану."
+
+#: classes/Product/Meta.php:47
+msgid "Disable Order One Click Button"
+msgstr "Вимкнути кнопку Замовити в 1 клік"
+
+#: classes/Admin/Settings.php:298
+msgid "If enabled, then the settings when you remove the plugin will NOT be deleted"
+msgstr "Якщо ввімкнено, то налаштування під час видалення плагіна НЕ видалятимуться"
+
+#: classes/Admin/Settings.php:297
+msgid "Do not delete settings"
+msgstr "Не видаляйте налаштування"
+
+#: classes/Admin/Settings.php:290
+msgid "Others"
+msgstr "Інше"
+
+#: classes/Admin/Create_Form.php:124 templates/email.php:412
+msgid "Order One Click"
+msgstr "Замовити в один клік"
+
+#. translators: 1: blog name, 2: blog URL
+#: classes/Admin/Create_Form.php:87 classes/Admin/Create_Form.php:101
+msgid "Order from the site %1$s (%2$s)"
+msgstr "Замовлення з сайту %1$s (%2$s)"
+
+#. translators: 1: blog name, 2: blog URL
+#: classes/Admin/Create_Form.php:55
+msgid "This e-mail was sent from a contact form on %1$s (%2$s)"
+msgstr "Цей лист було надіслано з контактної форми на сайті %1$s (%2$s)"
+
+#. translators: %s: [awooc-tel]
+#: classes/Admin/Create_Form.php:53
+msgid "Phone: %s"
+msgstr "Телефон: %s"
+
+#. translators: %s: [awooc-email]'
+#: classes/Admin/Create_Form.php:52
+msgid "Email: %s"
+msgstr "Email: %s"
+
+#. translators: %s: [awooc-text]
+#: classes/Admin/Create_Form.php:51
+msgid "Name: %s"
+msgstr "Ім’я: %s"
+
+#: classes/Admin/Create_Form.php:47
+msgid "Send"
+msgstr "Відправити"
+
+#: classes/Admin/Create_Form.php:46
+msgid "Your Phone"
+msgstr "Ваш телефон"
+
+#: classes/Admin/Create_Form.php:45
+msgid "Your Email"
+msgstr "Ваш Email"
+
+#: classes/Admin/Create_Form.php:44
+msgid "Your Name"
+msgstr "Ваше Ім'я"
+
+#: classes/Admin/Settings.php:580
+msgid "Plugin on GitHub, you can write there suggestions, wishes or participate in the development"
+msgstr "Плагін є на GitHub, ви можете писати туди пропозиції, побажання або взяти участь у розробці"
+
+#: classes/Admin/Settings.php:575
+msgid "Detailed step by step instructions for setting up the plugin (in Russian)."
+msgstr "Детальна покрокова інструкція з налаштування плагіна (російською мовою)."
+
+#. translators: 1: Art WooCommerce Order One Click
+#: classes/Admin/Settings.php:543
+msgid "You can make a donation to make the plugin %1$s even better!"
+msgstr "Ви можете зробити пожертву, щоб плагін %1$s став ще кращим!"
+
+#: classes/Admin/Settings.php:536
+msgid "WPRUSe project site"
+msgstr "Сайт проекту WPRUSe"
+
+#: classes/Admin/Settings.php:535
+msgid "WPRUSe"
+msgstr "WPRUSe"
+
+#: classes/Admin/Settings.php:531
+msgid "Make a donation through the Yandex Money system. You can use bank cards"
+msgstr "Зробіть пожертву через систему ЮMoney. Можна використовувати банківські картки"
+
+#: classes/Admin/Settings.php:530
+msgid "Yandex Money"
+msgstr "ЮMoney"
+
+#: classes/Admin/Settings.php:506
+msgid "Thank you for using the plugin!"
+msgstr "Дякуємо за використання плагіна!"
+
+#: classes/Admin/Settings.php:495
+msgid "Thanks :)"
+msgstr "Дякую :)"
+
+#: classes/Admin/Settings.php:493
+msgid "five star"
+msgstr "п'ять зірок"
+
+#. translators: 1: Art WooCommerce Order One Click 2:: five stars
+#: classes/Admin/Settings.php:489
+msgid "If you like the plugin %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr "Якщо вам подобається плагін %1$s, поставте нам оцінку %2$s. Дякуємо дуже!"
+
+#: classes/Admin/Settings.php:347
+msgid "Donate"
+msgstr "Підтримати"
+
+#: classes/Admin/Settings.php:337
+msgid "Useful links"
+msgstr "Корисні посилання"
+
+#: classes/Admin/Settings.php:253
+msgid "If you enable this setting, then the order number will be added to the subject of the letter in the format of the \"Letter Subject No. 112233\""
+msgstr "Якщо ввімкнути це налаштування, то до теми листа додаватиметься номер замовлення у форматі \"Тема_листа №112233\""
+
+#: classes/Admin/Settings.php:252
+msgid "Change subject"
+msgstr "Змінити тему"
+
+#. Description of the plugin
+#: art-woo-order-one-click.php
+msgid "Plugin for WooCommerce. It includes the catalog mode in the store (there are no prices and the Buy button) and can turn on the Buy/Order button in one click. WooCommerce and Contact Form 7 are required for proper operation."
+msgstr "Плагін для WooCommerce. Він включає в себе режим каталогу в магазині (відсутні ціна і кнопка «Купити») і може ввімкнути кнопку «Купити/Замовити» в один клік. Для належної роботи потрібні плагіни WooCommerce і Contact Form 7."
+
+#: classes/Admin/Settings.php:383
+msgid "Special mode"
+msgstr "Спеціальний режим"
+
+#: classes/Admin/Settings.php:382
+msgid "Pre-order mode"
+msgstr "Режим попереднього замовлення"
+
+#: classes/Admin/Settings.php:381
+msgid "Normal mode"
+msgstr "Нормальний режим"
+
+#: classes/Admin/Settings.php:380
+msgid "Catalog mode"
+msgstr "Режим каталогу"
+
+#: classes/Enqueue.php:112
+msgid "When turned on, it works the same way as normal mode. But if the goods have no price or the product out of stock, then only the Order button will appear."
+msgstr "При включенні він працює так само, як і звичайний режим. Але, якщо у товару немає ціни або товару немає в наявності, то з’явиться лише кнопка Замовити."
+
+#: classes/Enqueue.php:108
+msgid "The Order button will appear automatically if: Price not available;  stock status \"In Unfulfilled Order\"; stock status \"Out of stock\"; inventory management is enabled at item level and preorders allowed"
+msgstr "Кнопка Замовити з'явиться автоматично, якщо: Ціна недоступна; статус запасу \"Невиконане замовлення\"; статус запасу \"Немає в наявності\"; керування запасами ввімкнено на рівні товару, а попередні замовлення дозволені"
+
+#: classes/Enqueue.php:104
+msgid "The button \"Add to cart\" works in the normal mode, that is, goods can be added to the cart and at the same time ordered in one click"
+msgstr "Кнопка «Додати в кошик» працює в звичайному режимі, тобто, товар можна додати в кошик і при цьому замовити в один клік"
+
+#: classes/Enqueue.php:100
+msgid "On the pages of the categories and the store itself, the Add to Cart buttons are disabled. On the product page, the \"Add to cart\" button is hidden and the \"Order\" button appears."
+msgstr "На сторінках категорій і самого магазину кнопка \"Додати в кошик\" відключена. На сторінці товару кнопка \"Додати в кошик\" прихована, а з’явиться кнопка \"Замовити\"."
+
+#: classes/Admin/Settings.php:172
+msgid "Special field for the Order button. Allows you to change the label on the button when turning on the Price and Stocks mode."
+msgstr "Спеціальне поле для кнопки \"Замовити\". Дозволяє змінити напис на кнопці під час увімкнення режиму Ціни та Запаси."
+
+#: classes/Admin/Settings.php:171
+msgid "Special label"
+msgstr "Спеціальний напис"
+
+#: classes/Prepare/Mail.php:122
+msgid "Category: "
+msgid_plural "Categories: "
+msgstr[0] "Категорія: "
+msgstr[1] "Категорії: "
+msgstr[2] "Категорії: "
+
+#: classes/Admin/Settings.php:429 templates/quantity-input.php:41
+msgid "Quantity"
+msgstr "Кількість"
+
+#: includes/create-cf7-field.php:109
+msgid "the description for details"
+msgstr "докладний опис"
+
+#: includes/create-cf7-field.php:108
+msgid "https://wpruse.ru/my-plugins/order-one-click/"
+msgstr "https://wpruse.ru/my-plugins/order-one-click/"
+
+#. translators: %s: window description
+#: includes/create-cf7-field.php:105
+msgid "Generate a special hidden multi-line field. See %s."
+msgstr "Генерується спеціальне багаторядкове поле. Див. %s."
+
+#: classes/Admin/Settings.php:454
+msgid "field Phone - <code>awooc-tel</code>;"
+msgstr "поле Телефон - <code>awooc-tel</code>;"
+
+#: classes/Admin/Settings.php:453
+msgid "field Email - <code>awooc-email</code>;"
+msgstr "поле Email - <code>awooc-email</code>;"
+
+#: classes/Admin/Settings.php:452
+msgid "field Name - <code>awooc-text</code>;"
+msgstr "поле Ім'я - <code>awooc-text</code>;"
+
+#: classes/Admin/Settings.php:446
+msgid "<strong>Warning! The functionality is under development. </strong> For the correct operation of this functionality. Requires proper creation of fields in the Contact Form 7 form with the names:"
+msgstr "<strong>Увага! Функціонал знаходиться на стадії розробки.</strong> Для правильної роботи цієї функції потрібно створити поля в формі Contact Form 7 з наступними іменами:"
+
+#: classes/Admin/Settings.php:428
+msgid "Attributes"
+msgstr "Атрибути"
+
+#: classes/Admin/Settings.php:427
+msgid "SKU"
+msgstr "Артикул"
+
+#: classes/Admin/Settings.php:426
+msgid "Price"
+msgstr "Ціна"
+
+#: classes/Admin/Settings.php:425
+msgid "Image"
+msgstr "Зображення"
+
+#: classes/Admin/Settings.php:424
+msgid "Title"
+msgstr "Назва"
+
+#: classes/Admin/Settings.php:70
+msgid "On"
+msgstr "Увімк"
+
+#: classes/Admin/Settings.php:69
+msgid "Off"
+msgstr "Вимк"
+
+#: classes/Admin/Settings.php:241
+msgid "When this setting is enabled, orders will be created in the WooCommerce panel with the status \"Pending payment\""
+msgstr "Коли цей параметр ввімкнено, замовлення створюватимуться в панелі WooCommerce зі статусом \"Очікує на оплату\"."
+
+#: classes/Admin/Settings.php:240
+msgid "Create orders"
+msgstr "Створення замовлень"
+
+#: classes/Admin/Settings.php:225
+msgid "Orders"
+msgstr "Замовлення"
+
+#: classes/Admin/Settings.php:209
+msgid "Remove items that are NOT needed."
+msgstr "Видаліть елементи, які НЕ потрібні."
+
+#: classes/Admin/Settings.php:208
+msgid "Turn off window elements"
+msgstr "Вимкніть елементи вікна"
+
+#: classes/Admin/Settings.php:201
+msgid "Popup window"
+msgstr "Спливаюче вікно"
+
+#: classes/Admin/Settings.php:164
+msgid "Buy in one click"
+msgstr "Купити в один клік"
+
+#: classes/Admin/Settings.php:161
+msgid "Specify the desired label on the button"
+msgstr "Вкажіть напис на кнопці"
+
+#: classes/Admin/Settings.php:160
+msgid "Button Label"
+msgstr "Напис на кнопці"
+
+#: classes/Admin/Settings.php:152
+msgid "-- Select --"
+msgstr "-- Виберіть --"
+
+#: classes/Admin/Settings.php:148
+msgid "Choose the desired form"
+msgstr "Виберіть потрібну форму"
+
+#: classes/Admin/Settings.php:147
+msgid "Select form"
+msgstr "Виберіть форму"
+
+#: classes/Admin/Settings.php:136
+msgid "Select the mode of operation and display the Buy button"
+msgstr "Виберіть режим роботи та відображення кнопки Купити"
+
+#: classes/Admin/Settings.php:135
+msgid "Operating mode"
+msgstr "Режим роботи"
+
+#: classes/Admin/Settings.php:129
+msgid "General settings"
+msgstr "Загальні налаштування"
+
+#: classes/Admin/Settings.php:85
+msgid "General"
+msgstr "Основні"
+
+#: classes/Admin/Settings.php:35 classes/RequestProcessing/OrderCreator.php:148
+msgid "One click order"
+msgstr "Замовити в один клік"
+
+#: classes/Requirements.php:130
+msgid " and "
+msgstr " та "
+
+#: classes/Requirements.php:120
+msgid " or higher"
+msgstr " або вище"
+
+#: classes/Requirements.php:118
+msgid " version "
+msgstr " версія "
+
+#: classes/Main.php:140
+msgid "Settings"
+msgstr "Налаштування"
+
+#: classes/RequestHandler.php:86
+msgid "Something is wrong with sending data. Unable to get product ID. Disable the output in the popup window or contact the developers of the plugin"
+msgstr "Щось не так з надсиланням даних. Не вдається отримати ідентифікатор товару. Вимкніть вивід у спливаючому вікні або зверніться до розробника плагіну"
+
+#: classes/Enqueue.php:155
+msgid "Click to close"
+msgstr "Натисніть, щоб закрити"
+
+#: classes/Enqueue.php:153 templates/email.php:448
+msgid "Information about the selected product"
+msgstr "Інформація про обраний товар"
+
+#: classes/Enqueue.php:152 classes/Prepare/Mail.php:68
+#: classes/Prepare/Popup.php:92
+msgid "Attributes: "
+msgstr "Атрибути: "
+
+#: classes/Enqueue.php:150 classes/Prepare/Mail.php:58
+#: classes/Prepare/Popup.php:66
+msgid "SKU: "
+msgstr "Артикул: "
+
+#: classes/Enqueue.php:149 classes/Prepare/Mail.php:48
+#: classes/Prepare/Popup.php:45
+msgid "Price: "
+msgstr "Ціна: "
+
+#: classes/Enqueue.php:148 classes/Prepare/Mail.php:31
+msgid "Title: "
+msgstr "Назва: "
+
+#: classes/Enqueue.php:147 classes/Prepare/Mail.php:78
+#: classes/Prepare/Popup.php:155
+msgid "Quantity: "
+msgstr "Кількість: "
+
+#. translators: %s: field description
+#: includes/create-cf7-field.php:165
+msgid "To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab."
+msgstr "Щоб використати значення, введене в цьому полі в листах, потрібно вставити відповідний поштовий тег (%s) в полі на вкладці Пошта."
+
+#: includes/create-cf7-field.php:152
+msgid "Insert Tag"
+msgstr "Вставити тег"
+
+#: includes/create-cf7-field.php:122
+msgid "Name"
+msgstr "Ім’я"
+
+#: includes/create-cf7-field.php:90
+msgid "AWOOC hide field"
+msgstr "AWOOC приховане поле"
+
+#: classes/Front.php:115
+msgid "Read more"
+msgstr "Читати далі"
+
+#. Author URI of the plugin
+#: art-woo-order-one-click.php
+msgid "https://wpruse.ru/"
+msgstr "https://wpruse.ru/"
+
+#. Author of the plugin
+#: art-woo-order-one-click.php
+msgid "Artem Abramovich"
+msgstr "Artem Abramovich"
+
+#. Plugin URI of the plugin
+#: art-woo-order-one-click.php
+msgid "wpruse.ru/my-plugins/order-one-click/"
+msgstr "wpruse.ru/my-plugins/order-one-click/"
+
+#. Plugin Name of the plugin
+#: art-woo-order-one-click.php classes/Admin/Settings.php:490
+#: classes/Admin/Settings.php:544
+msgid "Art WooCommerce Order One Click"
+msgstr "Art WooCommerce Order One Click"

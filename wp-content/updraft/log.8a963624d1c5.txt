@@ -1,0 +1,436 @@
+0000.002 () Opened log file at time: Tue, 08 Apr 2025 16:43:21 +0000 on https://stone.energy-stars.com
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.25.4.26 WP: 6.7.2 PHP: 7.4.33 (litespeed, Linux eushared16.twinservers.net 4.18.0-513.18.1.lve.2.el8.x86_64 #1 SMP Sat Mar 30 15:36:11 UTC 2024 x86_64) MySQL: 10.6.21-MariaDB-cll-lve (max packet size=268435456) WPLANG: uk Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 2536 M (used: 42.2M | 12.3M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.053 () Free space on disk containing Updraft's temporary directory: 3839149.5 MB
+0000.070 () Restore setup, now closing connection and starting restore over AJAX.
+0000.002 () Opened log file at time: Tue, 08 Apr 2025 16:43:23 +0000 on https://stone.energy-stars.com
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.25.4.26 WP: 6.7.2 PHP: 7.4.33 (litespeed, Linux eushared16.twinservers.net 4.18.0-513.18.1.lve.2.el8.x86_64 #1 SMP Sat Mar 30 15:36:11 UTC 2024 x86_64) MySQL: 10.6.21-MariaDB-cll-lve (max packet size=268435456) WPLANG: uk Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 2536 M (used: 34.7M | 40.3M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.065 () Free space on disk containing Updraft's temporary directory: 3839149.3 MB
+0000.081 () Ensuring WP_Filesystem is setup for a restore
+0000.082 () WP_Filesystem is setup and ready for a restore
+0000.085 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpos_options","wpos_users","wpos_usermeta","wpos_actionscheduler_actions","wpos_actionscheduler_claims","wpos_actionscheduler_groups","wpos_actionscheduler_logs","wpos_commentmeta","wpos_comments","wpos_links","wpos_postmeta","wpos_posts","wpos_term_relationships","wpos_term_taxonomy","wpos_termmeta","wpos_terms","wpos_wc_category_lookup","wpos_wc_product_meta_lookup","wpos_wc_reserved_stock","wpos_wc_tax_rate_classes","wpos_woocommerce_order_itemmeta","wpos_woocommerce_payment_tokenmeta","wpos_addonify_wishlist_table","wpos_chaty_contact_form_leads","wpos_depicter_documents","wpos_depicter_lead_fields","wpos_depicter_leads","wpos_depicter_meta","wpos_depicter_options","wpos_e_events","wpos_e_notes","wpos_e_notes_users_relations","wpos_e_submissions","wpos_e_submissions_actions_log","wpos_e_submissions_values","wpos_jet_cache","wpos_jet_fb_attachments_to_records","wpos_jet_fb_migrations","wpos_jet_fb_records","wpos_jet_fb_records_actions","wpos_jet_fb_records_errors","wpos_jet_fb_records_fields","wpos_jet_fb_tokens","wpos_jet_fb_tokens_to_records","wpos_litespeed_avatar","wpos_litespeed_img_optming","wpos_litespeed_url","wpos_litespeed_url_file","wpos_lws_wr_achieved_log","wpos_lws_wr_historic","wpos_nextend2_image_storage","wpos_nextend2_section_storage","wpos_nextend2_smartslider3_generators","wpos_nextend2_smartslider3_sliders","wpos_nextend2_smartslider3_sliders_xref","wpos_nextend2_smartslider3_slides","wpos_rank_math_internal_links","wpos_rank_math_internal_meta","wpos_tcl_chat","wpos_wc_admin_note_actions","wpos_wc_admin_notes","wpos_wc_customer_lookup","wpos_wc_download_log","wpos_wc_order_addresses","wpos_wc_order_coupon_lookup","wpos_wc_order_operational_data","wpos_wc_order_product_lookup","wpos_wc_order_stats","wpos_wc_order_tax_lookup","wpos_wc_product_attributes_lookup","wpos_wc_product_download_directories","wpos_wc_rate_limits","wpos_wc_ukr_shipping_labels","wpos_wc_ukr_shipping_np_areas","wpos_wc_ukr_shipping_np_cities","wpos_wc_ukr_shipping_np_warehouses","wpos_wc_webhooks","wpos_wlfmc_wishlist_analytics","wpos_wlfmc_wishlist_automations","wpos_wlfmc_wishlist_customers","wpos_wlfmc_wishlist_items","wpos_wlfmc_wishlist_offers","wpos_wlfmc_wishlists","wpos_woocommerce_api_keys","wpos_woocommerce_attribute_taxonomies","wpos_woocommerce_downloadable_product_permissions","wpos_woocommerce_log","wpos_woocommerce_order_items","wpos_woocommerce_payment_tokens","wpos_woocommerce_sessions","wpos_woocommerce_shipping_zone_locations","wpos_woocommerce_shipping_zone_methods","wpos_woocommerce_shipping_zones","wpos_woocommerce_tax_rate_locations","wpos_woocommerce_tax_rates","wpos_wpforms_logs","wpos_wpforms_payment_meta","wpos_wpforms_payments","wpos_wpforms_tasks_meta","wpos_wpmailsmtp_debug_events","wpos_wpmailsmtp_tasks_meta","wpos_yoast_indexable","wpos_yoast_indexable_hierarchy","wpos_yoast_migrations","wpos_yoast_primary_term","wpos_yoast_seo_links"],"tables_to_skip":[],"include_unspecified_plugins":false,"plugins_to_restore":["art-woocommerce-order-one-click","astra-addon","chat-life-telegram","chatway-live-chat","chaty","checkout-field-editor-and-manager-for-woocommerce","contact-form-7","cyr2lat","elementor","filter-everything","jet-elements","jet-engine-phone-number-format-callback-main","jet-form-builder-pdf","jet-form-builder-woo-action","jet-popup","jetformbuilder","litespeed-cache","loco-translate","members","morkva-ua-shipping","seo-by-rank-math","telsender","ultimate-elementor","updraftplus","variation-swatches-woo","wc-thanks-redirect","woocommerce","woocommerce-direct-checkout","wpc-badge-management","wpc-brands","wpc-product-faqs","wpc-product-image-swap","wpc-product-quantity","wpc-product-quantity-premium","wpc-product-tabs","wpc-product-videos","wpc-update-variations-in-cart","wpforms-lite","wps-hide-login"],"plugins_to_skip":[],"include_unspecified_themes":false,"themes_to_restore":["astra","decor-child"],"themes_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.091 () Entity: db
+0000.091 () restore_backup(backup_file=backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-db.gz, type=db, info=a:0:{}, last_one=)
+0000.092 () Unpacking backup... (backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-db.gz, 4.9 Mb)
+0000.102 () Database successfully unpacked
+0000.102 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.103 () Using direct MySQL access; value of use_mysqli is: 1
+0000.103 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.121 () Max packet size: 256 MB
+0000.121 () Entering maintenance mode
+0000.121 () Увімкнення режиму обслуговування&#8230;
+0000.128 () Backup of: https://stone.energy-stars.com
+0000.128 () Content URL: https://stone.energy-stars.com/wp-content
+0000.128 () Uploads URL: https://stone.energy-stars.com/wp-content/uploads
+0000.129 () Old table prefix: wpos_
+0000.129 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.129 () Site information: multisite=0
+0000.129 () Site information: sql_mode=ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.129 () Site information: WooCommerce=9.7.1
+0000.131 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.131 () New table prefix: ga_
+0000.134 () Processing table (MyISAM): wpos_options - will restore as: ga_options
+0000.550 () Atomic restore: dropping original table (wpos_options)
+0000.555 () Atomic restore: renaming new table (ga_options) to final table name (wpos_options)
+0000.557 () Restoring prior UD configuration (table: wpos_options; keys: 4)
+0000.594 () Processing table (MyISAM): wpos_users - will restore as: ga_users
+0000.606 () Atomic restore: dropping original table (wpos_users)
+0000.607 () Atomic restore: renaming new table (ga_users) to final table name (wpos_users)
+0000.608 () Processing table (MyISAM): wpos_usermeta - will restore as: ga_usermeta
+0000.623 () Atomic restore: dropping original table (wpos_usermeta)
+0000.624 () Atomic restore: renaming new table (ga_usermeta) to final table name (wpos_usermeta)
+0000.625 () Processing table (MyISAM): wpos_actionscheduler_actions - will restore as: ga_actionscheduler_actions
+0001.082 () Atomic restore: dropping original table (wpos_actionscheduler_actions)
+0001.085 () Atomic restore: renaming new table (ga_actionscheduler_actions) to final table name (wpos_actionscheduler_actions)
+0001.085 () Processing table (MyISAM): wpos_actionscheduler_claims - will restore as: ga_actionscheduler_claims
+0001.098 () Atomic restore: dropping original table (wpos_actionscheduler_claims)
+0001.099 () Atomic restore: renaming new table (ga_actionscheduler_claims) to final table name (wpos_actionscheduler_claims)
+0001.101 () Processing table (MyISAM): wpos_actionscheduler_groups - will restore as: ga_actionscheduler_groups
+0001.111 () Atomic restore: dropping original table (wpos_actionscheduler_groups)
+0001.113 () Atomic restore: renaming new table (ga_actionscheduler_groups) to final table name (wpos_actionscheduler_groups)
+0001.114 () Processing table (MyISAM): wpos_actionscheduler_logs - will restore as: ga_actionscheduler_logs
+0001.246 () Atomic restore: dropping original table (wpos_actionscheduler_logs)
+0001.248 () Atomic restore: renaming new table (ga_actionscheduler_logs) to final table name (wpos_actionscheduler_logs)
+0001.249 () Processing table (MyISAM): wpos_commentmeta - will restore as: ga_commentmeta
+0001.257 () Atomic restore: dropping original table (wpos_commentmeta)
+0001.258 () Atomic restore: renaming new table (ga_commentmeta) to final table name (wpos_commentmeta)
+0001.259 () Processing table (MyISAM): wpos_comments - will restore as: ga_comments
+0001.270 () Atomic restore: dropping original table (wpos_comments)
+0001.274 () Atomic restore: renaming new table (ga_comments) to final table name (wpos_comments)
+0001.275 () Processing table (MyISAM): wpos_links - will restore as: ga_links
+0001.278 () Database queries processed: 50 in 1.17 seconds
+0001.278 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0001.282 () Atomic restore: dropping original table (wpos_links)
+0001.283 () Atomic restore: renaming new table (ga_links) to final table name (wpos_links)
+0001.287 () Processing table (MyISAM): wpos_postmeta - will restore as: ga_postmeta
+0001.868 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0001.871 () Atomic restore: dropping original table (wpos_postmeta)
+0001.874 () Atomic restore: renaming new table (ga_postmeta) to final table name (wpos_postmeta)
+0001.876 () Processing table (MyISAM): wpos_posts - will restore as: ga_posts
+0002.222 () Atomic restore: dropping original table (wpos_posts)
+0002.224 () Atomic restore: renaming new table (ga_posts) to final table name (wpos_posts)
+0002.224 () Processing table (MyISAM): wpos_term_relationships - will restore as: ga_term_relationships
+0002.247 () Atomic restore: dropping original table (wpos_term_relationships)
+0002.248 () Atomic restore: renaming new table (ga_term_relationships) to final table name (wpos_term_relationships)
+0002.248 () Processing table (MyISAM): wpos_term_taxonomy - will restore as: ga_term_taxonomy
+0002.266 () Atomic restore: dropping original table (wpos_term_taxonomy)
+0002.267 () Atomic restore: renaming new table (ga_term_taxonomy) to final table name (wpos_term_taxonomy)
+0002.268 () Processing table (MyISAM): wpos_termmeta - will restore as: ga_termmeta
+0002.276 () Atomic restore: dropping original table (wpos_termmeta)
+0002.277 () Database queries processed: 100 in 2.17 seconds
+0002.277 () Atomic restore: renaming new table (ga_termmeta) to final table name (wpos_termmeta)
+0002.278 () Processing table (MyISAM): wpos_terms - will restore as: ga_terms
+0002.287 () Atomic restore: dropping original table (wpos_terms)
+0002.287 () Atomic restore: renaming new table (ga_terms) to final table name (wpos_terms)
+0002.288 () Processing table (MyISAM): wpos_wc_category_lookup - will restore as: ga_wc_category_lookup
+0002.292 () Atomic restore: dropping original table (wpos_wc_category_lookup)
+0002.293 () Atomic restore: renaming new table (ga_wc_category_lookup) to final table name (wpos_wc_category_lookup)
+0002.294 () Processing table (MyISAM): wpos_wc_product_meta_lookup - will restore as: ga_wc_product_meta_lookup
+0002.317 () Atomic restore: dropping original table (wpos_wc_product_meta_lookup)
+0002.319 () Atomic restore: renaming new table (ga_wc_product_meta_lookup) to final table name (wpos_wc_product_meta_lookup)
+0002.320 () Processing table (MyISAM): wpos_wc_reserved_stock - will restore as: ga_wc_reserved_stock
+0002.328 () Atomic restore: dropping original table (wpos_wc_reserved_stock)
+0002.330 () Atomic restore: renaming new table (ga_wc_reserved_stock) to final table name (wpos_wc_reserved_stock)
+0002.332 () Processing table (MyISAM): wpos_wc_tax_rate_classes - will restore as: ga_wc_tax_rate_classes
+0002.338 () Atomic restore: dropping original table (wpos_wc_tax_rate_classes)
+0002.339 () Atomic restore: renaming new table (ga_wc_tax_rate_classes) to final table name (wpos_wc_tax_rate_classes)
+0002.340 () Processing table (MyISAM): wpos_woocommerce_order_itemmeta - will restore as: ga_woocommerce_order_itemmeta
+0002.372 () Atomic restore: dropping original table (wpos_woocommerce_order_itemmeta)
+0002.373 () Atomic restore: renaming new table (ga_woocommerce_order_itemmeta) to final table name (wpos_woocommerce_order_itemmeta)
+0002.374 () Processing table (MyISAM): wpos_woocommerce_payment_tokenmeta - will restore as: ga_woocommerce_payment_tokenmeta
+0002.380 () Atomic restore: dropping original table (wpos_woocommerce_payment_tokenmeta)
+0002.380 () Atomic restore: renaming new table (ga_woocommerce_payment_tokenmeta) to final table name (wpos_woocommerce_payment_tokenmeta)
+0002.382 () Processing table (MyISAM): wpos_addonify_wishlist_table - will restore as: ga_addonify_wishlist_table
+0002.387 () Atomic restore: dropping original table (wpos_addonify_wishlist_table)
+0002.388 () Atomic restore: renaming new table (ga_addonify_wishlist_table) to final table name (wpos_addonify_wishlist_table)
+0002.389 () Processing table (MyISAM): wpos_chaty_contact_form_leads - will restore as: ga_chaty_contact_form_leads
+0002.395 () Atomic restore: dropping original table (wpos_chaty_contact_form_leads)
+0002.395 () Atomic restore: renaming new table (ga_chaty_contact_form_leads) to final table name (wpos_chaty_contact_form_leads)
+0002.398 () Processing table (MyISAM): wpos_depicter_documents - will restore as: ga_depicter_documents
+0002.404 () Atomic restore: dropping original table (wpos_depicter_documents)
+0002.405 () Atomic restore: renaming new table (ga_depicter_documents) to final table name (wpos_depicter_documents)
+0002.406 () Processing table (MyISAM): wpos_depicter_lead_fields - will restore as: ga_depicter_lead_fields
+0002.411 () Atomic restore: dropping original table (wpos_depicter_lead_fields)
+0002.411 () Atomic restore: renaming new table (ga_depicter_lead_fields) to final table name (wpos_depicter_lead_fields)
+0002.413 () Processing table (MyISAM): wpos_depicter_leads - will restore as: ga_depicter_leads
+0002.418 () Atomic restore: dropping original table (wpos_depicter_leads)
+0002.419 () Atomic restore: renaming new table (ga_depicter_leads) to final table name (wpos_depicter_leads)
+0002.421 () Processing table (MyISAM): wpos_depicter_meta - will restore as: ga_depicter_meta
+0002.426 () Atomic restore: dropping original table (wpos_depicter_meta)
+0002.427 () Atomic restore: renaming new table (ga_depicter_meta) to final table name (wpos_depicter_meta)
+0002.428 () Processing table (MyISAM): wpos_depicter_options - will restore as: ga_depicter_options
+0002.433 () Atomic restore: dropping original table (wpos_depicter_options)
+0002.434 () Atomic restore: renaming new table (ga_depicter_options) to final table name (wpos_depicter_options)
+0002.436 () Processing table (MyISAM): wpos_e_events - will restore as: ga_e_events
+0002.441 () Atomic restore: dropping original table (wpos_e_events)
+0002.441 () Atomic restore: renaming new table (ga_e_events) to final table name (wpos_e_events)
+0002.443 () Processing table (MyISAM): wpos_e_notes - will restore as: ga_e_notes
+0002.448 () Atomic restore: dropping original table (wpos_e_notes)
+0002.449 () Atomic restore: renaming new table (ga_e_notes) to final table name (wpos_e_notes)
+0002.450 () Processing table (MyISAM): wpos_e_notes_users_relations - will restore as: ga_e_notes_users_relations
+0002.456 () Atomic restore: dropping original table (wpos_e_notes_users_relations)
+0002.456 () Atomic restore: renaming new table (ga_e_notes_users_relations) to final table name (wpos_e_notes_users_relations)
+0002.458 () Processing table (MyISAM): wpos_e_submissions - will restore as: ga_e_submissions
+0002.464 () Atomic restore: dropping original table (wpos_e_submissions)
+0002.465 () Atomic restore: renaming new table (ga_e_submissions) to final table name (wpos_e_submissions)
+0002.466 () Processing table (MyISAM): wpos_e_submissions_actions_log - will restore as: ga_e_submissions_actions_log
+0002.473 () Atomic restore: dropping original table (wpos_e_submissions_actions_log)
+0002.474 () Atomic restore: renaming new table (ga_e_submissions_actions_log) to final table name (wpos_e_submissions_actions_log)
+0002.475 () Processing table (MyISAM): wpos_e_submissions_values - will restore as: ga_e_submissions_values
+0002.483 () Atomic restore: dropping original table (wpos_e_submissions_values)
+0002.484 () Database queries processed: 150 in 2.38 seconds
+0002.484 () Atomic restore: renaming new table (ga_e_submissions_values) to final table name (wpos_e_submissions_values)
+0002.486 () Processing table (MyISAM): wpos_jet_cache - will restore as: ga_jet_cache
+0002.491 () Atomic restore: dropping original table (wpos_jet_cache)
+0002.492 () Atomic restore: renaming new table (ga_jet_cache) to final table name (wpos_jet_cache)
+0002.497 () Processing table (InnoDB): wpos_jet_fb_attachments_to_records
+0002.504 () Processing table (InnoDB): wpos_jet_fb_migrations - will restore as: ga_jet_fb_migrations
+0002.510 () Atomic restore: dropping original table (wpos_jet_fb_migrations)
+0002.511 () Atomic restore: renaming new table (ga_jet_fb_migrations) to final table name (wpos_jet_fb_migrations)
+0002.512 () Processing table (InnoDB): wpos_jet_fb_records - will restore as: ga_jet_fb_records
+0002.520 () Atomic restore: dropping original table (wpos_jet_fb_records)
+0002.521 () Atomic restore: renaming new table (ga_jet_fb_records) to final table name (wpos_jet_fb_records)
+0002.523 () Processing table (InnoDB): wpos_jet_fb_records_actions
+0002.532 () Processing table (InnoDB): wpos_jet_fb_records_errors
+0002.538 () Processing table (InnoDB): wpos_jet_fb_records_fields
+0002.555 () Processing table (InnoDB): wpos_jet_fb_tokens - will restore as: ga_jet_fb_tokens
+0002.563 () Atomic restore: dropping original table (wpos_jet_fb_tokens)
+0002.564 () Atomic restore: renaming new table (ga_jet_fb_tokens) to final table name (wpos_jet_fb_tokens)
+0002.566 () Processing table (InnoDB): wpos_jet_fb_tokens_to_records
+0002.571 () Processing table (MyISAM): wpos_litespeed_avatar - will restore as: ga_litespeed_avatar
+0002.577 () Atomic restore: dropping original table (wpos_litespeed_avatar)
+0002.578 () Atomic restore: renaming new table (ga_litespeed_avatar) to final table name (wpos_litespeed_avatar)
+0002.579 () Processing table (MyISAM): wpos_litespeed_img_optming - will restore as: ga_litespeed_img_optming
+0002.586 () Atomic restore: dropping original table (wpos_litespeed_img_optming)
+0002.586 () Atomic restore: renaming new table (ga_litespeed_img_optming) to final table name (wpos_litespeed_img_optming)
+0002.587 () Processing table (MyISAM): wpos_litespeed_url - will restore as: ga_litespeed_url
+0002.598 () Atomic restore: dropping original table (wpos_litespeed_url)
+0002.599 () Atomic restore: renaming new table (ga_litespeed_url) to final table name (wpos_litespeed_url)
+0002.600 () Processing table (MyISAM): wpos_litespeed_url_file - will restore as: ga_litespeed_url_file
+0002.616 () Atomic restore: dropping original table (wpos_litespeed_url_file)
+0002.617 () Atomic restore: renaming new table (ga_litespeed_url_file) to final table name (wpos_litespeed_url_file)
+0002.618 () Processing table (MyISAM): wpos_lws_wr_achieved_log - will restore as: ga_lws_wr_achieved_log
+0002.624 () Atomic restore: dropping original table (wpos_lws_wr_achieved_log)
+0002.625 () Atomic restore: renaming new table (ga_lws_wr_achieved_log) to final table name (wpos_lws_wr_achieved_log)
+0002.627 () Processing table (MyISAM): wpos_lws_wr_historic - will restore as: ga_lws_wr_historic
+0002.631 () Atomic restore: dropping original table (wpos_lws_wr_historic)
+0002.631 () Atomic restore: renaming new table (ga_lws_wr_historic) to final table name (wpos_lws_wr_historic)
+0002.632 () Processing table (MyISAM): wpos_nextend2_image_storage - will restore as: ga_nextend2_image_storage
+0002.637 () Atomic restore: dropping original table (wpos_nextend2_image_storage)
+0002.638 () Atomic restore: renaming new table (ga_nextend2_image_storage) to final table name (wpos_nextend2_image_storage)
+0002.639 () Processing table (MyISAM): wpos_nextend2_section_storage - will restore as: ga_nextend2_section_storage
+0002.645 () Atomic restore: dropping original table (wpos_nextend2_section_storage)
+0002.646 () Atomic restore: renaming new table (ga_nextend2_section_storage) to final table name (wpos_nextend2_section_storage)
+0002.647 () Processing table (MyISAM): wpos_nextend2_smartslider3_generators - will restore as: ga_nextend2_smartslider3_generators
+0002.650 () Atomic restore: dropping original table (wpos_nextend2_smartslider3_generators)
+0002.651 () Atomic restore: renaming new table (ga_nextend2_smartslider3_generators) to final table name (wpos_nextend2_smartslider3_generators)
+0002.652 () Processing table (MyISAM): wpos_nextend2_smartslider3_sliders - will restore as: ga_nextend2_smartslider3_sliders
+0002.658 () Atomic restore: dropping original table (wpos_nextend2_smartslider3_sliders)
+0002.658 () Database queries processed: 200 in 2.55 seconds
+0002.659 () Atomic restore: renaming new table (ga_nextend2_smartslider3_sliders) to final table name (wpos_nextend2_smartslider3_sliders)
+0002.659 () Processing table (MyISAM): wpos_nextend2_smartslider3_sliders_xref - will restore as: ga_nextend2_smartslider3_sliders_xref
+0002.666 () Atomic restore: dropping original table (wpos_nextend2_smartslider3_sliders_xref)
+0002.666 () Atomic restore: renaming new table (ga_nextend2_smartslider3_sliders_xref) to final table name (wpos_nextend2_smartslider3_sliders_xref)
+0002.667 () Processing table (MyISAM): wpos_nextend2_smartslider3_slides - will restore as: ga_nextend2_smartslider3_slides
+0002.674 () Atomic restore: dropping original table (wpos_nextend2_smartslider3_slides)
+0002.675 () Atomic restore: renaming new table (ga_nextend2_smartslider3_slides) to final table name (wpos_nextend2_smartslider3_slides)
+0002.675 () Processing table (MyISAM): wpos_rank_math_internal_links - will restore as: ga_rank_math_internal_links
+0002.682 () Atomic restore: dropping original table (wpos_rank_math_internal_links)
+0002.682 () Atomic restore: renaming new table (ga_rank_math_internal_links) to final table name (wpos_rank_math_internal_links)
+0002.683 () Processing table (MyISAM): wpos_rank_math_internal_meta - will restore as: ga_rank_math_internal_meta
+0002.691 () Atomic restore: dropping original table (wpos_rank_math_internal_meta)
+0002.692 () Atomic restore: renaming new table (ga_rank_math_internal_meta) to final table name (wpos_rank_math_internal_meta)
+0002.693 () Processing table (MyISAM): wpos_tcl_chat - will restore as: ga_tcl_chat
+0002.700 () Atomic restore: dropping original table (wpos_tcl_chat)
+0002.700 () Atomic restore: renaming new table (ga_tcl_chat) to final table name (wpos_tcl_chat)
+0002.701 () Processing table (MyISAM): wpos_wc_admin_note_actions - will restore as: ga_wc_admin_note_actions
+0002.714 () Atomic restore: dropping original table (wpos_wc_admin_note_actions)
+0002.715 () Atomic restore: renaming new table (ga_wc_admin_note_actions) to final table name (wpos_wc_admin_note_actions)
+0002.716 () Processing table (MyISAM): wpos_wc_admin_notes - will restore as: ga_wc_admin_notes
+0002.729 () Atomic restore: dropping original table (wpos_wc_admin_notes)
+0002.730 () Atomic restore: renaming new table (ga_wc_admin_notes) to final table name (wpos_wc_admin_notes)
+0002.731 () Processing table (MyISAM): wpos_wc_customer_lookup - will restore as: ga_wc_customer_lookup
+0002.736 () Atomic restore: dropping original table (wpos_wc_customer_lookup)
+0002.737 () Atomic restore: renaming new table (ga_wc_customer_lookup) to final table name (wpos_wc_customer_lookup)
+0002.738 () Processing table (MyISAM): wpos_wc_download_log - will restore as: ga_wc_download_log
+0002.743 () Atomic restore: dropping original table (wpos_wc_download_log)
+0002.744 () Atomic restore: renaming new table (ga_wc_download_log) to final table name (wpos_wc_download_log)
+0002.746 () Processing table (MyISAM): wpos_wc_order_addresses - will restore as: ga_wc_order_addresses
+0002.752 () Atomic restore: dropping original table (wpos_wc_order_addresses)
+0002.753 () Atomic restore: renaming new table (ga_wc_order_addresses) to final table name (wpos_wc_order_addresses)
+0002.755 () Processing table (MyISAM): wpos_wc_order_coupon_lookup - will restore as: ga_wc_order_coupon_lookup
+0002.761 () Atomic restore: dropping original table (wpos_wc_order_coupon_lookup)
+0002.761 () Atomic restore: renaming new table (ga_wc_order_coupon_lookup) to final table name (wpos_wc_order_coupon_lookup)
+0002.763 () Processing table (MyISAM): wpos_wc_order_operational_data - will restore as: ga_wc_order_operational_data
+0002.768 () Atomic restore: dropping original table (wpos_wc_order_operational_data)
+0002.768 () Atomic restore: renaming new table (ga_wc_order_operational_data) to final table name (wpos_wc_order_operational_data)
+0002.770 () Processing table (MyISAM): wpos_wc_order_product_lookup - will restore as: ga_wc_order_product_lookup
+0002.783 () Atomic restore: dropping original table (wpos_wc_order_product_lookup)
+0002.784 () Atomic restore: renaming new table (ga_wc_order_product_lookup) to final table name (wpos_wc_order_product_lookup)
+0002.785 () Processing table (MyISAM): wpos_wc_order_stats - will restore as: ga_wc_order_stats
+0002.798 () Atomic restore: dropping original table (wpos_wc_order_stats)
+0002.799 () Atomic restore: renaming new table (ga_wc_order_stats) to final table name (wpos_wc_order_stats)
+0002.800 () Processing table (MyISAM): wpos_wc_order_tax_lookup - will restore as: ga_wc_order_tax_lookup
+0002.806 () Atomic restore: dropping original table (wpos_wc_order_tax_lookup)
+0002.807 () Atomic restore: renaming new table (ga_wc_order_tax_lookup) to final table name (wpos_wc_order_tax_lookup)
+0002.810 () Processing table (MyISAM): wpos_wc_product_attributes_lookup - will restore as: ga_wc_product_attributes_lookup
+0002.847 () Atomic restore: dropping original table (wpos_wc_product_attributes_lookup)
+0002.848 () Atomic restore: renaming new table (ga_wc_product_attributes_lookup) to final table name (wpos_wc_product_attributes_lookup)
+0002.849 () Processing table (MyISAM): wpos_wc_product_download_directories - will restore as: ga_wc_product_download_directories
+0002.856 () Atomic restore: dropping original table (wpos_wc_product_download_directories)
+0002.857 () Atomic restore: renaming new table (ga_wc_product_download_directories) to final table name (wpos_wc_product_download_directories)
+0002.858 () Processing table (MyISAM): wpos_wc_rate_limits - will restore as: ga_wc_rate_limits
+0002.863 () Atomic restore: dropping original table (wpos_wc_rate_limits)
+0002.864 () Atomic restore: renaming new table (ga_wc_rate_limits) to final table name (wpos_wc_rate_limits)
+0002.865 () Processing table (InnoDB): wpos_wc_ukr_shipping_labels - will restore as: ga_wc_ukr_shipping_labels
+0002.871 () Database queries processed: 250 in 2.77 seconds
+0002.871 () Atomic restore: dropping original table (wpos_wc_ukr_shipping_labels)
+0002.873 () Atomic restore: renaming new table (ga_wc_ukr_shipping_labels) to final table name (wpos_wc_ukr_shipping_labels)
+0002.874 () Processing table (MyISAM): wpos_wc_ukr_shipping_np_areas - will restore as: ga_wc_ukr_shipping_np_areas
+0002.880 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0002.883 () Atomic restore: dropping original table (wpos_wc_ukr_shipping_np_areas)
+0002.884 () Atomic restore: renaming new table (ga_wc_ukr_shipping_np_areas) to final table name (wpos_wc_ukr_shipping_np_areas)
+0002.884 () Processing table (MyISAM): wpos_wc_ukr_shipping_np_cities - will restore as: ga_wc_ukr_shipping_np_cities
+0003.081 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0003.083 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0003.090 () Atomic restore: dropping original table (wpos_wc_ukr_shipping_np_cities)
+0003.091 () Atomic restore: renaming new table (ga_wc_ukr_shipping_np_cities) to final table name (wpos_wc_ukr_shipping_np_cities)
+0003.095 () Processing table (MyISAM): wpos_wc_ukr_shipping_np_warehouses - will restore as: ga_wc_ukr_shipping_np_warehouses
+0004.623 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0004.628 () Atomic restore: dropping original table (wpos_wc_ukr_shipping_np_warehouses)
+0004.630 () Atomic restore: renaming new table (ga_wc_ukr_shipping_np_warehouses) to final table name (wpos_wc_ukr_shipping_np_warehouses)
+0004.634 () Processing table (MyISAM): wpos_wc_webhooks - will restore as: ga_wc_webhooks
+0004.643 () Atomic restore: dropping original table (wpos_wc_webhooks)
+0004.643 () Atomic restore: renaming new table (ga_wc_webhooks) to final table name (wpos_wc_webhooks)
+0004.645 () Processing table (MyISAM): wpos_wlfmc_wishlist_analytics - will restore as: ga_wlfmc_wishlist_analytics
+0004.652 () Atomic restore: dropping original table (wpos_wlfmc_wishlist_analytics)
+0004.653 () Atomic restore: renaming new table (ga_wlfmc_wishlist_analytics) to final table name (wpos_wlfmc_wishlist_analytics)
+0004.654 () Processing table (MyISAM): wpos_wlfmc_wishlist_automations - will restore as: ga_wlfmc_wishlist_automations
+0004.664 () Atomic restore: dropping original table (wpos_wlfmc_wishlist_automations)
+0004.666 () Atomic restore: renaming new table (ga_wlfmc_wishlist_automations) to final table name (wpos_wlfmc_wishlist_automations)
+0004.667 () Processing table (MyISAM): wpos_wlfmc_wishlist_customers - will restore as: ga_wlfmc_wishlist_customers
+0004.681 () Atomic restore: dropping original table (wpos_wlfmc_wishlist_customers)
+0004.683 () Atomic restore: renaming new table (ga_wlfmc_wishlist_customers) to final table name (wpos_wlfmc_wishlist_customers)
+0004.684 () Processing table (MyISAM): wpos_wlfmc_wishlist_items - will restore as: ga_wlfmc_wishlist_items
+0004.691 () Atomic restore: dropping original table (wpos_wlfmc_wishlist_items)
+0004.692 () Atomic restore: renaming new table (ga_wlfmc_wishlist_items) to final table name (wpos_wlfmc_wishlist_items)
+0004.693 () Processing table (MyISAM): wpos_wlfmc_wishlist_offers - will restore as: ga_wlfmc_wishlist_offers
+0004.698 () Atomic restore: dropping original table (wpos_wlfmc_wishlist_offers)
+0004.699 () Atomic restore: renaming new table (ga_wlfmc_wishlist_offers) to final table name (wpos_wlfmc_wishlist_offers)
+0004.700 () Processing table (MyISAM): wpos_wlfmc_wishlists - will restore as: ga_wlfmc_wishlists
+0004.705 () Atomic restore: dropping original table (wpos_wlfmc_wishlists)
+0004.706 () Atomic restore: renaming new table (ga_wlfmc_wishlists) to final table name (wpos_wlfmc_wishlists)
+0004.707 () Processing table (MyISAM): wpos_woocommerce_api_keys - will restore as: ga_woocommerce_api_keys
+0004.711 () Atomic restore: dropping original table (wpos_woocommerce_api_keys)
+0004.712 () Atomic restore: renaming new table (ga_woocommerce_api_keys) to final table name (wpos_woocommerce_api_keys)
+0004.714 () Processing table (MyISAM): wpos_woocommerce_attribute_taxonomies - will restore as: ga_woocommerce_attribute_taxonomies
+0004.720 () Atomic restore: dropping original table (wpos_woocommerce_attribute_taxonomies)
+0004.721 () Atomic restore: renaming new table (ga_woocommerce_attribute_taxonomies) to final table name (wpos_woocommerce_attribute_taxonomies)
+0004.721 () Processing table (MyISAM): wpos_woocommerce_downloadable_product_permissions - will restore as: ga_woocommerce_downloadable_product_permissions
+0004.727 () Atomic restore: dropping original table (wpos_woocommerce_downloadable_product_permissions)
+0004.727 () Atomic restore: renaming new table (ga_woocommerce_downloadable_product_permissions) to final table name (wpos_woocommerce_downloadable_product_permissions)
+0004.729 () Processing table (MyISAM): wpos_woocommerce_log - will restore as: ga_woocommerce_log
+0004.734 () Atomic restore: dropping original table (wpos_woocommerce_log)
+0004.734 () Atomic restore: renaming new table (ga_woocommerce_log) to final table name (wpos_woocommerce_log)
+0004.736 () Processing table (MyISAM): wpos_woocommerce_order_items - will restore as: ga_woocommerce_order_items
+0004.744 () Atomic restore: dropping original table (wpos_woocommerce_order_items)
+0004.744 () Atomic restore: renaming new table (ga_woocommerce_order_items) to final table name (wpos_woocommerce_order_items)
+0004.745 () Processing table (MyISAM): wpos_woocommerce_payment_tokens - will restore as: ga_woocommerce_payment_tokens
+0004.751 () Atomic restore: dropping original table (wpos_woocommerce_payment_tokens)
+0004.752 () Atomic restore: renaming new table (ga_woocommerce_payment_tokens) to final table name (wpos_woocommerce_payment_tokens)
+0004.755 () Processing table (MyISAM): wpos_woocommerce_sessions - will restore as: ga_woocommerce_sessions
+0004.762 () Atomic restore: dropping original table (wpos_woocommerce_sessions)
+0004.763 () Atomic restore: renaming new table (ga_woocommerce_sessions) to final table name (wpos_woocommerce_sessions)
+0004.764 () Processing table (MyISAM): wpos_woocommerce_shipping_zone_locations - will restore as: ga_woocommerce_shipping_zone_locations
+0004.772 () Atomic restore: dropping original table (wpos_woocommerce_shipping_zone_locations)
+0004.773 () Atomic restore: renaming new table (ga_woocommerce_shipping_zone_locations) to final table name (wpos_woocommerce_shipping_zone_locations)
+0004.773 () Processing table (MyISAM): wpos_woocommerce_shipping_zone_methods - will restore as: ga_woocommerce_shipping_zone_methods
+0004.780 () Atomic restore: dropping original table (wpos_woocommerce_shipping_zone_methods)
+0004.781 () Atomic restore: renaming new table (ga_woocommerce_shipping_zone_methods) to final table name (wpos_woocommerce_shipping_zone_methods)
+0004.782 () Processing table (MyISAM): wpos_woocommerce_shipping_zones - will restore as: ga_woocommerce_shipping_zones
+0004.789 () Atomic restore: dropping original table (wpos_woocommerce_shipping_zones)
+0004.790 () Atomic restore: renaming new table (ga_woocommerce_shipping_zones) to final table name (wpos_woocommerce_shipping_zones)
+0004.790 () Processing table (MyISAM): wpos_woocommerce_tax_rate_locations - will restore as: ga_woocommerce_tax_rate_locations
+0004.796 () Atomic restore: dropping original table (wpos_woocommerce_tax_rate_locations)
+0004.797 () Atomic restore: renaming new table (ga_woocommerce_tax_rate_locations) to final table name (wpos_woocommerce_tax_rate_locations)
+0004.799 () Processing table (MyISAM): wpos_woocommerce_tax_rates - will restore as: ga_woocommerce_tax_rates
+0004.804 () Atomic restore: dropping original table (wpos_woocommerce_tax_rates)
+0004.805 () Atomic restore: renaming new table (ga_woocommerce_tax_rates) to final table name (wpos_woocommerce_tax_rates)
+0004.806 () Processing table (MyISAM): wpos_wpforms_logs - will restore as: ga_wpforms_logs
+0004.813 () Atomic restore: dropping original table (wpos_wpforms_logs)
+0004.814 () Atomic restore: renaming new table (ga_wpforms_logs) to final table name (wpos_wpforms_logs)
+0004.815 () Processing table (MyISAM): wpos_wpforms_payment_meta - will restore as: ga_wpforms_payment_meta
+0004.820 () Atomic restore: dropping original table (wpos_wpforms_payment_meta)
+0004.820 () Atomic restore: renaming new table (ga_wpforms_payment_meta) to final table name (wpos_wpforms_payment_meta)
+0004.822 () Processing table (MyISAM): wpos_wpforms_payments - will restore as: ga_wpforms_payments
+0004.827 () Atomic restore: dropping original table (wpos_wpforms_payments)
+0004.828 () Atomic restore: renaming new table (ga_wpforms_payments) to final table name (wpos_wpforms_payments)
+0004.830 () Processing table (MyISAM): wpos_wpforms_tasks_meta - will restore as: ga_wpforms_tasks_meta
+0004.836 () Atomic restore: dropping original table (wpos_wpforms_tasks_meta)
+0004.836 () Atomic restore: renaming new table (ga_wpforms_tasks_meta) to final table name (wpos_wpforms_tasks_meta)
+0004.837 () Processing table (InnoDB): wpos_wpmailsmtp_debug_events - will restore as: ga_wpmailsmtp_debug_events
+0004.842 () Atomic restore: dropping original table (wpos_wpmailsmtp_debug_events)
+0004.844 () Atomic restore: renaming new table (ga_wpmailsmtp_debug_events) to final table name (wpos_wpmailsmtp_debug_events)
+0004.845 () Processing table (MyISAM): wpos_wpmailsmtp_tasks_meta - will restore as: ga_wpmailsmtp_tasks_meta
+0004.853 () Atomic restore: dropping original table (wpos_wpmailsmtp_tasks_meta)
+0004.854 () Atomic restore: renaming new table (ga_wpmailsmtp_tasks_meta) to final table name (wpos_wpmailsmtp_tasks_meta)
+0004.855 () Processing table (MyISAM): wpos_yoast_indexable - will restore as: ga_yoast_indexable
+0004.879 () Atomic restore: dropping original table (wpos_yoast_indexable)
+0004.879 () Atomic restore: renaming new table (ga_yoast_indexable) to final table name (wpos_yoast_indexable)
+0004.883 () Processing table (MyISAM): wpos_yoast_indexable_hierarchy - will restore as: ga_yoast_indexable_hierarchy
+0004.894 () Atomic restore: dropping original table (wpos_yoast_indexable_hierarchy)
+0004.895 () Atomic restore: renaming new table (ga_yoast_indexable_hierarchy) to final table name (wpos_yoast_indexable_hierarchy)
+0004.896 () Processing table (MyISAM): wpos_yoast_migrations - will restore as: ga_yoast_migrations
+0004.904 () Atomic restore: dropping original table (wpos_yoast_migrations)
+0004.905 () Atomic restore: renaming new table (ga_yoast_migrations) to final table name (wpos_yoast_migrations)
+0004.905 () Processing table (MyISAM): wpos_yoast_primary_term - will restore as: ga_yoast_primary_term
+0004.912 () Atomic restore: dropping original table (wpos_yoast_primary_term)
+0004.913 () Atomic restore: renaming new table (ga_yoast_primary_term) to final table name (wpos_yoast_primary_term)
+0004.914 () Processing table (MyISAM): wpos_yoast_seo_links - will restore as: ga_yoast_seo_links
+0004.919 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0004.940 () UpdraftVault: this site has not been connected - check your settings
+0015.495 () Unlocking database and leaving maintenance mode
+0015.495 () Вимкнення режиму обслуговування&#8230;
+0015.496 () Atomic restore: dropping original table (wpos_yoast_seo_links)
+0015.497 () Atomic restore: renaming new table (ga_yoast_seo_links) to final table name (wpos_yoast_seo_links)
+0015.498 () Finished: lines processed: 391 in 15.39 seconds
+0015.499 () Cleaning up rubbish...
+0015.500 () Begin search and replace (updraftplus_restored_db)
+0015.500 () [Database-replace-site-url] Database: search and replace site URL
+0015.500 () This option was not selected.
+0015.525 () Entity: plugins
+0015.525 () restore_backup(backup_file=backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:54:"/home/mirweb/stone.energy-stars.com/wp-content/plugins";s:11:"description";s:14:"Плагіни";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0015.526 () Unpacking backup... (backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-plugins.zip, 81.8 MB)
+0015.527 () Unzipping backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-plugins.zip to /home/mirweb/stone.energy-stars.com/wp-content/upgrade/be7e27d6/ using UpdraftPlus_ZipArchive, starting index 0
+0016.106 () Unzip progress: 4102 out of 22027 files (10.4 KB, plugins/wpforms-lite/vendor_prefixed/stripe/stripe-php/lib/Util/Util.php)
+0016.339 () Unzip progress: 5103 out of 22027 files (20.8 MB, plugins/wpforms-lite/assets/images/integrations/ai/thumbs-down-inactive.svg)
+0016.549 () Unzip progress: 6104 out of 22027 files (33.9 MB, plugins/wc-thanks-redirect/vendor/freemius/wordpress-sdk/templates/connect/permission.php)
+0016.744 () Unzip progress: 7105 out of 22027 files (52.6 MB, plugins/elementor/includes/widgets/tabs.php)
+0016.916 () Unzip progress: 8106 out of 22027 files (62.2 MB, plugins/elementor/assets/js/editor.js)
+0017.197 () Unzip progress: 9107 out of 22027 files (87.7 MB, plugins/jet-elements/assets/js/lib/google-maps/pale-dawn.json)
+0017.518 () Unzip progress: 10108 out of 22027 files (117.5 MB, plugins/updraftplus/includes/Google/Service/CloudMonitoring.php)
+0017.773 () Unzip progress: 11109 out of 22027 files (132.8 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Batch/BatchRequestTransfer.php)
+0017.978 () Unzip progress: 12110 out of 22027 files (141.1 MB, plugins/jetformbuilder/includes/blocks/conditional-block/operators/operator-empty.php)
+0018.158 () Unzip progress: 13111 out of 22027 files (151.8 MB, plugins/jetformbuilder/assets/build/admin/pages/jfb-addons.asset.php)
+0018.314 () Unzip progress: 14112 out of 22027 files (157 MB, plugins/woocommerce-direct-checkout/jetpack_vendor/quadlayers/wp-plugin-suggestions/assets/img/logo.jpg)
+0018.475 () Unzip progress: 15113 out of 22027 files (165.8 MB, plugins/woocommerce/src/StoreApi/Utilities/Pagination.php)
+0018.640 () Unzip progress: 16114 out of 22027 files (172.8 MB, plugins/woocommerce/assets/images/core-profiler/logo-jetpack.svg)
+0018.833 () Unzip progress: 17115 out of 22027 files (187 MB, plugins/woocommerce/assets/client/blocks/order-confirmation-shipping-address/block.json)
+0019.009 () Unzip progress: 18116 out of 22027 files (194.7 MB, plugins/woocommerce/vendor/opis/uri/LICENSE)
+0019.217 () Unzip progress: 19117 out of 22027 files (206.1 MB, plugins/seo-by-rank-math/includes/modules/analytics/class-objects.php)
+0019.401 () Unzip progress: 20118 out of 22027 files (213.4 MB, plugins/astra-addon/addons/blog-pro/assets/js/minified/single-autopost-infinite.min.js)
+0019.587 () Unzip progress: 21119 out of 22027 files (230.2 MB, plugins/members/addons/members-block-permissions/resources/js/editor/controls/message-textarea.js)
+0019.729 () Unzip progress: 22027 out of 22027 files (237.5 MB, plugins/astra-addon/addons/advanced-hooks/assets/css/minified/astra-advanced-hooks-admin-edit.min.css)
+0019.755 () Moving old data: filesystem method / updraft_dir is potentially possible
+0019.755 () Moving old data: can potentially use wp_filesystem method / -old
+0019.755 () Moving old data out of the way...
+0020.577 () Top-level entities being moved: art-woocommerce-order-one-click, astra-addon, chat-life-telegram, chatway-live-chat, chaty, checkout-field-editor-and-manager-for-woocommerce, contact-form-7, cyr2lat, elementor, filter-everything, jet-elements, jet-engine-phone-number-format-callback-main, jet-form-builder-pdf, jet-form-builder-woo-action, jet-popup, jetformbuilder, litespeed-cache, loco-translate, members, morkva-ua-shipping, seo-by-rank-math, telsender, ultimate-elementor, updraftplus, variation-swatches-woo, wc-thanks-redirect, woocommerce, woocommerce-direct-checkout, wpc-badge-management, wpc-brands, wpc-product-faqs, wpc-product-image-swap, wpc-product-quantity, wpc-product-quantity-premium, wpc-product-tabs, wpc-product-videos, wpc-update-variations-in-cart, wpforms-lite, wps-hide-login
+0020.591 () Moving unpacked backup into place...
+0020.986 () Top-level entities being moved: art-woocommerce-order-one-click, astra-addon, chat-life-telegram, chatway-live-chat, chaty, checkout-field-editor-and-manager-for-woocommerce, contact-form-7, cyr2lat, elementor, filter-everything, jet-elements, jet-engine-phone-number-format-callback-main, jet-form-builder-pdf, jet-form-builder-woo-action, jet-popup, jetformbuilder, litespeed-cache, loco-translate, members, morkva-ua-shipping, seo-by-rank-math, telsender, ultimate-elementor, updraftplus, variation-swatches-woo, wc-thanks-redirect, woocommerce, woocommerce-direct-checkout, wpc-badge-management, wpc-brands, wpc-product-faqs, wpc-product-image-swap, wpc-product-quantity, wpc-product-quantity-premium, wpc-product-tabs, wpc-product-videos, wpc-update-variations-in-cart, wpforms-lite, wps-hide-login
+0020.994 () Cleaning up rubbish...
+0020.996 () Entity: themes
+0020.996 () restore_backup(backup_file=backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-themes.zip, type=themes, info=a:3:{s:4:"path";s:53:"/home/mirweb/stone.energy-stars.com/wp-content/themes";s:11:"description";s:8:"Теми";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0020.997 () Unpacking backup... (backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-themes.zip, 6.1 MB)
+0020.997 () Unzipping backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-themes.zip to /home/mirweb/stone.energy-stars.com/wp-content/upgrade/4919cc28/ using UpdraftPlus_ZipArchive, starting index 0
+0021.173 () Unzip progress: 1002 out of 1111 files (13.4 MB, themes/astra/assets/js/unminified/flexibility.js)
+0021.227 () Unzip progress: 1111 out of 1111 files (20.8 MB, themes/decor-child/screenshot.jpg)
+0021.229 () Moving old data: filesystem method / updraft_dir is potentially possible
+0021.229 () Moving old data: can potentially use wp_filesystem method / -old
+0021.229 () Moving old data out of the way...
+0021.250 () Top-level entities being moved: astra, decor-child
+0021.251 () Moving unpacked backup into place...
+0021.272 () Top-level entities being moved: astra, decor-child
+0021.272 () Cleaning up rubbish...
+0021.276 () Entity: uploads
+0021.276 () restore_backup(backup_file=backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/home/mirweb/stone.energy-stars.com/wp-content/uploads";s:11:"description";s:24:"Завантаження";}, last_one=)
+0021.277 () Unpacking backup... (backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-uploads.zip, 409.9 MB)
+0021.277 () Unzipping backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-uploads.zip to /home/mirweb/stone.energy-stars.com/wp-content/upgrade/1ea5d983/ using UpdraftPlus_ZipArchive, starting index 0
+0021.542 () Unzip progress: 1002 out of 6573 files (37.4 MB, uploads/2023/06/ramka_6-1-768x1024.jpg)
+0021.724 () Unzip progress: 2003 out of 6573 files (75.7 MB, uploads/2023/06/sovi_1-1-600x800.jpg)
+0021.930 () Unzip progress: 3004 out of 6573 files (115.1 MB, uploads/2023/06/na-hvili_1-768x768.jpg)
+0022.159 () Unzip progress: 4005 out of 6573 files (154.7 MB, uploads/2023/06/ramka10-225x300.jpg)
+0022.467 () Unzip progress: 5006 out of 6573 files (217.2 MB, uploads/2023/06/romashka_1-100x100.jpg.webp)
+0022.783 () Unzip progress: 6007 out of 6573 files (281.5 MB, uploads/2023/11/pngwing.com-8-300x300.bk.png)
+0023.204 () Unzip progress: 6201 out of 6573 files (381.8 MB, uploads/2025/03/granite_paving_stones__gabro__improved_p2_20x10x10_cm_ukraine_02.webp)
+0023.361 () Unzip progress: 6573 out of 6573 files (411.2 MB, uploads/2025/03/white-green_marble_boulder_carpathians_ukraine_02-96x96.webp)
+0023.430 () Moving old data: filesystem method / updraft_dir is potentially possible
+0023.430 () Moving old data: can potentially use wp_filesystem method / -old
+0023.430 () Moving old data out of the way...
+0023.597 () Moving unpacked backup into place...
+0023.706 () Cleaning up rubbish...
+0023.708 () restore_backup(backup_file=backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-uploads2.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/home/mirweb/stone.energy-stars.com/wp-content/uploads";s:11:"description";s:24:"Завантаження";}, last_one=)
+0023.710 () Unpacking backup... (backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-uploads2.zip, 230.5 MB)
+0023.711 () Unzipping backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-uploads2.zip to /home/mirweb/stone.energy-stars.com/wp-content/upgrade/3511842a/ using UpdraftPlus_ZipArchive, starting index 0
+0024.338 () Unzip progress: 549 out of 1643 files (176.7 MB, uploads/2025/03/stones-for-wother1.mp4)
+0024.696 () Unzip progress: 1550 out of 1643 files (239.6 MB, uploads/2025/03/bulgarian_slate_golden_autumn_w-1-2_cm_h-10_cm_bulgaria_01-100x100.webp)
+0024.748 () Unzip progress: 1643 out of 1643 files (248.1 MB, uploads/2025/03/basalt_crushed_gray-graphite_20-40_mm_ukraine.webp)
+0024.802 () Moving unpacked backup into place...
+0025.063 () Cleaning up rubbish...
+0025.067 () Entity: others
+0025.067 () restore_backup(backup_file=backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-others.zip, type=others, info=a:2:{s:4:"path";s:46:"/home/mirweb/stone.energy-stars.com/wp-content";s:11:"description";s:8:"Інші";}, last_one=1)
+0025.068 () Unpacking backup... (backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-others.zip, 8.2 MB)
+0025.068 () Unzipping backup_2025-04-08-1757_stoneenergystarscom_739503ae1e78-others.zip to /home/mirweb/stone.energy-stars.com/wp-content/upgrade/0d85c3ac/ using UpdraftPlus_ZipArchive, starting index 0
+0025.377 () Unzip progress: 695 out of 695 files (34.3 MB, litespeed/auto-backup/backup-1688455916-before-advanced.data)
+0025.381 () Cleaning up rubbish...
+0025.402 () Elementor's clear cache method exists and will be executed
+0025.426 () Restore successful!
+0025.427 () Restore successful

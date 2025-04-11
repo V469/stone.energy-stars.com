@@ -1,0 +1,678 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: art-woocommerce-order-one-click\n"
+"POT-Creation-Date: 2025-02-04 15:15+0400\n"
+"PO-Revision-Date: 2025-02-04 16:29+0400\n"
+"Last-Translator: Абрамович Артем | artabr.ru <artikus.sol@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;esc_html__;_e;_ex:1,2c;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"_n:1,2;_nx:1,2,4c\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: .github\n"
+"X-Poedit-SearchPathExcluded-2: .idea\n"
+"X-Poedit-SearchPathExcluded-3: node_modules\n"
+"X-Poedit-SearchPathExcluded-4: vendor\n"
+
+#: classes/Admin/Create_Form.php:44
+msgid "Your Name"
+msgstr "Ваше имя"
+
+#: classes/Admin/Create_Form.php:45
+msgid "Your Email"
+msgstr "Ваш Email"
+
+#: classes/Admin/Create_Form.php:46
+msgid "Your Phone"
+msgstr "Ваш телефон"
+
+#: classes/Admin/Create_Form.php:47
+msgid "Send"
+msgstr "Отправить"
+
+#: classes/Admin/Create_Form.php:51
+#, php-format
+msgid "Name: %s"
+msgstr "Имя: %s"
+
+#: classes/Admin/Create_Form.php:52
+#, php-format
+msgid "Email: %s"
+msgstr "Email: %s"
+
+#: classes/Admin/Create_Form.php:53
+#, php-format
+msgid "Phone: %s"
+msgstr "Телефон: %s"
+
+#: classes/Admin/Create_Form.php:55
+#, php-format
+msgid "This e-mail was sent from a contact form on %1$s (%2$s)"
+msgstr "Это письмо было отправлено с формы обратной связи на %1$s (%2$s)"
+
+#: classes/Admin/Create_Form.php:87 classes/Admin/Create_Form.php:101
+#, php-format
+msgid "Order from the site %1$s (%2$s)"
+msgstr "Заказ с сайта %1$s (%2$s)"
+
+#: classes/Admin/Create_Form.php:124 templates/email.php:412
+msgid "Order One Click"
+msgstr "Заказ в один клик"
+
+#: classes/Admin/Settings.php:35 classes/RequestProcessing/OrderCreator.php:149
+msgid "One click order"
+msgstr "Заказ в один клик"
+
+#: classes/Admin/Settings.php:69
+msgid "Off"
+msgstr "Выключить"
+
+#: classes/Admin/Settings.php:70
+msgid "On"
+msgstr "Включить"
+
+#: classes/Admin/Settings.php:85
+msgid "General"
+msgstr "Основные"
+
+#: classes/Admin/Settings.php:129
+msgid "General settings"
+msgstr "Основные настройки"
+
+#: classes/Admin/Settings.php:135
+msgid "Operating mode"
+msgstr "Режим работы"
+
+#: classes/Admin/Settings.php:136
+msgid "Select the mode of operation and display the Buy button"
+msgstr "Выберите режим работы и показа кнопки Купить"
+
+#: classes/Admin/Settings.php:147
+msgid "Select form"
+msgstr "Выберите форму"
+
+#: classes/Admin/Settings.php:148
+msgid "Choose the desired form"
+msgstr "Выберите нужную форму"
+
+#: classes/Admin/Settings.php:152
+msgid "-- Select --"
+msgstr "-- Выбрать --"
+
+#: classes/Admin/Settings.php:160
+msgid "Button Label"
+msgstr "Надпись на кнопке"
+
+#: classes/Admin/Settings.php:161
+msgid "Specify the desired label on the button"
+msgstr "Укажите нужную надпись на кнопке"
+
+#: classes/Admin/Settings.php:164
+msgid "Buy in one click"
+msgstr "Купить в один клик"
+
+#: classes/Admin/Settings.php:171
+msgid "Special label"
+msgstr "Специальная надпись"
+
+#: classes/Admin/Settings.php:173
+msgid ""
+"Special field for the Order button. Allows you to change the label on the "
+"button when turning on the Price and Stocks mode."
+msgstr ""
+"Специальное поле для кнопки Заказать. Позволяет изменять надпись на кнопке "
+"при включении режима Цены и Запасы."
+
+#: classes/Admin/Settings.php:184
+msgid "Button on the catalog"
+msgstr "Кнопка на  каталоге"
+
+#: classes/Admin/Settings.php:186
+msgid ""
+"Button output on catalog pages (store, categories, labels, attributes). It "
+"is displayed only for simple products"
+msgstr ""
+"Вывод кнопки на страницах каталога (магазин, рубрики, метки, атрибуты). "
+"Выводится только для простых товаров"
+
+#: classes/Admin/Settings.php:201
+msgid "Popup window"
+msgstr "Всплывающее окно"
+
+#: classes/Admin/Settings.php:208
+msgid "Turn off window elements"
+msgstr "Выключить элементы окна"
+
+#: classes/Admin/Settings.php:209
+msgid "Remove items that are NOT needed."
+msgstr "Уберите элементы, которые НЕ нужны."
+
+#: classes/Admin/Settings.php:225
+msgid "Orders"
+msgstr "Заказы"
+
+#: classes/Admin/Settings.php:240
+msgid "Create orders"
+msgstr "Создание заказов"
+
+#: classes/Admin/Settings.php:242
+msgid ""
+"When this setting is enabled, orders will be created in the WooCommerce "
+"panel with the status \"Pending payment\""
+msgstr ""
+"При включении этой настройки будут создаваться заказы в панели WooСommerce "
+"со статусом \"В ожидании оплаты\""
+
+#: classes/Admin/Settings.php:252
+msgid "Change subject"
+msgstr "Изменить тему письма"
+
+#: classes/Admin/Settings.php:254
+msgid ""
+"If you enable this setting, then the order number will be added to the "
+"subject of the letter in the format of the \"Letter Subject No. 112233\""
+msgstr ""
+"Если включить эту настройку, то к теме письма будет добавляться номер заказа "
+"в формате \"Тема письма №112233\""
+
+#: classes/Admin/Settings.php:264
+msgid "Change name"
+msgstr "Изменить заголовок"
+
+#: classes/Admin/Settings.php:266
+msgid ""
+"When enabled, the order name in the order listing will be changed from "
+"#12345 SamBoy to #12345 Order one click +1 (234) 123-45-67"
+msgstr ""
+"При включении, в листинге заказов название заказа будет изменено с #12345 "
+"SamBoy  на  #12345 Order one click +1 (234) 123-45-67"
+
+#: classes/Admin/Settings.php:275
+msgid "Custom letter template"
+msgstr "Произвольный шаблон письма"
+
+#: classes/Admin/Settings.php:277
+msgid ""
+"When enabled, it will not use the template specified in CF7, but an "
+"arbitrary email template from the plugin"
+msgstr ""
+"При включении будет использоваться не указанный в CF7 шаблон, а произвольный "
+"шаблон письма из плагина"
+
+#: classes/Admin/Settings.php:290
+msgid "Others"
+msgstr "Разное"
+
+#: classes/Admin/Settings.php:297
+msgid "Do not delete settings"
+msgstr "Не удалять настройки"
+
+#: classes/Admin/Settings.php:299
+msgid ""
+"If enabled, then the settings when you remove the plugin will NOT be deleted"
+msgstr "Если включено, то настройки при удалении плагина НЕ будут удалены"
+
+#: classes/Admin/Settings.php:337
+msgid "Useful links"
+msgstr "Социальные ссылки"
+
+#: classes/Admin/Settings.php:347
+msgid "Donate"
+msgstr "Поддержать"
+
+#: classes/Admin/Settings.php:380
+msgid "Catalog mode"
+msgstr "Режим каталога"
+
+#: classes/Admin/Settings.php:381
+msgid "Normal mode"
+msgstr "Штатный режим"
+
+#: classes/Admin/Settings.php:382
+msgid "Pre-order mode"
+msgstr "Режим предзаказа"
+
+#: classes/Admin/Settings.php:383
+msgid "Special mode"
+msgstr "Специальный режим"
+
+#: classes/Admin/Settings.php:424
+msgid "Title"
+msgstr "Наименование"
+
+#: classes/Admin/Settings.php:425
+msgid "Image"
+msgstr "Изображение"
+
+#: classes/Admin/Settings.php:426
+msgid "Price"
+msgstr "Цена"
+
+#: classes/Admin/Settings.php:427
+msgid "SKU"
+msgstr "Артикул"
+
+#: classes/Admin/Settings.php:428
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: classes/Admin/Settings.php:429 templates/quantity-input.php:41
+msgid "Quantity"
+msgstr "Количество"
+
+#: classes/Admin/Settings.php:430
+msgid "Amount"
+msgstr "Итого"
+
+#: classes/Admin/Settings.php:447
+msgid ""
+"<strong>Warning! The functionality is under development. </strong> For the "
+"correct operation of this functionality. Requires proper creation of fields "
+"in the Contact Form 7 form with the names:"
+msgstr ""
+"<strong>Внимание! Функционал находится в стадии разработки.</strong> Для "
+"корректной работы требуется правильное создание полей в форме Contact Form 7 "
+"c именами:"
+
+#: classes/Admin/Settings.php:452
+msgid "field Name - <code>awooc-text</code>;"
+msgstr "поле Имя  - <code>awooc-text</code>;"
+
+#: classes/Admin/Settings.php:453
+msgid "field Email - <code>awooc-email</code>;"
+msgstr "поле Емайл - <code>awooc-email</code>;"
+
+#: classes/Admin/Settings.php:454
+msgid "field Phone - <code>awooc-tel</code>;"
+msgstr "поле Телефон - <code>awooc-tel</code>;"
+
+#: classes/Admin/Settings.php:489
+#, php-format
+msgid ""
+"If you like the plugin %1$s please leave us a %2$s rating. A huge thanks in "
+"advance!"
+msgstr ""
+"Если вам нравится плагин %1$s, пожалуйста, поставьте оценку %2$s. Заранее "
+"большое спасибо!"
+
+#: classes/Admin/Settings.php:490 classes/Admin/Settings.php:544
+msgid "Art WooCommerce Order One Click"
+msgstr "Art WooCommerce Order One Click"
+
+#: classes/Admin/Settings.php:493
+msgid "five star"
+msgstr "пять звезд"
+
+#: classes/Admin/Settings.php:495
+msgid "Thanks :)"
+msgstr "Пожалуйста, не загружайте эту страницу напрямую. Спасибо!"
+
+#: classes/Admin/Settings.php:506
+msgid "Thank you for using the plugin!"
+msgstr "Спасибо, что используете плагин!"
+
+#: classes/Admin/Settings.php:530
+msgid "Yandex Money"
+msgstr "Яндекс Деньги"
+
+#: classes/Admin/Settings.php:531
+msgid "Make a donation through the Yandex Money system. You can use bank cards"
+msgstr "Поддержать через Яндекс Деньги. Можно использовать банковские карты"
+
+#: classes/Admin/Settings.php:535
+msgid "WPRUSe"
+msgstr "WPRUSe"
+
+#: classes/Admin/Settings.php:536
+msgid "WPRUSe project site"
+msgstr "Описание проекта"
+
+#: classes/Admin/Settings.php:543
+#, php-format
+msgid "You can make a donation to make the plugin %1$s even better!"
+msgstr ""
+"Вы можете сделать пожертвование, чтобы мотивировать автора и сделать плагин "
+"%1$s еще лучше!"
+
+#: classes/Admin/Settings.php:575
+msgid ""
+"Detailed step by step instructions for setting up the plugin (in Russian)."
+msgstr "Подробная инструкция по настройке плагина (на русском)."
+
+#: classes/Admin/Settings.php:576
+msgid "Read more..."
+msgstr "Подробнее..."
+
+#: classes/Admin/Settings.php:580
+msgid ""
+"Plugin on GitHub, you can write there suggestions, wishes or participate in "
+"the development"
+msgstr ""
+"Плагин на GitHub. Можно оставить пожелания, предложения или поучаствовать в "
+"разработке"
+
+#: classes/Admin/Settings.php:581
+msgid "Plugin on GitHub"
+msgstr "Смотреть на GitHub"
+
+#: classes/Enqueue.php:101
+msgid ""
+"On the pages of the categories and the store itself, the Add to Cart buttons "
+"are disabled. On the product page, the \"Add to cart\" button is hidden and "
+"the \"Order\" button appears."
+msgstr ""
+"На страницах категорий и самого магазина кнопки «Добавить в корзину» "
+"отключены. На странице товара кнопка «Добавить в корзину» скрыта, и "
+"появляется кнопка «Заказать»."
+
+#: classes/Enqueue.php:105
+msgid ""
+"The button \"Add to cart\" works in the normal mode, that is, goods can be "
+"added to the cart and at the same time ordered in one click"
+msgstr ""
+"Кнопка «Добавить в корзину» работает в обычном режиме, то есть товар можно "
+"добавить в корзину и одновременно заказать в один клик"
+
+#: classes/Enqueue.php:109
+msgid ""
+"The Order button will appear automatically if: Price not available;  stock "
+"status \"In Unfulfilled Order\"; stock status \"Out of stock\"; inventory "
+"management is enabled at item level and preorders allowed"
+msgstr ""
+"Кнопка «Заказать» появится автоматически, если: цена недоступна; управление "
+"запасами товара в статусе \"В невыполненном заказе \" или в статусе \"Нет на "
+"складе \"; управление запасами включено на уровне товара, а предварительные "
+"заказы разрешены"
+
+#: classes/Enqueue.php:113
+msgid ""
+"When turned on, it works the same way as normal mode. But if the goods have "
+"no price or the product out of stock, then only the Order button will appear."
+msgstr ""
+"При включении работает так же, как и в обычном режиме. Но если у товара нет "
+"цены или товара нет в наличии, то появится только кнопка Заказать."
+
+#: classes/Enqueue.php:147 classes/Prepare/Mail.php:78
+#: classes/Prepare/Popup.php:155
+msgid "Quantity: "
+msgstr "Количество: "
+
+#: classes/Enqueue.php:148 classes/Prepare/Mail.php:31
+msgid "Title: "
+msgstr "Наименование: "
+
+#: classes/Enqueue.php:149 classes/Prepare/Mail.php:48
+#: classes/Prepare/Popup.php:45
+msgid "Price: "
+msgstr "Цена: "
+
+#: classes/Enqueue.php:150 classes/Prepare/Mail.php:58
+#: classes/Prepare/Popup.php:66
+msgid "SKU: "
+msgstr "Артикул: "
+
+#: classes/Enqueue.php:151 classes/Prepare/Mail.php:88
+#: classes/Prepare/Popup.php:181
+msgid "Amount: "
+msgstr "Итого: "
+
+#: classes/Enqueue.php:152 classes/Prepare/Mail.php:68
+#: classes/Prepare/Popup.php:92
+msgid "Attributes: "
+msgstr "Атрибуты: "
+
+#: classes/Enqueue.php:153 templates/email.php:448
+msgid "Information about the selected product"
+msgstr "Информация о выбранном товаре"
+
+#: classes/Enqueue.php:154 classes/Prepare/Mail.php:104
+msgid "Link to the product: "
+msgstr "Ссылка на товар: "
+
+#: classes/Enqueue.php:155
+msgid "Click to close"
+msgstr "Ткнуть для закрытия"
+
+#: classes/Front.php:115
+msgid "Read more"
+msgstr "Читать"
+
+#: classes/Main.php:140
+msgid "Settings"
+msgstr "Настройки"
+
+#: classes/Prepare/Mail.php:123
+msgid "Category: "
+msgid_plural "Categories: "
+msgstr[0] "Категория: "
+msgstr[1] "Категории: "
+msgstr[2] "Категории: "
+
+#: classes/Prepare/Prepare.php:142
+msgid "N/A"
+msgstr "Нет"
+
+#: classes/Product/Meta.php:47
+msgid "Disable Order One Click Button"
+msgstr "Отключить кнопку Заказать"
+
+#: classes/Product/Meta.php:49
+msgid ""
+"If enabled, then on this product the Order button will not be visible. "
+"Product will return to its original condition."
+msgstr ""
+"Если включить, то на этом товаре кнопка Заказать будет не видна. Товар "
+"вернется к исходному состоянию."
+
+#: classes/RequestHandler.php:87
+msgid ""
+"Something is wrong with sending data. Unable to get product ID. Disable the "
+"output in the popup window or contact the developers of the plugin"
+msgstr ""
+"Что-то не так с отправкой данных. Невозможно получить ID товара. Отключите "
+"вывод данных во всплывающем окне или обратитесь к разработчикам плагина"
+
+#: classes/RequestProcessing/EmailModifier.php:129
+msgid "IP"
+msgstr "IP"
+
+#: classes/RequestProcessing/EmailModifier.php:133
+msgid "Date"
+msgstr "Дата"
+
+#: classes/RequestProcessing/EmailModifier.php:137
+msgid "Domain"
+msgstr "Домен"
+
+#: classes/RequestProcessing/OrderCreator.php:61
+msgid "Order One Click: "
+msgstr "Заказ в один клик: "
+
+#: classes/RequestProcessing/OrderCreator.php:147
+msgid "The order was created by using the One-click Order button"
+msgstr "Заказ был создан с помощью кнопки \"Заказ в один клик\""
+
+#: classes/Requirements.php:102
+#, php-format
+msgid "The <strong>%s</strong> requires installed and activated plugins: "
+msgstr ""
+"Для работы плагина <strong>%s</strong> требуются установленные и "
+"активированные плагины: "
+
+#: classes/Requirements.php:118
+msgid " version "
+msgstr " версия "
+
+#: classes/Requirements.php:120
+msgid " or higher"
+msgstr " или выше"
+
+#: classes/Requirements.php:130
+msgid " and "
+msgstr " и "
+
+#: classes/Requirements.php:154
+#, php-format
+msgid "<strong>%s</strong> plugin has been deactivated."
+msgstr "<strong>%s</strong> плагин был деактивирован."
+
+#: includes/create-cf7-field.php:94
+msgid "AWOOC hide field"
+msgstr "AWOOC скрытое поле"
+
+#: includes/create-cf7-field.php:109
+#, php-format
+msgid "Generate a special hidden multi-line field. See %s."
+msgstr "Генерируется специальное многострочное поле. Смотрите %s."
+
+#: includes/create-cf7-field.php:112
+msgid "https://wpruse.ru/my-plugins/order-one-click/"
+msgstr "https://wpruse.ru/my-plugins/order-one-click/"
+
+#: includes/create-cf7-field.php:113
+msgid "the description for details"
+msgstr "подробное описание"
+
+#: includes/create-cf7-field.php:126
+msgid "Name"
+msgstr "Имя"
+
+#: includes/create-cf7-field.php:154
+msgid "Insert Tag"
+msgstr "Вставить"
+
+#: includes/create-cf7-field.php:166
+#, php-format
+msgid ""
+"To use the value input through this field in a mail field, you need to "
+"insert the corresponding mail-tag (%s) into the field on the Mail tab."
+msgstr ""
+"Чтобы использовать значение, введенное через это поле в письме, необходимо "
+"вставить соответствующий почтовый тег (%s) в поле на вкладке Почта."
+
+#: templates/email.php:413
+msgid "A quick one-click order has arrived"
+msgstr "Пришел заказ в один клик"
+
+#: templates/quantity-input.php:40
+#, php-format
+msgid "%s quantity"
+msgstr "%s количество"
+
+#: templates/quantity-input.php:54
+msgid "Product quantity"
+msgstr "Количество товара"
+
+#~ msgid "Locale"
+#~ msgstr "Локаль"
+
+#, php-format
+#~ msgid "Price: %s"
+#~ msgstr "Цена: %s"
+
+#, php-format
+#~ msgid "SKU: %s"
+#~ msgstr "Артикул: %s"
+
+#, php-format
+#~ msgid "Attributes: %s"
+#~ msgstr "Атрибуты: %s"
+
+#, php-format
+#~ msgid "Quantity: %s"
+#~ msgstr "Количество: %s"
+
+#, php-format
+#~ msgid "Amount: %s"
+#~ msgstr "Итого: %s"
+
+#, php-format
+#~ msgid "Link to the product: %s"
+#~ msgstr "Ссылка на товар:  %s"
+
+#, php-format
+#~ msgid "Title: %s"
+#~ msgstr "Наименование: %s"
+
+#, php-format
+#~ msgid ""
+#~ "%1$s requires PHP version 7.3 or higher. Your current PHP version is "
+#~ "%2$s. Please upgrade PHP version to run this plugin."
+#~ msgstr ""
+#~ "%1$s требует PHP версии 7.3 или выше. Ваша текущая версия PHP%2$s. "
+#~ "Пожалуйста, обновите версию PHP, чтобы запустить этот плагин."
+
+#~ msgid "Styles and scripts globally"
+#~ msgstr "Стили и скрипты глобально"
+
+#~ msgid ""
+#~ "If you enable this setting, then the files of forces and scripts will be "
+#~ "connected globally on all pages of the site. This setting will be useful "
+#~ "for displaying the One-click Order button on the list of products and "
+#~ "when using quick view"
+#~ msgstr ""
+#~ "Если включить эту настройку, то файлы стилей и скриптов будут "
+#~ "подключаться глобально на всех страницах сайта. Данная настройка будет "
+#~ "полезна  при выводе кнопки Заказать в один клик на странице со списком "
+#~ "продуктов и при использовании быстрого просмотра"
+
+#~ msgid "PayPal"
+#~ msgstr "PayPal"
+
+#~ msgid "Make a donation through PayPal"
+#~ msgstr "Поддержать через PayPal"
+
+#~ msgid "Oops ... Data sent from unknown address"
+#~ msgstr "Упс... Данные отправлены с неизвестного адреса"
+
+#~ msgid "Do not show Buy button: catalog mode"
+#~ msgstr "Не показывать кнопку Купить: режим каталога"
+
+#~ msgid "Show Buy button: normal mode"
+#~ msgstr "Показывать кнопку Купить: штатный режим"
+
+#~ msgid ""
+#~ "The Order button appears only when inventory management: pre-order mode"
+#~ msgstr ""
+#~ "Кнопка Заказать появиться только при управлении запасами: режим предзаказа"
+
+#~ msgid "Special mode: no prices and stocks"
+#~ msgstr "Специальный режим: нет цен и запасов"
+
+#~ msgid "Price & Stocks"
+#~ msgstr "Цены и Запасы"
+
+#~ msgid ""
+#~ "The inclusion of the button \"Order in one click\" in the absence of "
+#~ "price and availability of goods. Works with simple and variable and "
+#~ "goods. The button \"Add to cart\" will be hidden and only the button "
+#~ "\"Order in one click\" will be visible."
+#~ msgstr ""
+#~ "Включение кнопки \"Заказать в один клик\" при отсутствии у товаров цены и "
+#~ "наличия. Работает с простыми и вариативным и товарами. Кнопка \"Добавить "
+#~ "в корзину\" будет скрыта и видна только кнопка  \"Заказать в один клик\""
+
+#~ msgid ""
+#~ "For product variations. When enabled, the filter of hiding the \"Add to "
+#~ "cart\" button will be disabled, attributes will always be displayed, even "
+#~ "if there is no price. It is recommended to use if there are variations "
+#~ "without prices. In this case, the \"Add to cart\" button will be hidden "
+#~ "and only the \"Order in one click\" button will be visible."
+#~ msgstr ""
+#~ "Включение кнопки \"Заказать в один клик\" при отсутствии у товаров цены и "
+#~ "наличия. Работает с простыми и вариативным и товарами. Кнопка \"Добавить "
+#~ "в корзину\" будет скрыта и видна только кнопка  \"Заказать в один клик\""
+
+#~ msgid "No price"
+#~ msgstr "Отсутствие цены"

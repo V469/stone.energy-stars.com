@@ -1,0 +1,115 @@
+# Translation of Plugins - Thank You Page for WooCommerce - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Thank You Page for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-08-26 09:46:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Thank You Page for WooCommerce - Stable (latest release)\n"
+
+#: wc-thanks-redirect.php:160
+msgid "Documentation"
+msgstr "Документація"
+
+#: src/Admin.php:103
+msgid "Thank You Page Settings"
+msgstr "Налаштування сторінки подяки"
+
+#: src/Front.php:100
+msgid "Product"
+msgstr "Товар"
+
+#: wc-thanks-redirect.php:159
+msgid "Go PRO!"
+msgstr "Переходьте на PRO!"
+
+#: src/Admin.php:366 src/Admin.php:378
+msgid "Enter Valid URL."
+msgstr "Введіть дійсну URL-адресу."
+
+#: src/Admin.php:140
+msgid "This will add a redirect URL for failed orders"
+msgstr "Це додасть URL-адресу переспрямування для невдалих замовлень"
+
+#: src/Admin.php:134 src/Admin.php:143
+msgid "Enter Valid URL!"
+msgstr "Введіть дійсну URL-адресу!"
+
+#: src/Admin.php:131
+msgid "This will add a redirect URL for successful orders"
+msgstr "Це додасть URL-адресу переспрямування для успішних замовлень"
+
+#: src/Admin.php:112
+msgid "This will add redirect for orders"
+msgstr "Це додасть перенаправлення для замовлень"
+
+#: src/Admin.php:111
+msgid "Global Redirect Settings"
+msgstr "Налаштування глобальної переадресації"
+
+#: src/Front.php:74
+msgid "Order number"
+msgstr "Номер замовлення"
+
+#: src/Admin.php:139
+msgid "Order Failure Redirect URL"
+msgstr "Сторінка невдалої оплати"
+
+#: src/Admin.php:363
+msgid "Thank You URL"
+msgstr "Сторінка вдалої оплати"
+
+#: src/Admin.php:375
+msgid "Failure Redirect"
+msgstr "Сторінка невдалої оплати"
+
+#. Plugin URI of the plugin
+#: wc-thanks-redirect.php
+msgid "https://nitin247.com/plugin/wc-thanks-redirect/"
+msgstr "https://nitin247.com/plugin/wc-thanks-redirect/"
+
+#: src/Front.php:86
+msgid "Name"
+msgstr "Ім'я"
+
+#: wc-thanks-redirect.php:158
+msgid "Settings"
+msgstr "Налаштування"
+
+#: src/Front.php:80
+msgid "Date"
+msgstr "Дата"
+
+#: src/Front.php:101
+msgid "Total"
+msgstr "Загалом"
+
+#: src/Front.php:68
+msgid "Order received"
+msgstr "Замовлення отримано"
+
+#: src/Front.php:141
+msgid "Note"
+msgstr "Примітка"
+
+#: src/Front.php:94
+msgid "Order details"
+msgstr "Подробиці замовлення"
+
+#: src/Front.php:90
+msgid "Payment Method"
+msgstr "Спосіб оплати"
+
+#. Author of the plugin
+#: wc-thanks-redirect.php
+msgid "Nitin Prakash"
+msgstr "Nitin Prakash"
+
+#. Author URI of the plugin
+#: wc-thanks-redirect.php
+msgid "http://www.nitin247.com/"
+msgstr "http://www.nitin247.com/"

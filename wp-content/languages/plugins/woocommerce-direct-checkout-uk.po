@@ -1,0 +1,725 @@
+# Translation of Plugins - Direct Checkout for WooCommerce - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Direct Checkout for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-04-08 14:06:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Direct Checkout for WooCommerce - Stable (latest release)\n"
+
+#: vendor_packages/wp-notice-plugin-promote.php:57
+msgid "Hello! %2$s We've spent countless hours developing this free plugin for you and would really appreciate it if you could drop us a quick rating. Your feedback is extremely valuable to us. %3$s It helps us to get better. Thanks for using %1$s."
+msgstr "Привіт! %2$s Ми витратили незліченну кількість годин на розробку цього безкоштовного плагіна для вас і були б дуже вдячні, якби ви залишили нам коротку ставку. Ваш відгук надзвичайно цінний для нас. %3$s Він допомагає нам ставати кращими. Дякуємо за використання %1$s."
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/templates/notice.php:33
+msgid "I would not"
+msgstr "Я б не став"
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/templates/notice.php:32
+msgid "I would not, close this alert."
+msgstr "Я б не став, закрийте це сповіщення."
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Load.php:410
+msgid "Get more info"
+msgstr "Отримати більше інформації"
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Load.php:398
+msgid "Review Here"
+msgstr "Переглянути тут"
+
+#: vendor_packages/wp-notice-plugin-promote.php:20
+#: vendor_packages/wp-notice-plugin-promote.php:83
+msgid "Today we have a special gift for you. Use the coupon code %1$s within the next 48 hours to receive a %2$s discount on the premium version of the %3$s plugin."
+msgstr "Сьогодні ми маємо для вас спеціальний подарунок. Використовуйте код купона %1$s протягом наступних 48 годин, щоб отримати знижку %2$s на преміум-версію плагіна %3$s."
+
+#: lib/controller/class-general.php:141 lib/controller/class-general.php:142
+msgid "Replace the cart URL with a custom URL."
+msgstr "Замініть URL кошика на власну."
+
+#: lib/controller/class-general.php:109 lib/controller/class-general.php:122
+msgid "Redirect to the cart or checkout page after successful addition of the product."
+msgstr "Перенаправлення до кошика або на сторінку оформлення замовлення після успішного додавання товару."
+
+#: lib/controller/class-general.php:72
+msgid "Replace the \"View Cart\" alert with a direct checkout option."
+msgstr "Замініть сповіщення \"Переглянути кошик\" опцією прямого оформлення замовлення."
+
+#: lib/controller/class-checkout.php:233
+msgid "Remove the customer's billing address on the order received page."
+msgstr "Видаліть адресу виставлення рахунку клієнта на сторінці отриманого замовлення."
+
+#: lib/controller/class-checkout.php:221
+msgid "Attempt to display the checkout form and order review in a single column by removing the columns."
+msgstr "Спробуйте відобразити форму оформлення замовлення та відгук про замовлення в окремому стовпчику, прибравши колонки."
+
+#: lib/view/backend/pages/premium.php:29
+msgid "View demo"
+msgstr "Переглянути демо"
+
+#: vendor_packages/wp-notice-plugin-promote.php:45
+msgid "Perfect WooCommerce Brands the perfect tool to improve customer experience on your site. It allows you to highlight product brands and organize them in lists, dropdowns, thumbnails, and as a widget."
+msgstr "Perfect WooCommerce Brands - ідеальний інструмент для покращення взаємодії з покупцями на вашому сайті. Він дозволяє виділяти бренди товарів і організовувати їх у вигляді переліків, випадаючих меню, мініатюр і віджетів."
+
+#: vendor_packages/wp-notice-plugin-promote.php:36
+msgid "WooCommerce Checkout Manager allows you to add custom fields to the checkout page, related to billing, Shipping or Additional fields sections."
+msgstr "WooCommerce Checkout Manager дозволяє додавати власні поля на сторінку оформлення замовлення, пов'язані з виставленням рахунків, доставкою або розділами додаткових полів."
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:111
+msgid "The %1$s is not working because you need to install the %2$s plugin. "
+msgstr "Плагін %1$s не працює, тому що вам потрібно встановити плагін %2$s. "
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:110
+msgid "Install % s"
+msgstr "Встановити %s"
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:97
+msgid "The %1$s is not working because you need to activate the %2$s plugin. "
+msgstr "Плагін %1$s не працює, тому що вам потрібно активувати плагін %2$s. "
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:96
+msgid "Activate % s"
+msgstr "Активувати %s"
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Load.php:309
+msgid "Notice index %s removed"
+msgstr "Індекс сповіщення %s вилучено"
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Load.php:305
+msgid "Unknow notice index %s"
+msgstr "Індекс невідомого сповіщення %s"
+
+#. translators: 1: wp_default_scripts. 2: Name of the domain being aliased.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:580
+msgid "Textdomain aliases should be registered before the %1$s hook. This notice was triggered by the %2$s domain."
+msgstr "Псевдоніми текстового домену мають бути зареєстровані перед хуком %1$s. Це сповіщення було ініційовано доменом %2$s."
+
+#. translators: %s is the script handle.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:407
+msgid "Script \"%s\" depends on wp-i18n but does not specify \"textdomain\""
+msgstr "Скріпт \"%s\" залежить від wp-i18n, але не вказує \"textdomain\""
+
+#: lib/controller/class-checkout.php:84
+msgid "Prevent page reload when users change the product quantities."
+msgstr "Запобігайте перезавантаженню сторінки, коли користувачі змінюють кількість товару."
+
+#: lib/controller/class-checkout.php:83
+msgid "Add cart to checkout via ajax"
+msgstr "Додати кошик до оформлення замовлення через ajax"
+
+#: lib/controller/class-general.php:84
+msgid "Replace the \"View Cart\" link with a \"Checkout\" link on the shop page."
+msgstr "Замініть посилання \"Переглянути кошик\" на посилання \"Оформити замовлення\" на сторінці магазину."
+
+#: lib/controller/class-general.php:83
+msgid "Added to cart link in shop"
+msgstr "Додано до кошика посилання в магазин"
+
+#: vendor_packages/wp-notice-plugin-promote.php:98
+#: vendor_packages/wp-notice-plugin-promote.php:112
+msgid "Hello! We want to invite you to try our %s plugin!"
+msgstr "Привіт! Ми хочемо запросити вас спробувати наш плагін %s!"
+
+#: vendor_packages/wp-notice-plugin-promote.php:78
+msgid "Hello! We have a special gift!"
+msgstr "Привіт! У нас є особливий подарунок!"
+
+#: vendor_packages/wp-plugin-table-links.php:18
+msgid "Support"
+msgstr "Підтримка"
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Traits/PluginActions.php:43
+msgid "Install"
+msgstr "Встановити"
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Traits/PluginActions.php:36
+msgid "Activate"
+msgstr "Активувати"
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:125
+msgid "Read more like this on our blog"
+msgstr "Читайте більше про це в нашому блозі"
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:94
+msgid "Untitled"
+msgstr "Без назви"
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:71
+msgid "More products"
+msgstr "Більше товарів"
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:68
+msgid "Hi! We are Quadlayers! We’re a team of international people who have been working in the WordPress sphere for the last ten years."
+msgstr "Привіт! Ми - Quadlayers! Ми - команда міжнародних людей, які працюють у сфері WordPress протягом останніх десяти років."
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:148
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:154
+msgid "An error has occurred, which probably means the feed is down. Try again later"
+msgstr "Сталася помилка Це може означати, що канал не працює. Спробуйте ще раз пізніше"
+
+#. Plugin URI of the plugin
+#: woocommerce-direct-checkout.php
+msgid "https://quadlayers.com/products/woocommerce-direct-checkout/"
+msgstr "https://quadlayers.com/products/woocommerce-direct-checkout/"
+
+#: lib/controller/class-general.php:128 lib/controller/class-general.php:129
+msgid "Replace cart url"
+msgstr "Замінити URL кошика"
+
+#: lib/controller/class-products.php:144
+msgid "Alternative"
+msgstr "Альтернатива"
+
+#: lib/controller/class-products.php:143
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: lib/controller/class-products.php:138
+msgid "Select the WooCommerce button type."
+msgstr "Виберіть тип кнопки WooCommerce."
+
+#: lib/controller/class-products.php:137
+msgid "Add quick purchase button type"
+msgstr "Додати тип кнопки швидкої покупки"
+
+#: lib/controller/class-products.php:95 lib/controller/class-products.php:249
+msgid "Display alert when product is added to the cart."
+msgstr "Відображати сповіщення, коли товар додано до кошика."
+
+#: lib/controller/class-products.php:94 lib/controller/class-products.php:248
+msgid "Add ajax add to cart alert"
+msgstr "Додати ajax сповіщення додати в кошик"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:175
+msgctxt "Plugin Installer"
+msgid "Favorites"
+msgstr "Улюблені"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:174
+msgctxt "Plugin Installer"
+msgid "Recommended"
+msgstr "Рекомендовані"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:173
+msgctxt "Plugin Installer"
+msgid "Popular"
+msgstr "Популярні"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:172
+msgctxt "Plugin Installer"
+msgid "Featured"
+msgstr "Вибраний"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:170
+msgctxt "Plugin Installer"
+msgid "Beta Testing"
+msgstr "Бета-тестування"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:167
+msgid "Search Results"
+msgstr "Результат пошуку"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:53
+#: lib/view/backend/pages/parts/header.php:13
+msgid "Thanks for using our product! We recommend these extensions that will add new features to stand out your business and improve your sales."
+msgstr "Дякуємо за використання нашого продукту! Ми рекомендуємо ці розширення, які додадуть нові можливості, щоб виділити ваш бізнес та покращити продажі."
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:78
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:93
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:94
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:50
+#: lib/view/backend/pages/parts/header.php:11
+#: lib/view/backend/pages/parts/tabs.php:19
+msgid "Suggestions"
+msgstr "Пропозиції"
+
+#: lib/controller/class-products.php:83 lib/controller/class-products.php:237
+msgid "Add products to cart via ajax."
+msgstr "Додати товари в кошик через ajax."
+
+#: lib/controller/class-products.php:82 lib/controller/class-products.php:236
+msgid "Add ajax add to cart"
+msgstr "Додати ajax додати в кошик"
+
+#: lib/controller/class-products.php:387
+#: lib/view/backend/pages/parts/header.php:17
+#: lib/view/backend/pages/parts/tabs.php:18
+#: vendor_packages/wp-plugin-table-links.php:23
+msgid "Documentation"
+msgstr "Документація"
+
+#: lib/view/backend/pages/premium.php:89
+msgid "The Quick purchase button allows you to include a direct button in the single products, variable, grouped and virtual products wich redirects user to the checkout page."
+msgstr "Кнопка швидкої покупки дозволяє додати пряму кнопку в окремі товари, змінні, згруповані та віртуальні товари, яка перенаправляє користувача на сторінку оформлення замовлення."
+
+#: vendor_packages/wp-plugin-table-links.php:8
+msgid "Settings"
+msgstr "Налаштування"
+
+#: vendor_packages/wp-notice-plugin-promote.php:64
+msgid "Report a bug"
+msgstr "Повідомити про помилку"
+
+#: lib/controller/class-checkout.php:232
+msgid "Remove order details address"
+msgstr "Видалити адресу деталей замовлення"
+
+#: lib/controller/class-checkout.php:209
+msgid "Simplifies the checkout view by removing the payment gateway icons."
+msgstr "Спрощує оформлення замовлення, прибираючи іконки платіжних шлюзів."
+
+#: lib/controller/class-checkout.php:208
+msgid "Remove checkout gateway icons"
+msgstr "Видалити іконки шлюзу оформлення замовлення"
+
+#: lib/controller/class-checkout.php:197
+msgid "Simplifies the checkout process removing the terms and conditions."
+msgstr "Спрощує процес оформлення замовлення, видаляючи умови та положення."
+
+#: lib/controller/class-checkout.php:196
+msgid "Remove checkout terms and conditions"
+msgstr "Видалити умови оформлення замовлення"
+
+#: lib/controller/class-checkout.php:185
+msgid "Simplifies the checkout process removing the policy text."
+msgstr "Спрощує процес оформлення замовлення, видаляючи текст політики."
+
+#: lib/controller/class-checkout.php:184
+msgid "Remove checkout policy text"
+msgstr "Видалити текст політики оформлення замовлення"
+
+#: lib/controller/class-checkout.php:173
+msgid "Simplifies the checkout process removing the order notes."
+msgstr "Спрощує процес оформлення замовлення, видаляючи нотатки."
+
+#: lib/controller/class-checkout.php:172
+msgid "Remove checkout order comments"
+msgstr "Видалити коментарі до оформлення замовлення"
+
+#: lib/controller/class-checkout.php:161
+msgid "Simplifies the checkout process removing the shipping address."
+msgstr "Спрощує процес оформлення замовлення, видаляючи адресу доставки."
+
+#: lib/controller/class-checkout.php:160
+msgid "Remove checkout shipping address"
+msgstr "Видалити адресу доставки при оформленні замовлення"
+
+#: lib/controller/class-checkout.php:151
+msgid "Phone"
+msgstr "Телефон"
+
+#: lib/controller/class-checkout.php:150
+msgid "Company"
+msgstr "Компанія"
+
+#: lib/controller/class-checkout.php:149
+msgid "Address 2"
+msgstr "Адреса 2"
+
+#: lib/controller/class-checkout.php:148
+msgid "Address 1"
+msgstr "Адреса 1"
+
+#: lib/controller/class-checkout.php:147
+msgid "Postcode"
+msgstr "Поштовий індекс"
+
+#: lib/controller/class-checkout.php:146
+msgid "City"
+msgstr "Місто"
+
+#: lib/controller/class-checkout.php:145
+msgid "State"
+msgstr "Область"
+
+#: lib/controller/class-checkout.php:144
+msgid "Country"
+msgstr "Країна"
+
+#: lib/controller/class-checkout.php:143
+msgid "Last Name"
+msgstr "Прізвище"
+
+#: lib/controller/class-checkout.php:142
+msgid "First Name"
+msgstr "Ім'я"
+
+#: lib/controller/class-checkout.php:137
+msgid "Simplifies the checkout process removing the unnecessary checkout fields."
+msgstr "Спрощує процес оформлення замовлення, видаляючи непотрібні поля для оформлення замовлення."
+
+#: lib/controller/class-checkout.php:130
+msgid "Add a custom class to the cart table form in the checkout."
+msgstr "Додати власний клас до форми таблиці кошика в оформленні замовлення."
+
+#: lib/controller/class-checkout.php:129
+msgid "Add custom class to cart table"
+msgstr "Додати власний клас до таблиці кошика"
+
+#: lib/controller/class-checkout.php:124
+msgid "Move to checkout order"
+msgstr "Перейдіть до оформлення замовлення"
+
+#: lib/controller/class-checkout.php:123
+msgid "Remove coupon toggle"
+msgstr "Видалити перемикач купонів"
+
+#: lib/controller/class-checkout.php:122
+msgid "Remove coupon form"
+msgstr "Видалити форму купона"
+
+#: lib/controller/class-checkout.php:121
+msgid "Leave coupon form"
+msgstr "Залишити форму купона"
+
+#: lib/controller/class-checkout.php:116
+msgid "Simplifies the checkout process removing the coupon form."
+msgstr "Спрощує процес оформлення замовлення, видаляючи форму купона."
+
+#: lib/controller/class-checkout.php:115
+msgid "Remove checkout coupon form"
+msgstr "Видалити форму оформлення замовлення"
+
+#: lib/controller/class-checkout.php:105
+msgid "Quantity"
+msgstr "Кількість"
+
+#: lib/controller/class-checkout.php:104
+msgid "Price"
+msgstr "Ціна"
+
+#: lib/controller/class-checkout.php:103
+msgid "Name"
+msgstr "Ім’я"
+
+#: lib/controller/class-checkout.php:102
+msgid "Thumbnail"
+msgstr "Мініатюра"
+
+#: lib/controller/class-checkout.php:101
+msgid "Remove"
+msgstr "Видалити"
+
+#: lib/controller/class-checkout.php:96
+msgid "Include these fields inside the checkout cart."
+msgstr "Включіть ці поля в кошик для оформлення замовлення."
+
+#: lib/controller/class-checkout.php:95
+msgid "Add cart to checkout fields"
+msgstr "Додати кошик до полів оформлення замовлення"
+
+#: lib/controller/class-checkout.php:72
+msgid "Simplifies the checkout process by including the shopping cart page in the checkout.\t"
+msgstr "Спрощує процес оформлення замовлення завдяки включенню сторінки кошика для покупок до оформлення замовлення."
+
+#: lib/controller/class-checkout.php:71
+msgid "Add cart to checkout"
+msgstr "Додати кошик до оформлення замовлення"
+
+#: lib/controller/class-archives.php:95
+msgid "Add product quick view modal button."
+msgstr "Додати модальну кнопку швидкого перегляду товару."
+
+#: lib/controller/class-archives.php:94
+msgid "Add quick view button"
+msgstr "Додати кнопку швидкого перегляду"
+
+#: lib/controller/class-archives.php:82
+msgid "Downloadable Products"
+msgstr "Завантажувані товари"
+
+#: lib/controller/class-archives.php:81
+msgid "Variable Products"
+msgstr "Варіативні товари"
+
+#: lib/controller/class-archives.php:80
+msgid "Virtual Products"
+msgstr "Віртуальні товари"
+
+#: lib/controller/class-archives.php:79
+msgid "Grouped Products"
+msgstr "Згруповані товари"
+
+#: lib/controller/class-archives.php:78
+msgid "Simple Products"
+msgstr "Прості товари"
+
+#: lib/controller/class-archives.php:73
+msgid "Replace the \"Add to cart\" text for product types."
+msgstr "Замініть текст \"Додати в кошик\" для типів товарів."
+
+#: lib/controller/class-archives.php:72
+msgid "Replace Add to cart text in"
+msgstr "Замініть текст Додати в кошик на"
+
+#: lib/controller/class-archives.php:44 lib/controller/class-archives.php:55
+#: lib/view/frontend/class-archives.php:49
+msgid "Archives"
+msgstr "Архіви"
+
+#: lib/view/backend/pages/premium.php:82
+msgid "This is especially useful for the variable products because it allows users to select the products attributes and include directly into the cart."
+msgstr "Це особливо корисно для змінних товарів, оскільки дозволяє користувачам вибирати атрибути товарів і додавати їх безпосередньо до кошика."
+
+#: lib/view/backend/pages/premium.php:79
+msgid "This option allows you to include a button which displays a quick view in the WooCommerce shop page and products categories."
+msgstr "Ця опція дозволяє включити кнопку, яка відображає швидкий перегляд на сторінці магазину WooCommerce і в категоріях товарів."
+
+#: lib/view/backend/pages/premium.php:77
+msgid "Quick view in product archives"
+msgstr "Швидкий перегляд в архівах товару"
+
+#: lib/view/backend/pages/premium.php:73
+msgid "If you want to give the option to the user to make a direct purchase or the default add to cart product you can include a direct purchase button to the products page."
+msgstr "Якщо ви хочете надати користувачеві можливість здійснити пряму покупку або додати товар до кошика за замовчуванням, ви можете додати кнопку прямої покупки на сторінку товарів."
+
+#: lib/view/backend/pages/premium.php:71
+msgid "Quick purchase on single products"
+msgstr "Швидка покупка окремого товару"
+
+#: lib/view/backend/pages/premium.php:67
+msgid "This option allows you to redirect your users directly to the checkout page reducing the total checkout process in one step."
+msgstr "Ця опція дозволяє перенаправляти користувачів безпосередньо на сторінку оформлення замовлення, скорочуючи загальний процес оформлення замовлення на один крок."
+
+#: lib/view/backend/pages/premium.php:65
+msgid "Checkout redirect"
+msgstr "Перенаправлення при оформленні замовлення"
+
+#: lib/view/backend/pages/premium.php:87
+msgid "Quick purchase"
+msgstr "Швидка покупка"
+
+#: lib/view/backend/pages/premium.php:53
+msgid "This option allows you to simplify the checkout page by removing the two columns in the checkout page."
+msgstr "Ця опція дозволяє спростити сторінку оформлення замовлення, видаливши дві колонки на сторінці оформлення замовлення."
+
+#: lib/controller/class-checkout.php:220 lib/view/backend/pages/premium.php:51
+msgid "Remove checkout columns"
+msgstr "Видалити колонки для оформлення замовлення"
+
+#: lib/view/backend/pages/premium.php:47
+msgid "Our checkout settings allow you to easily remove unnecessary fields, reducing the time users spend on completing fields such as order comments, shipping address, coupon form, policy text, and terms and conditions."
+msgstr "Наші налаштування оформлення замовлення дозволяють легко видаляти непотрібні поля, скорочуючи час, який користувачі витрачають на заповнення таких полів, як коментарі до замовлення, адреса доставки, форма купона, текст політики та умови."
+
+#: lib/controller/class-checkout.php:136 lib/view/backend/pages/premium.php:45
+msgid "Remove checkout fields"
+msgstr "Видалити поля оформлення замовлення"
+
+#. translators: %s
+#: lib/view/backend/pages/premium.php:40
+msgid "%s allows you to include the cart form in the checkout page allowing your users to edit the cart and confirm the order on the same page."
+msgstr "%s дозволяє включити форму кошика на сторінку оформлення замовлення, щоб користувачі могли редагувати кошик і підтверджувати замовлення на тій самій сторінці."
+
+#: lib/view/backend/pages/premium.php:34
+msgid "One page checkout"
+msgstr "Оформлення замовлення на одній сторінці"
+
+#: lib/view/backend/pages/premium.php:30
+msgid "Get Support"
+msgstr "Отримати підтримку"
+
+#. translators: %s
+#: lib/view/backend/pages/premium.php:24
+msgid "%s allows you to simplifies the checkout process by skipping the shopping cart page. This plugin allows you to redirect your customers directly to the checkout page and includes the cart inside the checkout page."
+msgstr "%s дозволяє спростити процес оформлення замовлення, пропускаючи сторінку кошика. Цей плагін дозволяє перенаправляти ваших покупців безпосередньо на сторінку оформлення замовлення і включає кошик всередині сторінки оформлення замовлення."
+
+#: lib/controller/class-premium.php:39 lib/view/backend/pages/premium.php:18
+#: vendor_packages/wp-plugin-table-links.php:13
+msgid "Premium"
+msgstr "Преміум"
+
+#: lib/controller/class-backend.php:65 lib/controller/class-backend.php:73
+#: lib/controller/class-products.php:339
+msgid "Direct Checkout"
+msgstr "Пряме оформлення замовлення"
+
+#: lib/controller/class-products.php:318
+msgid "Redirect quick purchase to the cart or checkout page."
+msgstr "Перенаправлення швидкої покупки в кошик або на сторінку оформлення замовлення."
+
+#: lib/controller/class-products.php:309
+msgid "Add quick purchase custom text."
+msgstr "Додати власний текст для швидкої покупки."
+
+#: lib/controller/class-products.php:300
+msgid "Add quick purchase custom class."
+msgstr "Додати власний клас швидкої покупки."
+
+#: lib/controller/class-products.php:287
+msgid "Add quick purchase button to single product page."
+msgstr "Додати кнопку швидкої покупки на сторінку окремого товару."
+
+#: lib/controller/class-products.php:176
+msgid "Add default attributes in all variable products to avoid disabled Add to cart button."
+msgstr "Додати початкові атрибути до всіх змінних товарів, щоб уникнути відключення кнопки \"Додати в кошик\"."
+
+#: lib/controller/class-products.php:175
+msgid "Add default attributes in variable products"
+msgstr "Додати початкові атрибути у змінні товари"
+
+#: lib/controller/class-products.php:172 lib/controller/class-products.php:388
+#: lib/view/backend/pages/premium.php:28
+#: vendor_packages/wp-notice-plugin-promote.php:72
+msgid "Purchase Now"
+msgstr "Придбати зараз"
+
+#: lib/controller/class-products.php:169
+msgid "Add a custom text to the quick purchase button."
+msgstr "Додати власний текст до кнопки швидкої покупки."
+
+#: lib/controller/class-products.php:168 lib/controller/class-products.php:307
+msgid "Add quick purchase text"
+msgstr "Додати текст швидкої покупки"
+
+#: lib/controller/class-products.php:157
+msgid "Redirect the quick purchase button to the cart or checkout page."
+msgstr "Перенаправте кнопку швидкої покупки до кошика або на сторінку оформлення замовлення."
+
+#: lib/controller/class-products.php:156 lib/controller/class-products.php:316
+msgid "Redirect quick purchase to"
+msgstr "Перенаправити швидку покупку на"
+
+#: lib/controller/class-products.php:150
+msgid "Add a custom class to the quick purchase button."
+msgstr "Додати власний клас до кнопки швидкої покупки."
+
+#: lib/controller/class-products.php:149 lib/controller/class-products.php:298
+msgid "Add quick purchase class"
+msgstr "Додати клас швидкої покупки"
+
+#: lib/controller/class-products.php:126
+msgid "Add a quick purchase button to the products pages."
+msgstr "Додати кнопку швидкої покупки на сторінки товарів."
+
+#: lib/controller/class-products.php:125 lib/controller/class-products.php:285
+msgid "Add quick purchase button"
+msgstr "Додати кнопку швидкої покупки"
+
+#: lib/controller/class-archives.php:91 lib/controller/class-products.php:122
+#: lib/view/backend/pages/parts/header.php:16
+msgid "Purchase"
+msgstr "Покупка"
+
+#: lib/controller/class-archives.php:88 lib/controller/class-products.php:119
+#: lib/controller/class-products.php:276
+msgid "Replace \"Add to cart\" text with this text."
+msgstr "Замініть текст \"Додати в кошик\" цим текстом."
+
+#: lib/controller/class-archives.php:87 lib/controller/class-products.php:118
+#: lib/controller/class-products.php:274
+msgid "Replace Add to cart text content"
+msgstr "Замінити вміст текст Додати в кошик"
+
+#: lib/controller/class-archives.php:60 lib/controller/class-archives.php:61
+#: lib/controller/class-products.php:106 lib/controller/class-products.php:107
+#: lib/controller/class-products.php:262 lib/controller/class-products.php:264
+msgid "Replace Add to cart text"
+msgstr "Замінити текст Додати в кошик"
+
+#: lib/controller/class-products.php:66 lib/controller/class-products.php:77
+msgid "Products"
+msgstr "Товари"
+
+#: lib/view/frontend/class-general.php:81
+msgid "View cart"
+msgstr "Переглянути кошик"
+
+#: lib/controller/class-general.php:121
+msgid "Added to cart redirect to custom url"
+msgstr "Додано перенаправлення до кошика на власний URL"
+
+#: lib/controller/class-general.php:116 lib/controller/class-general.php:136
+msgid "Custom URL"
+msgstr "Власний URL"
+
+#: lib/controller/class-checkout.php:55 lib/controller/class-checkout.php:66
+#: lib/controller/class-general.php:115 lib/controller/class-general.php:135
+#: lib/controller/class-products.php:163 lib/controller/class-products.php:323
+#: lib/view/frontend/class-general.php:64
+#: lib/view/frontend/class-general.php:81
+msgid "Checkout"
+msgstr "Оформлення замовлення"
+
+#: lib/controller/class-general.php:114 lib/controller/class-products.php:162
+#: lib/controller/class-products.php:322
+msgid "Cart"
+msgstr "Кошик"
+
+#: lib/controller/class-general.php:108
+msgid "Added to cart redirect to"
+msgstr "Додано в кошик перенаправлення на"
+
+#: lib/controller/class-general.php:96
+msgid "Add to cart button behavior."
+msgstr "Поведінка кнопки Додати в кошик."
+
+#: lib/controller/class-general.php:95
+msgid "Added to cart redirect"
+msgstr "Додано до кошика перенаправлення"
+
+#: lib/controller/class-archives.php:67 lib/controller/class-archives.php:101
+#: lib/controller/class-checkout.php:78 lib/controller/class-checkout.php:90
+#: lib/controller/class-checkout.php:167 lib/controller/class-checkout.php:179
+#: lib/controller/class-checkout.php:191 lib/controller/class-checkout.php:203
+#: lib/controller/class-checkout.php:215 lib/controller/class-checkout.php:227
+#: lib/controller/class-checkout.php:239 lib/controller/class-general.php:78
+#: lib/controller/class-general.php:90 lib/controller/class-general.php:101
+#: lib/controller/class-general.php:134 lib/controller/class-products.php:89
+#: lib/controller/class-products.php:101 lib/controller/class-products.php:113
+#: lib/controller/class-products.php:132 lib/controller/class-products.php:182
+#: lib/controller/class-products.php:243 lib/controller/class-products.php:255
+#: lib/controller/class-products.php:269 lib/controller/class-products.php:293
+msgid "No"
+msgstr "Ні"
+
+#: lib/controller/class-archives.php:66 lib/controller/class-archives.php:100
+#: lib/controller/class-checkout.php:77 lib/controller/class-checkout.php:89
+#: lib/controller/class-checkout.php:166 lib/controller/class-checkout.php:178
+#: lib/controller/class-checkout.php:190 lib/controller/class-checkout.php:202
+#: lib/controller/class-checkout.php:214 lib/controller/class-checkout.php:226
+#: lib/controller/class-checkout.php:238 lib/controller/class-general.php:77
+#: lib/controller/class-general.php:89 lib/controller/class-general.php:103
+#: lib/controller/class-products.php:88 lib/controller/class-products.php:100
+#: lib/controller/class-products.php:112 lib/controller/class-products.php:131
+#: lib/controller/class-products.php:181 lib/controller/class-products.php:242
+#: lib/controller/class-products.php:254 lib/controller/class-products.php:268
+#: lib/controller/class-products.php:292
+msgid "Yes"
+msgstr "Так"
+
+#: lib/controller/class-general.php:71
+msgid "Added to cart alert"
+msgstr "Додано оповіщення до кошика"
+
+#: lib/controller/class-general.php:67
+msgid "Simplifies the checkout process."
+msgstr "Спрощує процес оформлення замовлення."
+
+#: lib/controller/class-general.php:55 lib/controller/class-general.php:65
+msgid "General"
+msgstr "Загальне"
+
+#. Author URI of the plugin
+#: woocommerce-direct-checkout.php
+msgid "https://quadlayers.com"
+msgstr "https://quadlayers.com"
+
+#. Author of the plugin
+#: woocommerce-direct-checkout.php
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:82
+#: lib/view/backend/pages/parts/header.php:37
+msgid "QuadLayers"
+msgstr "QuadLayers"
+
+#. Description of the plugin
+#: woocommerce-direct-checkout.php
+msgid "Simplifies the checkout process to improve your sales rate."
+msgstr "Спрощує процес оформлення замовлення для підвищення рівня продажів."
+
+#. Plugin Name of the plugin
+#: woocommerce-direct-checkout.php
+msgid "WooCommerce Direct Checkout"
+msgstr "WooCommerce Direct Checkout"
