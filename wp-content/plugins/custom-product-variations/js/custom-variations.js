@@ -33,8 +33,73 @@ jQuery(document).ready(function ($) {
     // Викликаємо функцію стилізації при завантаженні
     stylePriceRange();
 
+    // Додаємо функцію перевірки верифікації користувача
+    function isUserVerified() {
+        return window.userVerificationStatus || false; // Отримуємо статус з глобальної змінної
+    }
+
+    // Функція для показу повідомлення неверифікованим користувачам
+    function showVerificationMessage() {
+        return $('<div/>', {
+            class: 'verification-message',
+            css: {
+                'background': 'rgba(76, 175, 80, 0.04)',
+                'border': '2px solid rgba(76, 175, 80, 0.15)',
+                'border-radius': '8px',
+                'padding': '15px',
+                'margin': '15px 0',
+                'text-align': 'center',
+                'color': '#4CAF50'
+            }
+        }).append(
+            $('<p/>', {
+                text: 'Для здійснення замовлення необхідно пройти верифікацію',
+                css: {
+                    'margin': '0 0 10px 0',
+                    'font-weight': '600'
+                }
+            }),
+            $('<a/>', {
+                href: '/verification', // Посилання на сторінку верифікації
+                text: 'Пройти верифікацію',
+                css: {
+                    'display': 'inline-block',
+                    'padding': '8px 16px',
+                    'background': '#4CAF50',
+                    'color': 'white',
+                    'border-radius': '4px',
+                    'text-decoration': 'none',
+                    'font-weight': '500',
+                    'transition': 'all 0.2s ease-in-out'
+                }
+            }).hover(
+                function () {
+                    $(this).css({
+                        'background': '#45a049',
+                        'box-shadow': '0 2px 4px rgba(76, 175, 80, 0.2)'
+                    });
+                },
+                function () {
+                    $(this).css({
+                        'background': '#4CAF50',
+                        'box-shadow': 'none'
+                    });
+                }
+            )
+        );
+    }
+
     // Стилізуємо селектор кількості та кнопку замовлення
     function styleQuantityAndButton() {
+        if (!isUserVerified()) {
+            // Приховуємо елементи керування для неверифікованих користувачів
+            $('.quantity').hide();
+            $('button.single_add_to_cart_button').hide();
+            // Показуємо повідомлення про необхідність верифікації
+            $('.quantity').after(showVerificationMessage());
+            return;
+        }
+
         const buttonHeight = '48px';
         const $quantity = $('.quantity');
         const $input = $quantity.find('input[type="number"]');
@@ -305,6 +370,10 @@ jQuery(document).ready(function ($) {
 
     // Функція оновлення ціни під кнопкою
     function updateButtonPrice(variation) {
+        if (!isUserVerified()) {
+            $('.price-range').remove();
+            return;
+        }
         $('.price-range').remove();
         if (variation === 'opt') return;
 
